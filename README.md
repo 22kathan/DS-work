@@ -11,7 +11,7 @@ Welcome to the **Data Science Coursework (`DS-work`)** repository. This reposito
 | **01** | **Introduction to Statistics in Data Science** | Data classification (Numerical vs. Categorical), Nominal data analysis, Bayesian rating systems, Central tendency & dispersion (Mean, Mode, Variance) | [📂 Session 01](./Session-01-Introduction-to-Statistics/session_1_statistics.ipynb) | ✅ Completed |
 | **02** | **Mean, Median & Mode** | Spotify playlist plays mean, Zomato median delivery time, Flipkart mode rating function, YouTube outlier sensitivity, Kaggle Swiggy dataset Pandas analysis | [📂 Session 02](./Session-02-Mean-Median-Mode/session_2_mean_median_mode.ipynb) | ✅ Completed |
 | **03** | **Variance & Standard Deviation** | Fitness step counts manual variance derivation, `calculate_standard_deviation` function, Zomato spending consistency, Startup salary dispersion analysis | [📂 Session 03](./Session-03-Variance-and-Standard-Deviation/session_3_variance_standard_deviation.ipynb) | ✅ Completed |
-| **04** | Session 04 | *Upcoming Module* | `Session-04/` | ⏳ Pending |
+| **04** | **Skewness (Basic)** | Swiggy order count plot & right-skew classification, Instagram follower mean vs. median analysis, YouTube video views right-skewed case study, Flipkart ratings left-skew distribution plot | [📂 Session 04](./Session-04-Skewness-Basic/session_4_skewness_basic.ipynb) | ✅ Completed |
 | **05** | Session 05 | *Upcoming Module* | `Session-05/` | ⏳ Pending |
 | **06** | Session 06 | *Upcoming Module* | `Session-06/` | ⏳ Pending |
 | **07** | Session 07 | *Upcoming Module* | `Session-07/` | ⏳ Pending |
@@ -42,7 +42,10 @@ DS-work/
 ├── Session-03-Variance-and-Standard-Deviation/      # Session 3 Deliverables
 │   └── session_3_variance_standard_deviation.ipynb # Task 1-4 Notebook with Code & Outputs
 │
-├── Session-04-.../                                 # (Upcoming)
+├── Session-04-Skewness-Basic/                       # Session 4 Deliverables
+│   └── session_4_skewness_basic.ipynb              # Task 1-4 Notebook with Plots & Outputs
+│
+├── Session-05-.../                                 # (Upcoming)
 │
 └── ...
 ```
