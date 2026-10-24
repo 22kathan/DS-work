@@ -1,96 +1,502 @@
 %PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
-<< /Type /Catalog /Pages 2 0 R >>
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R
+>>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
 endobj
 4 0 obj
-<< /Length 1350 >>
-stream
-BT
-/F2 20 Tf
-50 800 Td
-(KATHAN GADHIYA) Tj
-/F1 10 Tf
-0 -20 Td
-(Email: 22kathan@gmail.com | Portfolio: 22kathan.github.io | GitHub: github.com/22kathan) Tj
-0 -25 Td
-/F2 13 Tf
-(PROFESSIONAL SUMMARY) Tj
-/F1 9.5 Tf
-0 -16 Td
-(Aspiring Data Scientist with deep grounding in applied statistics, machine learning pipelines, exploratory data) Tj
-0 -13 Td
-(analysis, and collaborative Git/GitHub workflows. Adept at transforming high-dimensional tabular telemetry into actionable models.) Tj
-0 -22 Td
-/F2 13 Tf
-(TECHNICAL SKILLS) Tj
-/F1 9.5 Tf
-0 -16 Td
-(Languages: Python (Pandas, NumPy, Scikit-Learn, Matplotlib, SciPy), SQL (PostgreSQL, BigQuery), Bash/PowerShell) Tj
-0 -14 Td
-(Tools & Platforms: Git, GitHub Pages, Git LFS, nbdime, Jupyter, Docker, VS Code) Tj
-0 -14 Td
-(Specialties: Hypothesis Testing, Regression Modeling, Bayesian Inference, Data Version Control) Tj
-0 -22 Td
-/F2 13 Tf
-(FEATURED DATA SCIENCE PROJECTS) Tj
-/F2 11 Tf
-0 -18 Td
-(1. Instagram Follower Growth & Engagement Analysis) Tj
-/F1 9.5 Tf
-0 -14 Td
-(- Analyzed 1.2M+ creator telemetry records to evaluate follower right-skewness and engagement decay curves.) Tj
-0 -13 Td
-(- Formulated regression models predicting reel reach with 94.2% test accuracy using engagement features.) Tj
-/F2 11 Tf
-0 -18 Td
-(2. Zomato Restaurant Ratings & Delivery ETA Prediction) Tj
-/F1 9.5 Tf
-0 -14 Td
-(- Engineered transit distance, weather condition, and kitchen prep time features to predict delivery ETAs.) Tj
-0 -13 Td
-(- Executed two-sample t-tests (p = 0.0237) quantifying Average Order Value changes across premium discounting cohorts.) Tj
-/F2 11 Tf
-0 -18 Td
-(3. IPL Batsman Impact & Boundary Dominance Analyzer) Tj
-/F1 9.5 Tf
-0 -14 Td
-(- Built modular Python data package categorizing players into Elite Match Winners, Power Hitters, and Anchors.) Tj
-0 -13 Td
-(- Designed interactive scatter visualizer correlating strike rates against boundary dependency percentages.) Tj
-0 -22 Td
-/F2 13 Tf
-(EDUCATION & CERTIFICATIONS) Tj
-/F1 9.5 Tf
-0 -16 Td
-(Bachelor of Technology - Computer Science & Data Science | In Progress) Tj
-0 -14 Td
-(Data Science Professional Specialization - Statistics, Linear Algebra & Machine Learning Engineering) Tj
-ET
-endstream
+<<
+/BaseFont /ZapfDingbats /Name /F3 /Subtype /Type1 /Type /Font
+>>
 endobj
 5 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+<<
+/A <<
+/S /URI /Type /Action /URI (mailto:gadhiyakathan10@gmail.com)
+>> /Border [ 0 0 0 ] /Rect [ 139.8395 755.6898 251.929 765.8898 ] /Subtype /Link /Type /Annot
+>>
 endobj
 6 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+<<
+/A <<
+/S /URI /Type /Action /URI (https://linkedin.com/in/kathan-gadhiya10)
+>> /Border [ 0 0 0 ] /Rect [ 264.356 755.6898 390.496 765.8898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+7 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/22kathan)
+>> /Border [ 0 0 0 ] /Rect [ 402.923 755.6898 481.8285 765.8898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+8 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://22kathan.github.io)
+>> /Border [ 0 0 0 ] /Rect [ 494.2555 755.6898 531.902 765.8898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+9 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/22kathan)
+>> /Border [ 0 0 0 ] /Rect [ 189.805 510.3898 267.1025 520.8898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+10 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://22kathan.github.io)
+>> /Border [ 0 0 0 ] /Rect [ 274.4175 510.3898 318.6662 520.8898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+11 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/22kathan)
+>> /Border [ 0 0 0 ] /Rect [ 212.6513 428.8898 289.9488 439.3898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+12 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://22kathan.github.io)
+>> /Border [ 0 0 0 ] /Rect [ 297.2638 428.8898 341.5125 439.3898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+13 0 obj
+<<
+/Annots [ 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R ] /Contents 17 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 16 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+14 0 obj
+<<
+/PageMode /UseNone /Pages 16 0 R /Type /Catalog
+>>
+endobj
+15 0 obj
+<<
+/Author (\(anonymous\)) /CreationDate (D:20261024141650+05'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20261024141650+05'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
+>>
+endobj
+16 0 obj
+<<
+/Count 1 /Kids [ 13 0 R ] /Type /Pages
+>>
+endobj
+17 0 obj
+<<
+/Length 8840
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 42 785.8898 cm
+q
+.058824 .090196 .164706 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 173.6478 0 Td (KATHAN GADHIYA) Tj T* -173.6478 0 Td ET
+Q
+Q
+q
+1 0 0 1 42 783.8898 cm
+Q
+q
+1 0 0 1 42 769.8898 cm
+q
+BT 1 0 0 1 0 3 Tm 162.1268 0 Td 14 TL /F2 11 Tf .113725 .305882 .847059 rg (DATA SCIENTIST & AI DEVELOPER) Tj T* -162.1268 0 Td ET
+Q
+Q
+q
+1 0 0 1 42 765.8898 cm
+Q
+q
+1 0 0 1 42 753.8898 cm
+q
+.2 .254902 .333333 RG
+n 97.83955 2.4375 m 209.929 2.4375 l S
+n 222.356 2.4375 m 348.496 2.4375 l S
+n 360.923 2.4375 m 439.8285 2.4375 l S
+n 452.2555 2.4375 m 489.902 2.4375 l S
+BT 1 0 0 1 0 3.5 Tm 21.37355 0 Td 12 TL /F1 8.5 Tf .2 .254902 .333333 rg (+91 6353801051  ) Tj (\177) Tj (  ) Tj (gadhiyakathan10@gmail.com) Tj (  ) Tj (\177) Tj (  ) Tj (linkedin.com/in/kathan-gadhiya10) Tj (  ) Tj (\177) Tj (  ) Tj (github.com/22kathan) Tj (  ) Tj (\177) Tj (  ) Tj (Portfolio) Tj /F3 8.5 Tf 12 TL (n) Tj /F1 8.5 Tf 12 TL T* -21.37355 0 Td ET
+Q
+Q
+q
+1 0 0 1 42 745.8898 cm
+Q
+q
+1 0 0 1 42 732.8898 cm
+q
+.058824 .090196 .164706 rg
+BT 1 0 0 1 0 3 Tm /F2 10 Tf 13 TL (PROFESSIONAL SUMMARY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 730.8898 cm
+Q
+q
+1 0 0 1 42 728.8898 cm
+q
+1 w
+1 J
+.796078 .835294 .882353 RG
+n 0 0 m 511.2756 0 l S
+Q
+Q
+q
+1 0 0 1 42 661.3898 cm
+q
+.117647 .160784 .231373 rg
+BT 1 0 0 1 0 53.75 Tm /F1 8.75 Tf 12.5 TL (Ambitious Data Scientist and AI Developer specializing in Computer Vision, Agentic AI, and Large-Scale Data Analytics.) Tj T* (Experienced in architecting real-time AI engines \(MediaPipe, WebSockets\) and multi-modal verification platforms \(PyTorch,) Tj T* (Transformers\). Proven track record in developing custom AI solutions, RAG pipelines, and automated data workflows while pursuing) Tj T* (BTech in AI. Dedicated to deploying scalable machine learning models that bridge complex technical architectures with high-impact) Tj T* (business solutions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 654.3898 cm
+Q
+q
+1 0 0 1 42 641.3898 cm
+q
+.058824 .090196 .164706 rg
+BT 1 0 0 1 0 3 Tm /F2 10 Tf 13 TL (TECHNICAL SKILLS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 639.3898 cm
+Q
+q
+1 0 0 1 42 637.3898 cm
+q
+1 w
+1 J
+.796078 .835294 .882353 RG
+n 0 0 m 511.2756 0 l S
+Q
+Q
+q
+1 0 0 1 42 619.8898 cm
+q
+BT 1 0 0 1 0 3.75 Tm 12.5 TL /F2 8.75 Tf .117647 .160784 .231373 rg (AI, ML & Computer Vision:) Tj /F1 8.75 Tf ( PyTorch, TensorFlow, OpenCV, MediaPipe, Deep Learning, Computer Vision, Model Deployment) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 617.8898 cm
+Q
+q
+1 0 0 1 42 605.3898 cm
+q
+BT 1 0 0 1 0 3.75 Tm 12.5 TL /F2 8.75 Tf .117647 .160784 .231373 rg (Generative AI & LLMs:) Tj /F1 8.75 Tf ( Agentic AI, LLMs, LangChain, RAG \(Retrieval-Augmented Generation\), Prompt Engineering, Transformers) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 603.3898 cm
+Q
+q
+1 0 0 1 42 578.3898 cm
+q
+BT 1 0 0 1 0 16.25 Tm 12.5 TL /F2 8.75 Tf .117647 .160784 .231373 rg (Data Science & Analytics:) Tj /F1 8.75 Tf ( Python \(Pandas, NumPy, Scikit-Learn\), SQL, Power BI, DAX, Exploratory Data Analysis \(EDA\),) Tj T* (Statistical Modeling, Data Visualization) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 576.3898 cm
+Q
+q
+1 0 0 1 42 563.8898 cm
+q
+BT 1 0 0 1 0 3.75 Tm 12.5 TL /F2 8.75 Tf .117647 .160784 .231373 rg (Development & MLOps:) Tj /F1 8.75 Tf ( JavaScript/TypeScript, WebSockets, REST APIs, FastAPI, HTML5/CSS3, Git/GitHub, Docker, MLOps) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 561.8898 cm
+Q
+q
+1 0 0 1 42 556.8898 cm
+Q
+q
+1 0 0 1 42 543.8898 cm
+q
+BT 1 0 0 1 0 3 Tm 13 TL /F2 10 Tf .058824 .090196 .164706 rg (EXPERIENCE & KEY PROJECTS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 541.8898 cm
+Q
+q
+1 0 0 1 42 539.8898 cm
+q
+1 w
+1 J
+.796078 .835294 .882353 RG
+n 0 0 m 511.2756 0 l S
+Q
+Q
+q
+1 0 0 1 37.6378 521.8898 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 1 cm
+q
+.058824 .090196 .164706 rg
+BT 1 0 0 1 0 2.5 Tm /F2 9.5 Tf 12 TL (Flux Lead \(Open Source Innovation\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 380 1 cm
+q
+.278431 .333333 .411765 rg
+BT 1 0 0 1 0 3.5 Tm /F2 8.5 Tf 12 TL 80.466 0 Td (2026 \226 Present) Tj T* -80.466 0 Td ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 42 520.8898 cm
+Q
+q
+1 0 0 1 42 509.3898 cm
+q
+.113725 .305882 .847059 RG
+n 147.805 1.65625 m 225.1025 1.65625 l S
+n 232.4175 1.65625 m 276.6662 1.65625 l S
+BT 1 0 0 1 0 2.75 Tm 11.5 TL /F2 8.75 Tf .113725 .305882 .847059 rg (Real-time Gesture Control Engine \( ) Tj (GitHub Repository) Tj ( | ) Tj (Live Demo) Tj ( \)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 507.3898 cm
+Q
+q
+1 0 0 1 42 495.3898 cm
+q
+BT 1 0 0 1 12 3.5 Tm -8 0 Td 12 TL /F1 8.5 Tf .117647 .160784 .231373 rg (\177) Tj (  Engineered a gesture control system using MediaPipe, OpenCV, and WebSockets, reducing input latency) Tj T* 8 0 Td ET
+Q
+Q
+q
+1 0 0 1 42 483.3898 cm
+q
+BT 1 0 0 1 12 3.5 Tm -8 0 Td 12 TL /F1 8.5 Tf .117647 .160784 .231373 rg (\177) Tj (  Designed an interactive canvas sketching engine optimized for real-time 60 FPS AI hand-tracking and multi-gesture recognition.) Tj T* 8 0 Td ET
+Q
+Q
+q
+1 0 0 1 42 459.3898 cm
+q
+BT 1 0 0 1 12 15.5 Tm -8 0 Td 12 TL /F1 8.5 Tf .117647 .160784 .231373 rg (\177) Tj (  Collaborated with open-source contributors to establish modular API architecture and integrate Flux into cross-platform desktop) Tj T* 8 0 Td (environments.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 453.3898 cm
+Q
+q
+1 0 0 1 37.6378 440.3898 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 1 cm
+q
+BT 1 0 0 1 0 2.5 Tm 12 TL /F2 9.5 Tf .058824 .090196 .164706 rg (TruthShield \(AI Misinformation & Deepfake Detection Engine\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 400 1 cm
+q
+.278431 .333333 .411765 rg
+BT 1 0 0 1 0 3.5 Tm /F2 8.5 Tf 12 TL 60.466 0 Td (2025 \226 Present) Tj T* -60.466 0 Td ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 42 439.3898 cm
+Q
+q
+1 0 0 1 42 427.8898 cm
+q
+.113725 .305882 .847059 RG
+n 170.6513 1.65625 m 247.9488 1.65625 l S
+n 255.2638 1.65625 m 299.5125 1.65625 l S
+BT 1 0 0 1 0 2.75 Tm 11.5 TL /F2 8.75 Tf .113725 .305882 .847059 rg (Real-time Content Verification Platform \( ) Tj (GitHub Repository) Tj ( | ) Tj (Live Demo) Tj ( \)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 425.8898 cm
+Q
+q
+1 0 0 1 42 401.8898 cm
+q
+BT 1 0 0 1 12 15.5 Tm -8 0 Td 12 TL /F1 8.5 Tf .117647 .160784 .231373 rg (\177) Tj (  Architected an AI content verification platform using Deep Learning and NLP models to detect deepfakes, synthetic media, and fake) Tj T* 8 0 Td (news.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 377.8898 cm
+q
+BT 1 0 0 1 12 15.5 Tm -8 0 Td 12 TL /F1 8.5 Tf .117647 .160784 .231373 rg (\177) Tj (  Built real-time multi-modal analysis pipelines \(text, audio, image\) leveraging PyTorch, HuggingFace Transformers, and FastAPI with) Tj T* 8 0 Td (inference time.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 353.8898 cm
+q
+BT 1 0 0 1 12 15.5 Tm -8 0 Td 12 TL /F1 8.5 Tf .117647 .160784 .231373 rg (\177) Tj (  Designed interactive analytics dashboards and REST APIs to enable scalable automated content moderation and third-party) Tj T* 8 0 Td (verification.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 346.8898 cm
+Q
+q
+1 0 0 1 42 333.8898 cm
+q
+.058824 .090196 .164706 rg
+BT 1 0 0 1 0 3 Tm /F2 10 Tf 13 TL (EDUCATION) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 331.8898 cm
+Q
+q
+1 0 0 1 42 329.8898 cm
+q
+1 w
+1 J
+.796078 .835294 .882353 RG
+n 0 0 m 511.2756 0 l S
+Q
+Q
+q
+1 0 0 1 37.6378 311.8898 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 1 cm
+q
+.058824 .090196 .164706 rg
+BT 1 0 0 1 0 2.5 Tm /F2 9.5 Tf 12 TL (BTech in Artificial Intelligence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 380 1 cm
+q
+.278431 .333333 .411765 rg
+BT 1 0 0 1 0 3.5 Tm /F2 8.5 Tf 12 TL 92.74 0 Td (2024 \226 2028) Tj T* -92.74 0 Td ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 42 310.8898 cm
+Q
+q
+1 0 0 1 42 299.3898 cm
+q
+.113725 .305882 .847059 rg
+BT 1 0 0 1 0 2.75 Tm /F2 8.75 Tf 11.5 TL (Gandhinagar University) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 297.3898 cm
+Q
+q
+1 0 0 1 42 285.3898 cm
+q
+BT 1 0 0 1 12 3.5 Tm -8 0 Td 12 TL /F1 8.5 Tf .117647 .160784 .231373 rg (\177) Tj (  Specializing in Machine Learning Architecture, Deep Learning, Data Structures, and Neural Networks.) Tj T* 8 0 Td ET
+Q
+Q
+q
+1 0 0 1 42 278.3898 cm
+Q
+q
+1 0 0 1 42 265.3898 cm
+q
+.058824 .090196 .164706 rg
+BT 1 0 0 1 0 3 Tm /F2 10 Tf 13 TL (CERTIFICATIONS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 263.3898 cm
+Q
+q
+1 0 0 1 42 261.3898 cm
+q
+1 w
+1 J
+.796078 .835294 .882353 RG
+n 0 0 m 511.2756 0 l S
+Q
+Q
+q
+1 0 0 1 42 244.3898 cm
+q
+BT 1 0 0 1 12 3.5 Tm -8 0 Td 12 TL /F1 8.5 Tf .117647 .160784 .231373 rg (\177) Tj (  ) Tj /F2 8.5 Tf (AI Engineer Certification:) Tj /F1 8.5 Tf ( Advanced AI architecture, neural network deployment, and computer vision systems.) Tj T* 8 0 Td ET
+Q
+Q
+q
+1 0 0 1 42 232.3898 cm
+q
+BT 1 0 0 1 12 3.5 Tm -8 0 Td 12 TL /F1 8.5 Tf .117647 .160784 .231373 rg (\177) Tj (  ) Tj /F2 8.5 Tf (Python Programming Certification:) Tj /F1 8.5 Tf ( Professional proficiency in software development, data structures, and automation.) Tj T* 8 0 Td ET
+Q
+Q
+q
+1 0 0 1 42 220.3898 cm
+q
+BT 1 0 0 1 12 3.5 Tm -8 0 Td 12 TL /F1 8.5 Tf .117647 .160784 .231373 rg (\177) Tj (  ) Tj /F2 8.5 Tf (Data Science Certification:) Tj /F1 8.5 Tf ( End-to-end data science pipelines, statistical hypothesis testing, and machine learning models.) Tj T* 8 0 Td ET
+Q
+Q
+ 
+endstream
 endobj
 xref
-0 7
+0 18
 0000000000 65535 f 
-0000000009 00000 n 
-0000000058 00000 n 
-0000000115 00000 n 
-0000000262 00000 n 
-0000001664 00000 n 
-0000001735 00000 n 
+0000000061 00000 n 
+0000000112 00000 n 
+0000000219 00000 n 
+0000000331 00000 n 
+0000000414 00000 n 
+0000000597 00000 n 
+0000000787 00000 n 
+0000000965 00000 n 
+0000001142 00000 n 
+0000001320 00000 n 
+0000001499 00000 n 
+0000001679 00000 n 
+0000001858 00000 n 
+0000002127 00000 n 
+0000002197 00000 n 
+0000002478 00000 n 
+0000002539 00000 n 
 trailer
-<< /Size 7 /Root 1 0 R >>
+<<
+/ID 
+[<301db8c41ad48361cc779dbd9d73409d><301db8c41ad48361cc779dbd9d73409d>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 15 0 R
+/Root 14 0 R
+/Size 18
+>>
 startxref
-1811
+11431
 %%EOF

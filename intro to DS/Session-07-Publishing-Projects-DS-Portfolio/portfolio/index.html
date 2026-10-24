@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kathan Gadhiya — Data Science & Machine Learning Portfolio</title>
-  <meta name="description" content="Data Science and Machine Learning Portfolio of Kathan Gadhiya. Featuring statistical analysis, predictive modeling, and data pipelines.">
+  <title>Kathan Gadhiya — Data Scientist & AI Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Kathan Gadhiya — Data Scientist and AI Developer specializing in Computer Vision, Agentic AI, and Large-Scale Data Analytics.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -12,15 +12,15 @@
     :root {
       --bg-primary: #090d16;
       --bg-secondary: #0f172a;
-      --card-bg: rgba(30, 41, 59, 0.7);
+      --card-bg: rgba(30, 41, 59, 0.75);
       --card-border: rgba(148, 163, 184, 0.12);
-      --card-hover-border: rgba(99, 102, 241, 0.45);
+      --card-hover-border: rgba(99, 102, 241, 0.5);
       --text-main: #f8fafc;
       --text-muted: #94a3b8;
       --accent: #6366f1;
       --accent-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 50%, #ec4899 100%);
       --emerald: #10b981;
-      --amber: #f59e0b;
+      --cyan: #38bdf8;
       --font-main: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
       --font-mono: 'JetBrains Mono', monospace;
     }
@@ -40,22 +40,22 @@
       display: flex;
       flex-direction: column;
       background-image: 
-        radial-gradient(circle at 15% 20%, rgba(99, 102, 241, 0.12) 0%, transparent 40%),
-        radial-gradient(circle at 85% 60%, rgba(168, 85, 247, 0.10) 0%, transparent 40%);
+        radial-gradient(circle at 15% 20%, rgba(99, 102, 241, 0.14) 0%, transparent 40%),
+        radial-gradient(circle at 85% 60%, rgba(168, 85, 247, 0.12) 0%, transparent 40%);
     }
 
     header {
-      padding: 2.5rem 1.5rem;
+      padding: 1.75rem 1.5rem;
       border-bottom: 1px solid var(--card-border);
-      background: rgba(9, 13, 22, 0.8);
-      backdrop-filter: blur(12px);
+      background: rgba(9, 13, 22, 0.85);
+      backdrop-filter: blur(14px);
       position: sticky;
       top: 0;
       z-index: 100;
     }
 
     .nav-container {
-      max-width: 1100px;
+      max-width: 1120px;
       margin: 0 auto;
       display: flex;
       justify-content: space-between;
@@ -98,23 +98,23 @@
       gap: 0.5rem;
       background: var(--accent-gradient);
       color: #fff;
-      padding: 0.65rem 1.25rem;
+      padding: 0.65rem 1.35rem;
       border-radius: 9999px;
       font-weight: 600;
       font-size: 0.9rem;
       text-decoration: none;
-      box-shadow: 0 4px 15px rgba(99, 102, 241, 0.35);
+      box-shadow: 0 4px 18px rgba(99, 102, 241, 0.4);
       transition: all 0.25s ease;
     }
 
     .btn-resume:hover {
       transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(99, 102, 241, 0.5);
+      box-shadow: 0 6px 24px rgba(99, 102, 241, 0.55);
     }
 
     main {
       flex: 1;
-      max-width: 1100px;
+      max-width: 1120px;
       width: 100%;
       margin: 0 auto;
       padding: 3.5rem 1.5rem;
@@ -122,7 +122,7 @@
 
     .hero {
       text-align: center;
-      margin-bottom: 4rem;
+      margin-bottom: 4.5rem;
     }
 
     .hero-badge {
@@ -130,20 +130,20 @@
       font-family: var(--font-mono);
       font-size: 0.8rem;
       font-weight: 600;
-      padding: 0.35rem 0.85rem;
+      padding: 0.4rem 1rem;
       border-radius: 9999px;
       background: rgba(99, 102, 241, 0.15);
-      border: 1px solid rgba(99, 102, 241, 0.3);
-      color: #818cf8;
-      margin-bottom: 1.25rem;
+      border: 1px solid rgba(99, 102, 241, 0.35);
+      color: #a5b4fc;
+      margin-bottom: 1.35rem;
       text-transform: uppercase;
       letter-spacing: 0.05em;
     }
 
     .hero h1 {
-      font-size: 3rem;
+      font-size: 3.25rem;
       font-weight: 800;
-      letter-spacing: -0.03em;
+      letter-spacing: -0.035em;
       line-height: 1.15;
       margin-bottom: 1.25rem;
     }
@@ -155,18 +155,40 @@
     }
 
     .hero p {
-      font-size: 1.2rem;
+      font-size: 1.15rem;
       color: var(--text-muted);
-      max-width: 680px;
-      margin: 0 auto 2rem;
+      max-width: 760px;
+      margin: 0 auto 2.25rem;
+      line-height: 1.7;
+    }
+
+    .contacts-bar {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1.25rem;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 2.25rem;
+    }
+
+    .contacts-bar a {
+      color: #93c5fd;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    .contacts-bar a:hover {
+      color: #ffffff;
+      text-decoration: underline;
     }
 
     .skills-pills {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 0.6rem;
-      max-width: 700px;
+      gap: 0.55rem;
+      max-width: 840px;
       margin: 0 auto;
     }
 
@@ -174,27 +196,27 @@
       font-size: 0.85rem;
       background: rgba(255, 255, 255, 0.05);
       border: 1px solid var(--card-border);
-      color: var(--text-muted);
+      color: #cbd5e1;
       padding: 0.35rem 0.85rem;
       border-radius: 8px;
     }
 
     .section-title {
-      font-size: 1.85rem;
-      font-weight: 700;
+      font-size: 2rem;
+      font-weight: 800;
       margin-bottom: 0.5rem;
-      letter-spacing: -0.02em;
+      letter-spacing: -0.025em;
     }
 
     .section-sub {
       color: var(--text-muted);
-      margin-bottom: 2.25rem;
-      font-size: 1rem;
+      margin-bottom: 2.5rem;
+      font-size: 1.05rem;
     }
 
     .projects-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
       gap: 1.75rem;
       margin-bottom: 4rem;
     }
@@ -202,21 +224,21 @@
     .project-card {
       background: var(--card-bg);
       border: 1px solid var(--card-border);
-      border-radius: 16px;
-      padding: 2rem;
+      border-radius: 18px;
+      padding: 2.25rem;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       transition: all 0.3s ease;
-      backdrop-filter: blur(8px);
+      backdrop-filter: blur(10px);
       position: relative;
       overflow: hidden;
     }
 
     .project-card:hover {
-      transform: translateY(-4px);
+      transform: translateY(-5px);
       border-color: var(--card-hover-border);
-      box-shadow: 0 12px 30px -10px rgba(99, 102, 241, 0.2);
+      box-shadow: 0 16px 36px -10px rgba(99, 102, 241, 0.25);
     }
 
     .project-card::before {
@@ -246,17 +268,17 @@
     }
 
     .card-title {
-      font-size: 1.35rem;
+      font-size: 1.4rem;
       font-weight: 700;
       margin-bottom: 0.85rem;
       line-height: 1.3;
-      letter-spacing: -0.01em;
+      letter-spacing: -0.015em;
     }
 
     .card-desc {
       color: var(--text-muted);
       font-size: 0.95rem;
-      line-height: 1.6;
+      line-height: 1.65;
       margin-bottom: 1.5rem;
     }
 
@@ -265,9 +287,9 @@
       gap: 1rem;
       margin-bottom: 1.5rem;
       padding: 0.85rem;
-      background: rgba(15, 23, 42, 0.6);
+      background: rgba(15, 23, 42, 0.65);
       border-radius: 10px;
-      border: 1px solid rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.06);
     }
 
     .metric-item {
@@ -277,7 +299,7 @@
     .metric-value {
       font-size: 1.15rem;
       font-weight: 700;
-      color: #38bdf8;
+      color: var(--cyan);
       font-family: var(--font-mono);
     }
 
@@ -297,33 +319,50 @@
     .card-tag {
       font-size: 0.75rem;
       font-weight: 500;
-      padding: 0.25rem 0.6rem;
+      padding: 0.25rem 0.65rem;
       border-radius: 6px;
-      background: rgba(255, 255, 255, 0.06);
+      background: rgba(255, 255, 255, 0.07);
       color: #cbd5e1;
     }
 
     .card-links {
       display: flex;
-      gap: 1rem;
+      gap: 0.85rem;
     }
 
     .btn-card-primary {
       flex: 1;
       text-align: center;
-      padding: 0.65rem 1rem;
+      padding: 0.7rem 1rem;
       border-radius: 8px;
       font-size: 0.85rem;
       font-weight: 600;
       text-decoration: none;
       background: rgba(99, 102, 241, 0.2);
-      border: 1px solid rgba(99, 102, 241, 0.4);
+      border: 1px solid rgba(99, 102, 241, 0.45);
       color: #c7d2fe;
       transition: all 0.2s ease;
     }
 
     .btn-card-primary:hover {
-      background: rgba(99, 102, 241, 0.35);
+      background: rgba(99, 102, 241, 0.4);
+      color: #ffffff;
+    }
+
+    .btn-card-secondary {
+      padding: 0.7rem 1rem;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-decoration: none;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--card-border);
+      color: var(--text-muted);
+      transition: all 0.2s ease;
+    }
+
+    .btn-card-secondary:hover {
+      background: rgba(255, 255, 255, 0.1);
       color: #ffffff;
     }
 
@@ -337,7 +376,7 @@
 
     @media (max-width: 768px) {
       .hero h1 {
-        font-size: 2.2rem;
+        font-size: 2.35rem;
       }
       .nav-links {
         display: none;
@@ -356,7 +395,8 @@
       <div class="nav-links">
         <a href="#projects" class="nav-link">Projects</a>
         <a href="https://github.com/22kathan" target="_blank" class="nav-link">GitHub</a>
-        <a href="resume.pdf" download="Kathan_Data_Scientist_Resume.pdf" class="btn-resume">
+        <a href="https://linkedin.com/in/kathan-gadhiya10" target="_blank" class="nav-link">LinkedIn</a>
+        <a href="resume.pdf" download="Kathan_Gadhiya_Resume.pdf" class="btn-resume">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
             <polyline points="7 10 12 15 17 10"></polyline>
@@ -371,32 +411,108 @@
   <!-- Main Content -->
   <main>
     <section class="hero">
-      <div class="hero-badge">Data Science & Machine Learning Portfolio</div>
-      <h1>Turning High-Dimensional Data into <span>Decisive Intelligence</span></h1>
-      <p>Applied Data Scientist specializing in statistical inference, reproducible Python architectures, predictive modeling, and collaborative Git workflows.</p>
+      <div class="hero-badge">Data Scientist &amp; AI Developer</div>
+      <h1>Architecting Scalable AI &amp; <span>Decisive Intelligence</span></h1>
+      <p>
+        Specializing in Computer Vision, Agentic AI, and Large-Scale Data Analytics. Experienced in architecting real-time AI engines (MediaPipe, WebSockets) and multi-modal verification platforms (PyTorch, Transformers). Pursuing BTech in Artificial Intelligence at Gandhinagar University.
+      </p>
+
+      <div class="contacts-bar">
+        <span>📞 +91 6353801051</span>
+        <span>•</span>
+        <span>✉️ <a href="mailto:gadhiyakathan10@gmail.com">gadhiyakathan10@gmail.com</a></span>
+        <span>•</span>
+        <span>🔗 <a href="https://linkedin.com/in/kathan-gadhiya10" target="_blank">LinkedIn</a></span>
+        <span>•</span>
+        <span>🐙 <a href="https://github.com/22kathan" target="_blank">GitHub</a></span>
+      </div>
+
       <div class="skills-pills">
-        <span class="skill-pill">Python</span>
-        <span class="skill-pill">Pandas & NumPy</span>
+        <span class="skill-pill">PyTorch</span>
+        <span class="skill-pill">OpenCV &amp; MediaPipe</span>
+        <span class="skill-pill">Computer Vision</span>
+        <span class="skill-pill">Generative AI &amp; LLMs</span>
+        <span class="skill-pill">RAG &amp; LangChain</span>
+        <span class="skill-pill">Transformers</span>
+        <span class="skill-pill">Python (Pandas, NumPy, Scikit-Learn)</span>
+        <span class="skill-pill">SQL &amp; Power BI</span>
         <span class="skill-pill">Statistical Modeling</span>
-        <span class="skill-pill">Hypothesis Testing</span>
-        <span class="skill-pill">Machine Learning</span>
-        <span class="skill-pill">Git LFS & nbdime</span>
-        <span class="skill-pill">Data Pipelines</span>
+        <span class="skill-pill">FastAPI &amp; WebSockets</span>
+        <span class="skill-pill">Docker &amp; MLOps</span>
+        <span class="skill-pill">Git LFS &amp; nbdime</span>
       </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects">
       <h2 class="section-title">Featured Projects</h2>
-      <p class="section-sub">End-to-end data science projects featuring exploratory analysis, statistical modeling, and version-controlled notebooks.</p>
+      <p class="section-sub">Production-grade AI engines, multi-modal verification architectures, and statistical machine learning pipelines.</p>
 
       <div class="projects-grid">
 
-        <!-- Project 1: Instagram Follower Analysis -->
+        <!-- Project 1: Flux -->
         <div class="project-card">
           <div>
-            <div class="card-category">Exploratory Data Analysis & Modeling</div>
-            <h3 class="card-title">Instagram Follower Analysis</h3>
+            <div class="card-category">Computer Vision &amp; Real-time AI</div>
+            <h3 class="card-title">Flux: Real-Time Gesture Control Engine</h3>
+            <p class="card-desc">Engineered an interactive gesture control system using MediaPipe, OpenCV, and WebSockets to reduce input latency. Designed an interactive canvas sketching engine running at 60 FPS with real-time AI hand tracking and gesture recognition.</p>
+            <div class="card-metrics">
+              <div class="metric-item">
+                <div class="metric-value">60 FPS</div>
+                <div class="metric-label">Real-Time Tracking</div>
+              </div>
+              <div class="metric-item">
+                <div class="metric-value">&lt; 15ms</div>
+                <div class="metric-label">WebSocket Latency</div>
+              </div>
+            </div>
+            <div class="card-tags">
+              <span class="card-tag">MediaPipe</span>
+              <span class="card-tag">OpenCV</span>
+              <span class="card-tag">WebSockets</span>
+              <span class="card-tag">Computer Vision</span>
+            </div>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/22kathan" target="_blank" class="btn-card-primary">GitHub Repository</a>
+            <a href="https://22kathan.github.io" target="_blank" class="btn-card-secondary">Live Demo</a>
+          </div>
+        </div>
+
+        <!-- Project 2: TruthShield -->
+        <div class="project-card">
+          <div>
+            <div class="card-category">Generative AI &amp; Multi-Modal Verification</div>
+            <h3 class="card-title">TruthShield: AI Deepfake Detection Engine</h3>
+            <p class="card-desc">Architected an AI content verification platform using Deep Learning and NLP models to detect synthetic media, fake news, and deepfakes. Built real-time multi-modal analysis pipelines (text, audio, image) using PyTorch, HuggingFace, and FastAPI.</p>
+            <div class="card-metrics">
+              <div class="metric-item">
+                <div class="metric-value">Multi-Modal</div>
+                <div class="metric-label">Text, Audio, Image</div>
+              </div>
+              <div class="metric-item">
+                <div class="metric-value">FastAPI</div>
+                <div class="metric-label">Inference Engine</div>
+              </div>
+            </div>
+            <div class="card-tags">
+              <span class="card-tag">PyTorch</span>
+              <span class="card-tag">Transformers</span>
+              <span class="card-tag">Deep Learning</span>
+              <span class="card-tag">FastAPI</span>
+            </div>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/22kathan" target="_blank" class="btn-card-primary">GitHub Repository</a>
+            <a href="https://22kathan.github.io" target="_blank" class="btn-card-secondary">Live Demo</a>
+          </div>
+        </div>
+
+        <!-- Project 3: Instagram Follower Analysis -->
+        <div class="project-card">
+          <div>
+            <div class="card-category">Statistical Modeling &amp; Telemetry</div>
+            <h3 class="card-title">Instagram Follower &amp; Skewness Analysis</h3>
             <p class="card-desc">Evaluated right-skewness and power-law distribution across 1.2M+ creator telemetry records. Formulated multivariate regression modeling to forecast reel reach and follower engagement decay curves.</p>
             <div class="card-metrics">
               <div class="metric-item">
@@ -420,11 +536,11 @@
           </div>
         </div>
 
-        <!-- Project 2: Zomato Restaurant Ratings -->
+        <!-- Project 4: Zomato Restaurant Ratings -->
         <div class="project-card">
           <div>
-            <div class="card-category">Predictive Analytics & Inference</div>
-            <h3 class="card-title">Zomato Restaurant Ratings & Delivery ETA</h3>
+            <div class="card-category">Predictive Analytics &amp; A/B Testing</div>
+            <h3 class="card-title">Zomato Restaurant Ratings &amp; Delivery ETA</h3>
             <p class="card-desc">Engineered feature pipeline incorporating transit distance, kitchen preparation delay, and local precipitation. Conducted two-sample hypothesis testing (t = 2.3238, p = 0.0237) on average order value impact.</p>
             <div class="card-metrics">
               <div class="metric-item">
@@ -448,41 +564,13 @@
           </div>
         </div>
 
-        <!-- Project 3: IPL Batsman Impact Analyzer -->
-        <div class="project-card">
-          <div>
-            <div class="card-category">Quantitative Sports Analytics</div>
-            <h3 class="card-title">IPL Batsman Impact & Boundary Dominance</h3>
-            <p class="card-desc">Engineered modular Python scoring algorithms categorizing players into Elite Match Winners, Power Hitters, and Anchors. Automated visual scatter charts scaling boundary dominance ratios.</p>
-            <div class="card-metrics">
-              <div class="metric-item">
-                <div class="metric-value">81.3%</div>
-                <div class="metric-label">Peak Boundary %</div>
-              </div>
-              <div class="metric-item">
-                <div class="metric-value">Git LFS</div>
-                <div class="metric-label">Data Versioning</div>
-              </div>
-            </div>
-            <div class="card-tags">
-              <span class="card-tag">Modular Python</span>
-              <span class="card-tag">Git LFS</span>
-              <span class="card-tag">nbdime</span>
-              <span class="card-tag">Matplotlib</span>
-            </div>
-          </div>
-          <div class="card-links">
-            <a href="https://github.com/22kathan/DS-work/tree/main/intro%20to%20DS/Session-07-Publishing-Projects-DS-Portfolio" target="_blank" class="btn-card-primary">View Project Notebook</a>
-          </div>
-        </div>
-
       </div>
     </section>
   </main>
 
   <!-- Footer -->
   <footer>
-    <p>© 2026 Kathan Gadhiya • Published via GitHub Pages • <a href="https://github.com/22kathan" style="color: #818cf8; text-decoration: none;">GitHub Profile</a></p>
+    <p>© 2026 Kathan Gadhiya • Gandhinagar University • <a href="https://github.com/22kathan" style="color: #818cf8; text-decoration: none;">GitHub Profile</a> • <a href="resume.pdf" download="Kathan_Gadhiya_Resume.pdf" style="color: #38bdf8; text-decoration: underline; margin-left: 8px;">Download Resume (PDF)</a></p>
   </footer>
 
 </body>
