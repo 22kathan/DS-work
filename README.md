@@ -4,7 +4,17 @@ Welcome to the **Data Science Coursework (`DS-work`)** repository. This reposito
 
 ---
 
-## 📊 Sessions Roadmap & Index
+---
+
+## 📘 Module 1: Introduction to Data Science (`intro to DS`)
+
+| # | Session Title | Topic Highlights | Notebook / Directory | Status |
+|---|---|---|---|---|
+| **01** | **What is Data Science** | Daily apps & telemetry (Instagram, Zomato, Paytm), Core pillars of data science (Statistics, Programming, Domain Knowledge), Spotify data-driven song recommendation scenario, Sports analytics innovations (Optical kinematic tracking & injury prevention) | [📂 Session 01](./intro%20to%20DS/Session-01-What-is-Data-Science/session_1_what_is_data_science.ipynb) | ✅ Completed |
+
+---
+
+## 📊 Module 2: Statistics & Linear Algebra (`statistics`)
 
 | # | Session Title | Topic Highlights | Notebook / Directory | Status |
 |---|---|---|---|---|
@@ -30,7 +40,13 @@ DS-work/
 │
 ├── README.md                                       # Master Table of Contents & Progress Tracker
 │
-└── statistics/                                     # Statistics Module (12 Sessions)
+├── intro to DS/                                    # 📘 Module 1: Introduction to Data Science
+│   ├── README.md                                   # Module Overview
+│   └── Session-01-What-is-Data-Science/            # Session 1 Deliverables
+│       └── session_1_what_is_data_science.ipynb    # Tasks 1-4 Notebook with Code & Outputs
+│
+└── statistics/                                     # 📊 Module 2: Statistics & Linear Algebra (12 Sessions)
+    ├── README.md                                   # Module Overview & Index
     │
     ├── Session-01-Introduction-to-Statistics/      # Session 1 Deliverables
     │   ├── session_1_statistics.ipynb              # Task 1-4 Notebook with Code & Outputs
