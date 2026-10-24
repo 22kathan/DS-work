@@ -17,7 +17,7 @@ Welcome to the **Data Science Coursework (`DS-work`)** repository. This reposito
 | **07** | **Correlation** | Instagram hours vs. posts scatter plot & positive correlation, Zomato vs. Swiggy order count correlation ($r = +0.9984$), daily screen time vs. study hours trade-off, Spotify hours vs. test marks strong negative correlation ($r = -0.9996$) | [📂 Session 07](./Session-07-Correlation/session_7_correlation.ipynb) | ✅ Completed |
 | **08** | **Probability Basics** | Probability function `calculate_probability`, 100-roll dice simulation (experimental vs. theoretical), Spotify genre picking probability, Zomato Food & Dessert intersection probability, Flipkart conditional probability ($P(\text{Headphones} \mid \text{Phone})$) recommendation logic | [📂 Session 08](./Session-08-Probability-Basics/session_8_probability_basics.ipynb) | ✅ Completed |
 | **09** | **Normal Distribution** | Generating $N(50, 10^2)$ bell curve with PDF overlay plot, fitness step counts Mean $\approx$ Median $\approx$ Mode symmetry check, 200 gamer scores 68-95-99.7 empirical rule verification ($1\sigma \in [55, 85]$), Spotify song durations normal distribution modeling | [📂 Session 09](./Session-09-Normal-Distribution/session_9_normal_distribution.ipynb) | ✅ Completed |
-| **10** | Session 10 | *Upcoming Module* | `Session-10/` | ⏳ Pending |
+| **10** | **Bayes Theorem (Basic)** | General `bayes_posterior` function, Swiggy premium restaurant discount inference ($P(\text{Premium} \mid \text{Discount}) = 30.77\%$), 20-email Naive Bayes spam keyword filter, Flipkart fake review fraud detection model & prompt | [📂 Session 10](./Session-10-Bayes-Theorem-Basic/session_10_bayes_theorem_basic.ipynb) | ✅ Completed |
 | **11** | Session 11 | *Upcoming Module* | `Session-11/` | ⏳ Pending |
 | **12** | Session 12 | *Upcoming Module* | `Session-12/` | ⏳ Pending |
 
@@ -61,7 +61,10 @@ DS-work/
 ├── Session-09-Normal-Distribution/                 # Session 9 Deliverables
 │   └── session_9_normal_distribution.ipynb         # Task 1-4 Notebook with Plots & Outputs
 │
-├── Session-10-.../                                 # (Upcoming)
+├── Session-10-Bayes-Theorem-Basic/                 # Session 10 Deliverables
+│   └── session_10_bayes_theorem_basic.ipynb        # Task 1-4 Notebook with Code & Outputs
+│
+├── Session-11-.../                                 # (Upcoming)
 │
 └── ...
 ```
