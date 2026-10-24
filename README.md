@@ -15,7 +15,7 @@ Welcome to the **Data Science Coursework (`DS-work`)** repository. This reposito
 | **05** | **Sampling** | Population vs. Sample definitions (Zomato, Instagram, Flipkart), Python random sampling simulation (`random.sample`), Swiggy delivery times sampling justification, Spotify selection bias analysis, BookMyShow stratified & systematic sampling strategies | [📂 Session 05](./Session-05-Sampling/session_5_sampling.ipynb) | ✅ Completed |
 | **06** | **Hypothesis Testing (Basic)** | Null & alternative hypotheses for Instagram vs. YouTube screen time, two-sample t-test ($t = 2.3238, p = 0.0237$) on Zomato AOV, Paytm 1-Tap Pay A/B test framework, Flipkart Wishlist button p-value interpretation | [📂 Session 06](./Session-06-Hypothesis-Testing-Basic/session_6_hypothesis_testing_basic.ipynb) | ✅ Completed |
 | **07** | **Correlation** | Instagram hours vs. posts scatter plot & positive correlation, Zomato vs. Swiggy order count correlation ($r = +0.9984$), daily screen time vs. study hours trade-off, Spotify hours vs. test marks strong negative correlation ($r = -0.9996$) | [📂 Session 07](./Session-07-Correlation/session_7_correlation.ipynb) | ✅ Completed |
-| **08** | Session 08 | *Upcoming Module* | `Session-08/` | ⏳ Pending |
+| **08** | **Probability Basics** | Probability function `calculate_probability`, 100-roll dice simulation (experimental vs. theoretical), Spotify genre picking probability, Zomato Food & Dessert intersection probability, Flipkart conditional probability ($P(\text{Headphones} \mid \text{Phone})$) recommendation logic | [📂 Session 08](./Session-08-Probability-Basics/session_8_probability_basics.ipynb) | ✅ Completed |
 | **09** | Session 09 | *Upcoming Module* | `Session-09/` | ⏳ Pending |
 | **10** | Session 10 | *Upcoming Module* | `Session-10/` | ⏳ Pending |
 | **11** | Session 11 | *Upcoming Module* | `Session-11/` | ⏳ Pending |
@@ -55,7 +55,10 @@ DS-work/
 ├── Session-07-Correlation/                         # Session 7 Deliverables
 │   └── session_7_correlation.ipynb                 # Task 1-4 Notebook with Plots & Outputs
 │
-├── Session-08-.../                                 # (Upcoming)
+├── Session-08-Probability-Basics/                  # Session 8 Deliverables
+│   └── session_8_probability_basics.ipynb          # Task 1-5 Notebook with Code & Outputs
+│
+├── Session-09-.../                                 # (Upcoming)
 │
 └── ...
 ```
