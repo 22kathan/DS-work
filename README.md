@@ -16,7 +16,7 @@ Welcome to the **Data Science Coursework (`DS-work`)** repository. This reposito
 | **06** | **Hypothesis Testing (Basic)** | Null & alternative hypotheses for Instagram vs. YouTube screen time, two-sample t-test ($t = 2.3238, p = 0.0237$) on Zomato AOV, Paytm 1-Tap Pay A/B test framework, Flipkart Wishlist button p-value interpretation | [📂 Session 06](./Session-06-Hypothesis-Testing-Basic/session_6_hypothesis_testing_basic.ipynb) | ✅ Completed |
 | **07** | **Correlation** | Instagram hours vs. posts scatter plot & positive correlation, Zomato vs. Swiggy order count correlation ($r = +0.9984$), daily screen time vs. study hours trade-off, Spotify hours vs. test marks strong negative correlation ($r = -0.9996$) | [📂 Session 07](./Session-07-Correlation/session_7_correlation.ipynb) | ✅ Completed |
 | **08** | **Probability Basics** | Probability function `calculate_probability`, 100-roll dice simulation (experimental vs. theoretical), Spotify genre picking probability, Zomato Food & Dessert intersection probability, Flipkart conditional probability ($P(\text{Headphones} \mid \text{Phone})$) recommendation logic | [📂 Session 08](./Session-08-Probability-Basics/session_8_probability_basics.ipynb) | ✅ Completed |
-| **09** | Session 09 | *Upcoming Module* | `Session-09/` | ⏳ Pending |
+| **09** | **Normal Distribution** | Generating $N(50, 10^2)$ bell curve with PDF overlay plot, fitness step counts Mean $\approx$ Median $\approx$ Mode symmetry check, 200 gamer scores 68-95-99.7 empirical rule verification ($1\sigma \in [55, 85]$), Spotify song durations normal distribution modeling | [📂 Session 09](./Session-09-Normal-Distribution/session_9_normal_distribution.ipynb) | ✅ Completed |
 | **10** | Session 10 | *Upcoming Module* | `Session-10/` | ⏳ Pending |
 | **11** | Session 11 | *Upcoming Module* | `Session-11/` | ⏳ Pending |
 | **12** | Session 12 | *Upcoming Module* | `Session-12/` | ⏳ Pending |
@@ -58,7 +58,10 @@ DS-work/
 ├── Session-08-Probability-Basics/                  # Session 8 Deliverables
 │   └── session_8_probability_basics.ipynb          # Task 1-5 Notebook with Code & Outputs
 │
-├── Session-09-.../                                 # (Upcoming)
+├── Session-09-Normal-Distribution/                 # Session 9 Deliverables
+│   └── session_9_normal_distribution.ipynb         # Task 1-4 Notebook with Plots & Outputs
+│
+├── Session-10-.../                                 # (Upcoming)
 │
 └── ...
 ```
