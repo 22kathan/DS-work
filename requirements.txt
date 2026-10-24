@@ -13,3 +13,4 @@ scipy==1.18.1
 six==1.17.0
 tzdata==2026.5
 requests>=2.31.0
+nbdime>=4.0.4

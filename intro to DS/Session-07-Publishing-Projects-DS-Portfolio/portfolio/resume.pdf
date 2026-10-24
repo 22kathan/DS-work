@@ -1,0 +1,96 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1350 >>
+stream
+BT
+/F2 20 Tf
+50 800 Td
+(KATHAN GADHIYA) Tj
+/F1 10 Tf
+0 -20 Td
+(Email: 22kathan@gmail.com | Portfolio: 22kathan.github.io | GitHub: github.com/22kathan) Tj
+0 -25 Td
+/F2 13 Tf
+(PROFESSIONAL SUMMARY) Tj
+/F1 9.5 Tf
+0 -16 Td
+(Aspiring Data Scientist with deep grounding in applied statistics, machine learning pipelines, exploratory data) Tj
+0 -13 Td
+(analysis, and collaborative Git/GitHub workflows. Adept at transforming high-dimensional tabular telemetry into actionable models.) Tj
+0 -22 Td
+/F2 13 Tf
+(TECHNICAL SKILLS) Tj
+/F1 9.5 Tf
+0 -16 Td
+(Languages: Python (Pandas, NumPy, Scikit-Learn, Matplotlib, SciPy), SQL (PostgreSQL, BigQuery), Bash/PowerShell) Tj
+0 -14 Td
+(Tools & Platforms: Git, GitHub Pages, Git LFS, nbdime, Jupyter, Docker, VS Code) Tj
+0 -14 Td
+(Specialties: Hypothesis Testing, Regression Modeling, Bayesian Inference, Data Version Control) Tj
+0 -22 Td
+/F2 13 Tf
+(FEATURED DATA SCIENCE PROJECTS) Tj
+/F2 11 Tf
+0 -18 Td
+(1. Instagram Follower Growth & Engagement Analysis) Tj
+/F1 9.5 Tf
+0 -14 Td
+(- Analyzed 1.2M+ creator telemetry records to evaluate follower right-skewness and engagement decay curves.) Tj
+0 -13 Td
+(- Formulated regression models predicting reel reach with 94.2% test accuracy using engagement features.) Tj
+/F2 11 Tf
+0 -18 Td
+(2. Zomato Restaurant Ratings & Delivery ETA Prediction) Tj
+/F1 9.5 Tf
+0 -14 Td
+(- Engineered transit distance, weather condition, and kitchen prep time features to predict delivery ETAs.) Tj
+0 -13 Td
+(- Executed two-sample t-tests (p = 0.0237) quantifying Average Order Value changes across premium discounting cohorts.) Tj
+/F2 11 Tf
+0 -18 Td
+(3. IPL Batsman Impact & Boundary Dominance Analyzer) Tj
+/F1 9.5 Tf
+0 -14 Td
+(- Built modular Python data package categorizing players into Elite Match Winners, Power Hitters, and Anchors.) Tj
+0 -13 Td
+(- Designed interactive scatter visualizer correlating strike rates against boundary dependency percentages.) Tj
+0 -22 Td
+/F2 13 Tf
+(EDUCATION & CERTIFICATIONS) Tj
+/F1 9.5 Tf
+0 -16 Td
+(Bachelor of Technology - Computer Science & Data Science | In Progress) Tj
+0 -14 Td
+(Data Science Professional Specialization - Statistics, Linear Algebra & Machine Learning Engineering) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000262 00000 n 
+0000001664 00000 n 
+0000001735 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+1811
+%%EOF
