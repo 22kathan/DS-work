@@ -1,0 +1,1 @@
+Trained model weights and binary checkpoints (e.g., random_forest_v1.pkl, xgboost_best.json).

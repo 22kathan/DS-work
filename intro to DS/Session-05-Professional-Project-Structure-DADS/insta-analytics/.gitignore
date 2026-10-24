@@ -1,0 +1,11 @@
+# Ignore all files in data/raw
+data/raw/*
+
+# Ignore all Jupyter Notebook checkpoints anywhere in the project
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Ignore serialized machine learning models and pickle binaries
+*.h5
+*.pkl
