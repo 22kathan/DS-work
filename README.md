@@ -19,7 +19,7 @@ Welcome to the **Data Science Coursework (`DS-work`)** repository. This reposito
 | **09** | **Normal Distribution** | Generating $N(50, 10^2)$ bell curve with PDF overlay plot, fitness step counts Mean $\approx$ Median $\approx$ Mode symmetry check, 200 gamer scores 68-95-99.7 empirical rule verification ($1\sigma \in [55, 85]$), Spotify song durations normal distribution modeling | [📂 Session 09](./Session-09-Normal-Distribution/session_9_normal_distribution.ipynb) | ✅ Completed |
 | **10** | **Bayes Theorem (Basic)** | General `bayes_posterior` function, Swiggy premium restaurant discount inference ($P(\text{Premium} \mid \text{Discount}) = 30.77\%$), 20-email Naive Bayes spam keyword filter, Flipkart fake review fraud detection model & prompt | [📂 Session 10](./Session-10-Bayes-Theorem-Basic/session_10_bayes_theorem_basic.ipynb) | ✅ Completed |
 | **11** | **Vectors & Matrices (Basic)** | 1D playlist duration vector operations, 3x3 Swiggy ratings matrix column slicing, 3x4 restaurant dishes order aggregation (`axis=0`), 5x2 Flipkart product sales matrix & revenue calculation function | [📂 Session 11](./Session-11-Vectors-Matrices-Basic/session_11_vectors_matrices_basic.ipynb) | ✅ Completed |
-| **12** | Session 12 | *Upcoming Module* | `Session-12/` | ⏳ Pending |
+| **12** | **Matrix Multiplication & Linear Regression Math Intuition** | 2x2 matrix multiplication for Instagram engagement ($A \times B$), `linear_regression_predict(x, m, c)` function ($y = mx + c$), Zomato delivery time prediction ($y = 4x + 10$) with regression visualization, Flipkart price prediction slope & intercept intuition, and Spotify recommendation system matrix factorization intuition | [📂 Session 12](./Session-12-Matrix-Multiplication-Linear-Regression/session_12_matrix_multiplication_linear_regression.ipynb) | ✅ Completed |
 
 ---
 
@@ -67,9 +67,8 @@ DS-work/
 ├── Session-11-Vectors-Matrices-Basic/              # Session 11 Deliverables
 │   └── session_11_vectors_matrices_basic.ipynb     # Task 1-4 Notebook with Code & Outputs
 │
-├── Session-12-.../                                 # (Upcoming)
-│
-└── ...
+└── Session-12-Matrix-Multiplication-Linear-Regression/ # Session 12 Deliverables
+    └── session_12_matrix_multiplication_linear_regression.ipynb # Task 1-5 Notebook with Plots & Outputs
 ```
 
 ---
