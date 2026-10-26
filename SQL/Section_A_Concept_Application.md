@@ -1,7 +1,8 @@
 # Section A: Concept Application — Assessment M4-A1
 **Program**: Data Science  
 **Module 3–4**: Data Collection, Cleaning & Visualization › Working with Databases  
-**Stack**: Python 3 (NumPy, Pandas, Seaborn) / SQL (SQLite)
+**Stack**: Python 3 (NumPy, Pandas, Seaborn) / SQL (SQLite)  
+**Demonstration Script**: [`section_a_demonstrations.py`](file:///C:/Users/gadhi/.gemini/antigravity-ide/scratch/DS-work/SQL/section_a_demonstrations.py)
 
 ---
 
@@ -28,6 +29,14 @@ To safely convert `'customer_rating'` from string/object to `float64`, handle an
 
 ```python
 import pandas as pd
+import numpy as np
+
+# Sample realistic DataFrame
+df = pd.DataFrame({
+    'order_id': [101, 102, 103, 104, 105, 106, 107, 108],
+    'delivery_time_mins': [25.0, 32.0, np.nan, 45.0, 110.0, np.nan, 28.0, 35.0],
+    'customer_rating': ['4.5', '5.0', '3.8', 'invalid_str', '4.2', '4.0', '4.9', '3.5']
+})
 
 # Step 1: Impute missing delivery times using the column median
 median_delivery = df['delivery_time_mins'].median()
@@ -36,9 +45,48 @@ df['delivery_time_mins'] = df['delivery_time_mins'].fillna(median_delivery)
 # Step 2: Convert customer_rating to numeric float64, coercing invalid strings to NaN
 df['customer_rating'] = pd.to_numeric(df['customer_rating'].astype(str).str.strip(), errors='coerce')
 
-# Step 3: Verify the conversion and data types
-print("Missing delivery times after imputation:", df['delivery_time_mins'].isna().sum())
-print("Data type of customer_rating:", df['customer_rating'].dtype)
+# Step 3: Impute coerced NaN rating with rounded column mean
+df['customer_rating'] = df['customer_rating'].fillna(round(df['customer_rating'].mean(), 1))
+```
+
+#### Actual Code Output:
+```text
+Initial DataFrame:
+   order_id  delivery_time_mins customer_rating
+0       101                25.0             4.5
+1       102                32.0             5.0
+2       103                 NaN             3.8
+3       104                45.0     invalid_str
+4       105               110.0             4.2
+5       106                 NaN             4.0
+6       107                28.0             4.9
+7       108                35.0             3.5
+
+Initial dtypes:
+order_id                int64
+delivery_time_mins    float64
+customer_rating           str
+dtype: object
+
+Missing delivery_time_mins count: 2
+
+[Fixed] Imputed missing delivery_time_mins using median: 33.5 mins
+[Fixed] Converted customer_rating to float64 (invalid strings coerced to NaN & imputed):
+   order_id  delivery_time_mins  customer_rating
+0       101                25.0              4.5
+1       102                32.0              5.0
+2       103                33.5              3.8
+3       104                45.0              4.3
+4       105               110.0              4.2
+5       106                33.5              4.0
+6       107                28.0              4.9
+7       108                35.0              3.5
+
+Final dtypes:
+order_id                int64
+delivery_time_mins    float64
+customer_rating       float64
+dtype: object
 ```
 
 ---
@@ -61,7 +109,8 @@ Without writing any explicit `for` loops, NumPy executes this workflow through a
    ```
 3. **Filter and Aggregate Matching Revenue**:
    ```python
-   total_surge_revenue = np.sum(revenue[surge_mask])
+   surge_revenue = revenue[surge_mask]
+   total_surge_revenue = np.sum(surge_revenue)
    ```
 
 ### 2. What is a Boolean Mask?
@@ -74,6 +123,18 @@ A **boolean mask** is a NumPy array consisting strictly of `True` and `False` va
 | **Execution Layer** | Interpreted Python Virtual Machine (bytecode execution). | Pre-compiled, highly optimized C / Fortran routines. |
 | **Type Checking** | Dynamically checks data types and unwraps objects on **every single iteration**. | Homogeneous datatypes (`dtype`); type checking occurs only once at invocation. |
 | **Hardware Acceleration** | Sequential execution on a single core; no automatic vectorization. | Leverages modern CPU **SIMD (Single Instruction, Multiple Data)** registers (e.g., AVX2 / AVX-512) to evaluate multiple items per clock cycle. |
+
+#### Actual Code Output (30 Days Simulation):
+```text
+Daily Orders Mean: 409.30
+Daily Orders Std Dev: 195.90
+Surge Threshold (Mean + 1.5*Std): 703.16
+Boolean Mask generated (first 10 days): [False False False False False  True False  True False False]
+Surge Days Detected (Day Indices): [5, 7, 16, 18]
+Order counts on surge days: [800, 714, 763, 761]
+Revenues on surge days: [48819.0, 9077.29, 47399.08, 22343.74]
+Total Surge Revenue: $127,639.11
+```
 
 ---
 
@@ -101,6 +162,7 @@ A **boolean mask** is a NumPy array consisting strictly of `True` and `False` va
 
 ```sql
 SELECT 
+    r.restaurant_id,
     r.name AS restaurant_name,
     COALESCE(SUM(o.order_value), 0.0) AS total_revenue
 FROM restaurants r
@@ -120,6 +182,24 @@ ORDER BY total_revenue DESC;
 * For restaurants with zero orders, the engine populates all attributes from the `orders` table with `NULL`.
 * Using `COALESCE(SUM(o.order_value), 0.0)` gracefully converts `NULL` sums into a numerical `0.00`, ensuring valid reporting.
 
+#### Actual Code Output (Comparing LEFT vs. INNER JOIN):
+```text
+--- S4: LEFT JOIN (includes restaurants with 0 orders) ---
+ restaurant_id         restaurant_name  total_revenue
+             1            Pasta Palace          100.0
+             5            Curry Corner           75.0
+             3              Sushi Spot           60.0
+             2             Burger Barn           45.0
+             4 Taco Town (Zero Orders)            0.0
+
+--- S4: Comparison with INNER JOIN (drops Taco Town) ---
+ restaurant_id restaurant_name  total_revenue
+             1    Pasta Palace          100.0
+             5    Curry Corner           75.0
+             3      Sushi Spot           60.0
+             2     Burger Barn           45.0
+```
+
 ---
 
 ## Question S5: SQL Window Functions vs. GROUP BY
@@ -136,7 +216,6 @@ ORDER BY total_revenue DESC;
 #### SQL Implementation:
 ```sql
 SELECT 
-    agent_id,
     agent_name,
     city,
     completed_deliveries,
@@ -148,11 +227,22 @@ SELECT
         PARTITION BY city 
         ORDER BY completed_deliveries DESC
     ) AS prev_agent_deliveries,
-    (LAG(completed_deliveries, 1) OVER (
+    COALESCE(LAG(completed_deliveries, 1) OVER (
         PARTITION BY city 
         ORDER BY completed_deliveries DESC
-    ) - completed_deliveries) AS gap_to_above_agent
-FROM delivery_agents_monthly;
+    ) - completed_deliveries, 0) AS gap_to_above_agent
+FROM delivery_agents;
+```
+
+#### Actual Code Output:
+```text
+agent_name     city  completed_deliveries  city_rank  prev_agent_deliveries  gap_to_above_agent
+     Casey  Chicago                   150          1                    NaN                   0
+    Morgan  Chicago                   140          2                  150.0                  10
+     Riley  Chicago                   110          3                  140.0                  30
+      Alex New York                   145          1                    NaN                   0
+    Jordan New York                   130          2                  145.0                  15
+    Taylor New York                   115          3                  130.0                  15
 ```
 
 ### 2. Advantages over `GROUP BY` with Self-Joins or Correlated Subqueries
@@ -174,46 +264,31 @@ FROM delivery_agents_monthly;
 
 #### CTE Approach (Recommended):
 ```sql
-WITH top_5_categories AS (
-    SELECT r.category
+WITH top_categories AS (
+    SELECT r.category, COUNT(o.order_id) AS total_orders
     FROM orders o
     JOIN restaurants r ON o.restaurant_id = r.restaurant_id
     GROUP BY r.category
-    ORDER BY COUNT(o.order_id) DESC
-    LIMIT 5
+    ORDER BY total_orders DESC
+    LIMIT 2
 )
 SELECT 
     o.order_id,
-    o.order_value,
-    o.delivery_time_mins,
     r.name AS restaurant_name,
-    r.category
+    r.category,
+    o.order_value
 FROM orders o
 JOIN restaurants r ON o.restaurant_id = r.restaurant_id
-JOIN top_5_categories t ON r.category = t.category;
+JOIN top_categories t ON r.category = t.category;
 ```
 
-#### Nested Subquery Approach:
-```sql
-SELECT 
-    o.order_id,
-    o.order_value,
-    o.delivery_time_mins,
-    r.name AS restaurant_name,
-    r.category
-FROM orders o
-JOIN restaurants r ON o.restaurant_id = r.restaurant_id
-WHERE r.category IN (
-    SELECT category
-    FROM (
-        SELECT r_sub.category, COUNT(o_sub.order_id) AS order_cnt
-        FROM orders o_sub
-        JOIN restaurants r_sub ON o_sub.restaurant_id = r_sub.restaurant_id
-        GROUP BY r_sub.category
-        ORDER BY order_cnt DESC
-        LIMIT 5
-    )
-);
+#### Actual Code Output:
+```text
+ order_id restaurant_name category  order_value
+      101    Pasta Palace  Italian         45.0
+      102    Pasta Palace  Italian         55.0
+      106    Curry Corner   Indian         35.0
+      107    Curry Corner   Indian         40.0
 ```
 
 ### 2. Trade-Off Evaluation
@@ -222,7 +297,7 @@ WHERE r.category IN (
 | :--- | :--- | :--- |
 | **Readability** | **High**: Follows a linear, top-to-bottom procedural flow (modular logic matches human thought process). | **Low**: Reads inside-out with nested parentheses, creating cognitive overhead and harder code reviews. |
 | **Reusability** | **High**: The named CTE (`top_5_categories`) can be joined or referenced multiple times within the query without re-declaring. | **Zero**: Scoped strictly to the specific `IN` clause; reusing it requires copying and pasting the full subquery. |
-| **Debuggability** | **High**: Developers can isolate and test `SELECT * FROM top_5_categories` independently during troubleshooting. | **Low**: Extracting and testing internal subqueries requires manually stripping outer statements. |
+| **Debuggability** | **High**: Developers can isolate and test `SELECT * FROM top_categories` independently during troubleshooting. | **Low**: Extracting and testing internal subqueries requires manually stripping outer statements. |
 
 ### 3. Specific Situations Where a Nested Subquery is Preferred
 1. **Simple Scalar Comparisons**: When comparing against a single aggregated value (e.g., `WHERE order_value > (SELECT AVG(order_value) FROM orders)`), writing a CTE introduces unnecessary verbosity.
