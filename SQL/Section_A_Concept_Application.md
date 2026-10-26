@@ -1,8 +1,7 @@
 # Section A: Concept Application — Assessment M4-A1
 **Program**: Data Science  
 **Module 3–4**: Data Collection, Cleaning & Visualization › Working with Databases  
-**Stack**: Python 3 (NumPy, Pandas, Seaborn) / SQL (SQLite)  
-**Demonstration Script**: [`section_a_demonstrations.py`](file:///C:/Users/gadhi/.gemini/antigravity-ide/scratch/DS-work/SQL/section_a_demonstrations.py)
+**Stack**: Python 3 (NumPy, Pandas, Seaborn) / SQL (SQLite)
 
 ---
 
