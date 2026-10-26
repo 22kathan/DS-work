@@ -76,3 +76,10 @@ Contains ongoing weekly assignments and practical SQL exercises:
   - Task 3: Customer cumulative spend calculation (`SUM(amount) GROUP BY user_id`)
   - Task 4: Group threshold filtering on average order value (`HAVING AVG(amount) > 300`)
   - Task 5: Pipeline comparison and query examples for row-level `WHERE` vs. group-level `HAVING`
+
+* 📂 [**Session 09: JOINS - Part 1**](./Assignment/Session_09/)
+  - Task 1: DDL `restaurants` & `dishes` tables with multi-table relationships
+  - Task 2: Zomato dish and restaurant pairing with `INNER JOIN`
+  - Task 3: Preserving menu-less restaurants with `LEFT JOIN`
+  - Task 4: Preserving unlinked orphan records with `RIGHT JOIN`
+  - Task 5: Spotify dashboard join strategy (handling empty playlists with `LEFT JOIN`)
