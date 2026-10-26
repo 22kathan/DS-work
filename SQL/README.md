@@ -125,6 +125,14 @@ Contains ongoing weekly assignments and practical SQL exercises:
   - Task 4: Feature engineering: Static delivery charges & conditional rating boosts via `apply()` and lambda
   - Task 5: Automated daily analytics pipeline exporting top-rated restaurants (`rating > 4.5`) to CSV
 
+* 📂 [**Session 16: SQL Project – Sales Analysis**](./Assignment/Session_16/)
+  - Task 1: Import food delivery CSV into SQL table `FoodOrders`
+  - Task 2: DDL `TopSongs` table and insert 5 popular Spotify tracks
+  - Task 3: Identify top 3 customers by total spending with `SUM(order_amount)`
+  - Task 4: Restaurant sales performance breakdown (`COUNT`, `SUM`, `GROUP BY`, `ORDER BY`)
+  - Task 5: Normalized business KPI summary cards (`UNION ALL` key-value format)
+
+
 
 
 

@@ -23,6 +23,8 @@ This directory contains weekly session assignments and practical database course
 | **13** | **Window Functions - Part 1** | • `ROW_NUMBER() OVER()` for unique sequential numbering<br>• `RANK() OVER()` for global ranking with gap handling<br>• `DENSE_RANK() OVER(PARTITION BY)` for user-level dense rankings without gaps<br>• Spotify 'Your Top Playlists' feature filtering top 2 per user with CTE | ✅ **Completed** | [Session 13](./Session_13/) |
 | **14** | **Window Functions - Part 2** | • `LAG()` for prior order retrieval<br>• `LEAD()` for forward-looking churn and retention analysis<br>• Running totals with `SUM() OVER(ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW)`<br>• 3-order moving average calculation using bounded window frames | ✅ **Completed** | [Session 14](./Session_14/) |
 | **15** | **SQL + Python Integration** | • `sqlite3` DB-API 2.0 database & table creation (`foodie.db`)<br>• Data ingestion with `executemany` & threshold querying<br>• Seamless Pandas ingestion with `pd.read_sql_query`<br>• Feature engineering with `apply()` & lambda functions<br>• Automated daily summary extraction & export to CSV | ✅ **Completed** | [Session 15](./Session_15/) |
+| **16** | **SQL Project – Sales Analysis** | • Food delivery CSV ingestion into `FoodOrders`<br>• Spotify top tracks DDL/DML (`TopSongs`)<br>• High-value patron analysis (Top 3 spenders)<br>• Product & vendor performance reporting with `GROUP BY`<br>• Dashboard KPI cards formatted via `UNION ALL` | ✅ **Completed** | [Session 16](./Session_16/) |
+
 
 
 

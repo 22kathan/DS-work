@@ -1,0 +1,11 @@
+order_id,restaurant_name,customer_name,order_amount,order_date
+1,Swagat Restaurant,Kathan Gadhiya,650.00,2026-10-01
+2,Honest Pav Bhaji,Aarav Patel,350.00,2026-10-02
+3,Agashiye,Priya Sharma,1200.00,2026-10-03
+4,Burger Farm,Rohan Mehta,450.00,2026-10-04
+5,Swagat Restaurant,Kathan Gadhiya,820.00,2026-10-05
+6,Honest Pav Bhaji,Sneha Desai,300.00,2026-10-06
+7,Agashiye,Aarav Patel,1100.00,2026-10-07
+8,La Pinoz Pizza,Priya Sharma,750.00,2026-10-08
+9,Burger Farm,Kathan Gadhiya,520.00,2026-10-09
+10,Swagat Restaurant,Sneha Desai,480.00,2026-10-10
