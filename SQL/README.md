@@ -90,3 +90,9 @@ Contains ongoing weekly assignments and practical SQL exercises:
   - Task 3: DDL `Users`, `Orders`, and `Payments` with cascading multiple `LEFT JOIN`s
   - Task 4: Duplicate row diagnosis and elimination on 1:N relations (`DISTINCT` & `GROUP BY`)
   - Task 5: Join condition performance benchmarking (Integer Primary Key vs. String column)
+
+* 📂 [**Session 11: Subqueries**](./Assignment/Session_11/)
+  - Task 1: DDL `Restaurants` table and correlated subquery in `WHERE` comparing city average ratings
+  - Task 2: DDL `Users` and `Orders` tables with scalar subquery in `SELECT` for total orders
+  - Task 3: DDL `Movies` and `Reviews` tables with subquery in `IN` for 5-star movies
+  - Task 4: DDL `Categories`, `Sellers`, and `Products` with nested subqueries for relational division
