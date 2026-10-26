@@ -25,6 +25,8 @@ This directory contains weekly session assignments and practical database course
 | **15** | **SQL + Python Integration** | • `sqlite3` DB-API 2.0 database & table creation (`foodie.db`)<br>• Data ingestion with `executemany` & threshold querying<br>• Seamless Pandas ingestion with `pd.read_sql_query`<br>• Feature engineering with `apply()` & lambda functions<br>• Automated daily summary extraction & export to CSV | ✅ **Completed** | [Session 15](./Session_15/) |
 | **16** | **SQL Project – Sales Analysis** | • Food delivery CSV ingestion into `FoodOrders`<br>• Spotify top tracks DDL/DML (`TopSongs`)<br>• High-value patron analysis (Top 3 spenders)<br>• Product & vendor performance reporting with `GROUP BY`<br>• Dashboard KPI cards formatted via `UNION ALL` | ✅ **Completed** | [Session 16](./Session_16/) |
 | **17** | **SQL Project – HR Analysis** | • Restaurant catalog DDL & population (`Restaurant`)<br>• Cuisine market distribution analysis (`GROUP BY cuisine`)<br>• Customer review pipeline schema (`Review` with FK)<br>• Multi-table sentiment joining & aggregation (`INNER JOIN`)<br>• Cuisine-level dining rank partitioning (`DENSE_RANK() OVER PARTITION BY`) | ✅ **Completed** | [Session 17](./Session_17/) |
+| **18** | **Interview Questions + Final Revision** | • Threshold aggregation with `HAVING COUNT(*) > 3`<br>• Multi-table spend rollup via `LEFT JOIN`<br>• Scalar subquery filtering above dataset mean<br>• Cumulative running total with `SUM() OVER(ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW)`<br>• B-Tree composite indexing & query optimization strategies | ✅ **Completed** | [Session 18](./Session_18/) |
+
 
 
 

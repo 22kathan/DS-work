@@ -139,6 +139,14 @@ Contains ongoing weekly assignments and practical SQL exercises:
   - Task 4: Relational sentiment aggregation with `INNER JOIN` and `AVG(rv.rating)`
   - Task 5: Intra-cuisine ranking using window functions (`DENSE_RANK() OVER (PARTITION BY cuisine)`)
 
+* 📂 [**Session 18: Interview Questions + Final Revision**](./Assignment/Session_18/)
+  - Task 1: Upload threshold filtering with `GROUP BY artist_name HAVING COUNT(*) > 3`
+  - Task 2: Customer total spend aggregation using `LEFT JOIN` on `users` and `orders`
+  - Task 3: Scalar subquery identifying restaurants exceeding catalog mean rating
+  - Task 4: Cumulative transaction running total via `SUM() OVER(PARTITION BY user_id)`
+  - Task 5: Query optimization strategies: B-Tree composite indexing & SARGable query design
+
+
 
 
 
