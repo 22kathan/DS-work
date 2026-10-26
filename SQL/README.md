@@ -146,6 +146,14 @@ Contains ongoing weekly assignments and practical SQL exercises:
   - Task 4: Cumulative transaction running total via `SUM() OVER(PARTITION BY user_id)`
   - Task 5: Query optimization strategies: B-Tree composite indexing & SARGable query design
 
+* 📂 [**Session 19: Case Study – Zomato Bangalore Restaurants**](./Assignment/Session_19/)
+  - Task 1: Top 5 highest-rated North Indian restaurants in Koramangala
+  - Task 2: Top 3 most expensive cuisines by average cost for two
+  - Task 3: Operational diagnosis & marketing recovery strategy for sub-3.0 online delivery outlets
+  - Task 4: 3-tier demographic market segmentation (Budget, Mid-Range, Premium) via `CASE WHEN`
+  - Task 5: Top 10 popular restaurant chains by outlet count (AI-assisted query validation)
+
+
 
 
 
