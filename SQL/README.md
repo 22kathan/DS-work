@@ -27,3 +27,10 @@ Contains ongoing weekly assignments and practical SQL exercises:
   - Task 3: DML `INSERT INTO playlists` (Bollywood Hits, Chill Vibes, Workout Mix)
   - Task 4: DQL `SELECT` query with `WHERE created_by = 'Amit'`
   - Task 5: AI Explanation — Difference between Table, Row, and Column using a Zomato example
+
+* 📂 [**Session 02: Database Setup + CREATE TABLE**](./Assignment/Session_02/)
+  - Task 1: Environment verification (MySQL Server 8.0 & MySQL Workbench)
+  - Task 2: Create Zomato-style backend database (`foodie_app`)
+  - Task 3: DDL `CREATE TABLE restaurants` (ID, name, cuisine, rating, location)
+  - Task 4: Flipkart-style `users` table design (`UNIQUE` email/phone, `TIMESTAMP`)
+  - Task 5: Intentional syntax error diagnosis (`ERROR 1064`) and resolution
