@@ -8,7 +8,7 @@
 ## Question S1: Data Cleaning Strategy (Pandas)
 
 * **Preferred Language & Library**: Python 3 / Pandas (`pandas`)
-* **Dedicated Implementation Script**: [`section_a_q1_pandas.py`](file:///C:/Users/gadhi/.gemini/antigravity-ide/scratch/DS-work/SQL/section_a_q1_pandas.py)
+* **Dedicated Implementation Script**: [`section_a_q1_pandas.py`](section_a_q1_pandas.py)
 
 ### Scenario
 > You are a Data Analyst at a food delivery startup. You have loaded a dataset of 50,000 order records into a Pandas DataFrame. The `'delivery_time_mins'` column has 14% missing values, and the `'customer_rating'` column contains some entries stored as strings (e.g., `'4.5'`) instead of `float64`.
@@ -96,7 +96,7 @@ dtype: object
 ## Question S2: Vectorized Surge Day Detection (NumPy)
 
 * **Preferred Language & Library**: Python 3 / NumPy (`numpy`)
-* **Dedicated Implementation Script**: [`section_a_q2_numpy.py`](file:///C:/Users/gadhi/.gemini/antigravity-ide/scratch/DS-work/SQL/section_a_q2_numpy.py)
+* **Dedicated Implementation Script**: [`section_a_q2_numpy.py`](section_a_q2_numpy.py)
 
 ### Scenario
 > You are building a weekly performance report for a food delivery platform. You have a NumPy array of daily order counts across 30 days. Your manager wants to flag 'surge days' — days where the order count exceeds the mean by more than 1.5 standard deviations — and compute the total revenue only for those surge days using a matching revenue array.
@@ -171,8 +171,8 @@ Vectorized Speedup Factor        : ~50.1x FASTER than Python loop
 ## Question S3: Exploratory Data Analysis & Visualization (Seaborn)
 
 * **Preferred Language & Libraries**: Python 3 / Seaborn (`seaborn`) & Matplotlib (`matplotlib.pyplot`)
-* **Dedicated Implementation Script**: [`section_a_q3_seaborn.py`](file:///C:/Users/gadhi/.gemini/antigravity-ide/scratch/DS-work/SQL/section_a_q3_seaborn.py)
-* **Generated Image**: [`section_a_eda_plots.png`](file:///C:/Users/gadhi/.gemini/antigravity-ide/scratch/DS-work/SQL/section_a_eda_plots.png)
+* **Dedicated Implementation Script**: [`section_a_q3_seaborn.py`](section_a_q3_seaborn.py)
+* **Generated Image**: [`section_a_eda_plots.png`](section_a_eda_plots.png)
 
 ### Scenario
 > You are conducting EDA for a food delivery product team. Your dataset contains columns: `restaurant_category`, `average_order_value`, `customer_rating`, and `delivery_time_mins`. The team wants to know (a) whether delivery time is correlated with customer rating, and (b) how average order value is distributed across restaurant categories.
@@ -192,7 +192,7 @@ Vectorized Speedup Factor        : ~50.1x FASTER than Python loop
 ## Question S4: SQL Joins for Comprehensive Reporting
 
 * **Preferred Technology**: SQL (SQLite)
-* **Dedicated SQL Script**: [`section_a_q4_joins.sql`](file:///C:/Users/gadhi/.gemini/antigravity-ide/scratch/DS-work/SQL/section_a_q4_joins.sql)
+* **Dedicated SQL Script**: [`section_a_q4_joins.sql`](section_a_q4_joins.sql)
 
 ### Scenario
 > You are managing a food delivery database with three tables: `orders` (`order_id`, `customer_id`, `restaurant_id`, `order_value`), `restaurants` (`restaurant_id`, `name`, `city`, `category`), and `customers` (`customer_id`, `name`, `area`). A business team asks for a report showing every restaurant's name and total revenue, including restaurants that have not yet received any orders.
@@ -248,7 +248,7 @@ ORDER BY total_revenue DESC;
 ## Question S5: SQL Window Functions vs. GROUP BY
 
 * **Preferred Technology**: SQL (SQLite)
-* **Dedicated SQL Script**: [`section_a_q5_window_functions.sql`](file:///C:/Users/gadhi/.gemini/antigravity-ide/scratch/DS-work/SQL/section_a_q5_window_functions.sql)
+* **Dedicated SQL Script**: [`section_a_q5_window_functions.sql`](section_a_q5_window_functions.sql)
 
 ### Scenario
 > You are working on a food delivery analytics dashboard. Management wants to rank all delivery agents within each city by their number of completed deliveries for the current month, and also display how each agent's count compares to the agent ranked directly above them in that city.
@@ -314,7 +314,7 @@ ORDER BY city ASC, city_rank ASC;
 ## Question S6: CTE (WITH Clause) vs. Nested Subquery
 
 * **Preferred Technology**: SQL (SQLite)
-* **Dedicated SQL Script**: [`section_a_q6_cte_vs_subquery.sql`](file:///C:/Users/gadhi/.gemini/antigravity-ide/scratch/DS-work/SQL/section_a_q6_cte_vs_subquery.sql)
+* **Dedicated SQL Script**: [`section_a_q6_cte_vs_subquery.sql`](section_a_q6_cte_vs_subquery.sql)
 
 ### Scenario
 > You are optimising a SQL report for a food delivery operations team. The report first identifies the top 5 restaurant categories by total order count, and then retrieves the full order details only for restaurants belonging to those top categories. A colleague has written this as a deeply nested subquery inside the WHERE clause.

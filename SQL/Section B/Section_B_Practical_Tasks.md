@@ -10,7 +10,7 @@
 ### Preferred Language & Libraries
 * **Language**: Python 3
 * **Library**: NumPy (`numpy`)
-* **Script**: [`task1_numpy_analysis.py`](file:///C:/Users/gadhi/.gemini/antigravity-ide/scratch/DS-work/SQL/task1_numpy_analysis.py)
+* **Script**: [`task1_numpy_analysis.py`](task1_numpy_analysis.py)
 
 ### Requirements Implemented
 1. Generated two 30-element arrays with `np.random.seed(42)`:
@@ -106,7 +106,7 @@ TASK 1 COMPLETED SUCCESSFULLY
 ### Preferred Language & Libraries
 * **Language**: Python 3
 * **Library**: Pandas (`pandas`), NumPy (`numpy`)
-* **Script**: [`task2_data_cleaning.py`](file:///C:/Users/gadhi/.gemini/antigravity-ide/scratch/DS-work/SQL/task2_data_cleaning.py)
+* **Script**: [`task2_data_cleaning.py`](task2_data_cleaning.py)
 
 ### Requirements Implemented
 1. Created simulated food delivery orders DataFrame with 23 rows and 7 columns.
@@ -199,8 +199,8 @@ TASK 2 COMPLETED SUCCESSFULLY. FINAL CLEANED DATASET SHAPE: (20, 7)
 ### Preferred Language & Libraries
 * **Language**: Python 3
 * **Libraries**: Matplotlib (`matplotlib.pyplot`), Seaborn (`seaborn`), Pandas (`pandas`)
-* **Script**: [`task3_visualization_dashboard.py`](file:///C:/Users/gadhi/.gemini/antigravity-ide/scratch/DS-work/SQL/task3_visualization_dashboard.py)
-* **Generated Image**: [`food_delivery_dashboard.png`](file:///C:/Users/gadhi/.gemini/antigravity-ide/scratch/DS-work/SQL/food_delivery_dashboard.png)
+* **Script**: [`task3_visualization_dashboard.py`](task3_visualization_dashboard.py)
+* **Generated Image**: [`food_delivery_dashboard.png`](food_delivery_dashboard.png)
 
 ### Requirements Implemented
 1. Created a $2 \times 2$ subplot grid: `fig, axes = plt.subplots(2, 2, figsize=(14, 10))`.
@@ -232,10 +232,10 @@ SECTION B - TASK 3: FOOD DELIVERY VISUALISATION DASHBOARD
 ### Preferred Language & Technologies
 * **Languages**: Python 3 & SQL
 * **Modules**: `sqlite3`, `pandas`, `tabulate`
-* **Python Script**: [`task4_sql_performance.py`](file:///C:/Users/gadhi/.gemini/antigravity-ide/scratch/DS-work/SQL/task4_sql_performance.py)
-* **SQL Query File**: [`task4_queries.sql`](file:///C:/Users/gadhi/.gemini/antigravity-ide/scratch/DS-work/SQL/task4_queries.sql)
+* **Python Script**: [`task4_sql_performance.py`](task4_sql_performance.py)
+* **SQL Query File**: [`task4_queries.sql`](task4_queries.sql)
 * **Database**: `food_delivery.db`
-* **Exported CSV**: [`restaurant_performance_report.csv`](file:///C:/Users/gadhi/.gemini/antigravity-ide/scratch/DS-work/SQL/restaurant_performance_report.csv)
+* **Exported CSV**: [`restaurant_performance_report.csv`](restaurant_performance_report.csv)
 
 ### SQL Query Implemented
 ```sql

@@ -3,7 +3,7 @@
 **Program**: Data Science  
 **Modules**: Modules 3–4 (Data Collection, Cleaning & Visualization › Working with Databases)  
 **Preferred Stack**: Python 3, Pandas, SQLite (`sqlite3`), Seaborn & Matplotlib, `openpyxl`, `tabulate`  
-**Main Application Script**: [`food_delivery_app.py`](file:///C:/Users/gadhi/.gemini/antigravity-ide/scratch/DS-work/SQL/Section%20C/food_delivery_app.py)
+**Main Application Script**: [`food_delivery_app.py`](food_delivery_app.py)
 
 ---
 
@@ -45,7 +45,7 @@ The application runs an interactive CLI loop offering 5 operations:
   - Displays post-cleaning data quality confirmation and sample records.
 
 * **`Option 2: Run SQL Analysis`**:
-  - Connects to SQLite database [`food_delivery.db`](file:///C:/Users/gadhi/.gemini/antigravity-ide/scratch/DS-work/SQL/Section%20C/food_delivery.db).
+  - Connects to SQLite database [`food_delivery.db`](food_delivery.db).
   - **Query 1 (Aggregation)**: Executes `GROUP BY` with `COUNT(DISTINCT r.restaurant_id)`, `COUNT(o.order_id)`, `SUM(order_value)`, `AVG(order_value)`, and `AVG(rating)` by category.
   - **Query 2 (Multi-table JOIN)**: Executes an `INNER JOIN` between `orders` and `restaurants` retrieving order values, customer names, restaurant names, categories, and cities.
   - Displays results formatted via `tabulate(..., tablefmt='psql')`.
@@ -55,10 +55,10 @@ The application runs an interactive CLI loop offering 5 operations:
   - **Left Subplot**: Seaborn `countplot` displaying total order count per restaurant category.
   - **Right Subplot**: Seaborn `barplot` showing average delivery time by city.
   - Annotates counts and delivery values directly on the bars.
-  - Saves the figure as [`section_c_charts.png`](file:///C:/Users/gadhi/.gemini/antigravity-ide/scratch/DS-work/SQL/Section%20C/section_c_charts.png).
+  - Saves the figure as [`section_c_charts.png`](section_c_charts.png).
 
 * **`Option 4: Export Report`**:
-  - Uses `pd.ExcelWriter(..., engine='openpyxl')` to package deliverables into [`food_delivery_report.xlsx`](file:///C:/Users/gadhi/.gemini/antigravity-ide/scratch/DS-work/SQL/Section%20C/food_delivery_report.xlsx).
+  - Uses `pd.ExcelWriter(..., engine='openpyxl')` to package deliverables into [`food_delivery_report.xlsx`](food_delivery_report.xlsx).
   - Sheet 1: `Cleaned_Orders` (complete 20-row cleaned dataset).
   - Sheet 2: `Category_SQL_Summary` (category-level aggregation query output).
   - Sheet 3: `Top_Orders_JOIN` (detailed multi-table JOIN output).
