@@ -41,3 +41,10 @@ Contains ongoing weekly assignments and practical SQL exercises:
   - Task 3: `UPDATE` statement with `WHERE` for typo correction
   - Task 4: Safe `DELETE` statement with duration threshold (< 120s)
   - Task 5: Compound `UPDATE` combining `WHERE`, `AND`, and `CONCAT()` for AP Dhillon remixes
+
+* 📂 [**Session 04: SELECT Statement Basics**](./Assignment/Session_04/)
+  - Task 1: DDL `MusicPlaylist` table and full projection `SELECT *`
+  - Task 2: Project `song_name` and `artist` with `LIMIT 3`
+  - Task 3: DDL `FoodOrders` table and unique restaurant listing with `DISTINCT`
+  - Task 4: Custom column aliases with `AS Dish` and `` `Date Ordered` ``
+  - Task 5: Diagnostic analysis and bug fix for `SELECT DISTINCT ... LIMIT 2` syntax and non-deterministic sorting
