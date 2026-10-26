@@ -34,3 +34,10 @@ Contains ongoing weekly assignments and practical SQL exercises:
   - Task 3: DDL `CREATE TABLE restaurants` (ID, name, cuisine, rating, location)
   - Task 4: Flipkart-style `users` table design (`UNIQUE` email/phone, `TIMESTAMP`)
   - Task 5: Intentional syntax error diagnosis (`ERROR 1064`) and resolution
+
+* 📂 [**Session 03: INSERT, UPDATE & DELETE**](./Assignment/Session_03/)
+  - Task 1: Create `Playlist` table and insert favorite song
+  - Task 2: Multi-row `INSERT` for recent Spotify tracks
+  - Task 3: `UPDATE` statement with `WHERE` for typo correction
+  - Task 4: Safe `DELETE` statement with duration threshold (< 120s)
+  - Task 5: Compound `UPDATE` combining `WHERE`, `AND`, and `CONCAT()` for AP Dhillon remixes
