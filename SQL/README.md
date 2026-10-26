@@ -15,3 +15,15 @@ Contains the complete, verified, four-section submission for **Modules 3–4: Da
 * 📂 [**Section D (AI-Augmented Learning)**](./Assessment/Section%20D/) — AI prompt documentation, original vs. corrected code comparison, bug fixes, and horizontal rating bar chart.
 
 For complete documentation, execution logs, and architecture breakdown, please view the [**Assessment README**](./Assessment/README.md).
+
+---
+
+### 📝 [**Assignments (Coursework Sessions)**](./Assignment/)
+Contains ongoing weekly assignments and practical SQL exercises:
+
+* 📂 [**Session 01: Database Introduction & SQL Basics**](./Assignment/Session_01/)
+  - Task 1: Database installation and `music_streaming_app` creation
+  - Task 2: DDL `CREATE TABLE playlists`
+  - Task 3: DML `INSERT INTO playlists` (Bollywood Hits, Chill Vibes, Workout Mix)
+  - Task 4: DQL `SELECT` query with `WHERE created_by = 'Amit'`
+  - Task 5: AI Explanation — Difference between Table, Row, and Column using a Zomato example
