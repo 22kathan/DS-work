@@ -111,4 +111,12 @@ Contains ongoing weekly assignments and practical SQL exercises:
   - Task 4: User-level dense ranking without gaps using `DENSE_RANK() OVER (PARTITION BY user_id)`
   - Task 5: Top 2 playlists per user filter using window ranking in CTE (Spotify 'Your Top Playlists')
 
+* 📂 [**Session 14: Window Functions - Part 2**](./Assignment/Session_14/)
+  - Task 1: DDL `Orders` table and Zomato/Swiggy order history dataset
+  - Task 2: Prior order value tracking with `LAG() OVER (PARTITION BY user_id ORDER BY order_date)`
+  - Task 3: Subsequent order anticipation with `LEAD() OVER (PARTITION BY user_id ORDER BY order_date)`
+  - Task 4: Cumulative lifetime spend with `SUM() OVER (ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW)`
+  - Task 5: 3-order moving average calculation using bounded window frames (`ROWS BETWEEN 2 PRECEDING AND CURRENT ROW`)
+
+
 
