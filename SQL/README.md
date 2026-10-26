@@ -132,6 +132,14 @@ Contains ongoing weekly assignments and practical SQL exercises:
   - Task 4: Restaurant sales performance breakdown (`COUNT`, `SUM`, `GROUP BY`, `ORDER BY`)
   - Task 5: Normalized business KPI summary cards (`UNION ALL` key-value format)
 
+* 📂 [**Session 17: SQL Project – HR Analysis**](./Assignment/Session_17/)
+  - Task 1: DDL `Restaurant` table and sample Zomato restaurant dataset
+  - Task 2: Cuisine frequency analysis (`COUNT(id) GROUP BY cuisine ORDER BY count DESC`)
+  - Task 3: DDL `Review` table with foreign key linkage and 10+ user reviews
+  - Task 4: Relational sentiment aggregation with `INNER JOIN` and `AVG(rv.rating)`
+  - Task 5: Intra-cuisine ranking using window functions (`DENSE_RANK() OVER (PARTITION BY cuisine)`)
+
+
 
 
 
