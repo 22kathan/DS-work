@@ -1,0 +1,11 @@
+restaurant_id,restaurant_name,category,city,total_orders,total_revenue,avg_rating,revenue_rank
+5,Sushi Wave,Japanese,Bangalore,4,5200.0,4.85,1
+8,Biryani Central,Indian,Hyderabad,5,3820.0,4.7,2
+3,Pizza Rustica,Italian,Bangalore,4,3200.0,4.67,3
+1,Spice Symphony,Indian,Mumbai,4,2400.0,4.58,4
+2,Burger Republic,Fast Food,Delhi,4,1420.0,4.15,5
+4,Dragon Express,Chinese,Mumbai,2,830.0,3.9,6
+9,Wok & Roll,Chinese,Delhi,2,730.0,4.0,7
+6,Taco Fiesta,Mexican,Delhi,2,600.0,4.15,8
+7,Sweet Treats,Dessert,Mumbai,2,470.0,4.85,9
+10,Green Bowl Organics,Salad,Bangalore,1,350.0,4.3,10
