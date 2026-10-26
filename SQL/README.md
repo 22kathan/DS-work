@@ -62,3 +62,10 @@ Contains ongoing weekly assignments and practical SQL exercises:
   - Task 3: DDL `movies` table and multi-level sorting (`release_year DESC, rating DESC`)
   - Task 4: DDL `restaurants` table and alphabetical A-Z listing (`ORDER BY name ASC LIMIT 10`)
   - Task 5: DDL `songs` table and tie-breaker sorting (`play_count DESC, added_date DESC LIMIT 3`)
+
+* 📂 [**Session 07: Aggregate Functions**](./Assignment/Session_07/)
+  - Task 1: DDL `Orders` table with sample data and `NULL` amount handling
+  - Task 2: Grouped order volume per user with `COUNT(*) GROUP BY user_name`
+  - Task 3: Mean order calculation with `AVG()` ignoring `NULL` values
+  - Task 4: Flipkart dashboard extremes with `MAX()` and `MIN()` in a single result row
+  - Task 5: Total sales calculation with `SUM()` and `WHERE total_amount IS NOT NULL`
