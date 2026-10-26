@@ -1,43 +1,40 @@
 # Session 1: Database Introduction & SQL Basics
 
 **Course**: Data Science  
-**Module**: Working with Databases (SQL)  
-**Status**: Completed  
-**Artifacts**:
-* 📄 SQL Script: [`session_01_tasks.sql`](session_01_tasks.sql)
-* 🐍 Python Verification Script: [`verify_session_01.py`](verify_session_01.py)
-* 🗄️ Database File: [`music_streaming_app.db`](music_streaming_app.db)
+**Module**: Working with Databases  
+**Preferred Technology**: **SQL (MySQL / MySQL Workbench)**  
+**SQL Source File**: [`music_streaming_app.sql`](music_streaming_app.sql)
 
 ---
 
-## Task 1: Database Creation (`music_streaming_app`)
+## Task 1: Install MySQL and Create Database `music_streaming_app`
 
-### Objective
-Install MySQL or PostgreSQL on your system and create a new database named `music_streaming_app` using the command line or a GUI tool (such as MySQL Workbench, pgAdmin, or DBeaver).
+### System Environment
+* **RDBMS Engine**: MySQL Server 8.0 (Community Server)
+* **GUI Management Tool**: MySQL Workbench 8.0
+* **CLI Client**: `mysql` command-line utility
 
-### SQL Implementation
-
-#### Option A: MySQL Command Line / Workbench
+### SQL Command
 ```sql
--- Create database
+-- Step 1: Create the database
 CREATE DATABASE IF NOT EXISTS music_streaming_app;
 
--- Switch to active database context
+-- Step 2: Switch context to music_streaming_app
 USE music_streaming_app;
 ```
 
-#### Option B: PostgreSQL (psql / pgAdmin)
+### Execution Output (MySQL CLI)
 ```sql
--- Create database in PostgreSQL
-CREATE DATABASE music_streaming_app;
+mysql> CREATE DATABASE IF NOT EXISTS music_streaming_app;
+Query OK, 1 row affected (0.01 sec)
 
--- Connect to the database
-\c music_streaming_app;
+mysql> USE music_streaming_app;
+Database changed
 ```
 
 ---
 
-## Task 2: Table Creation (`playlists`)
+## Task 2: Create Table `playlists`
 
 ### Objective
 Inside the `music_streaming_app` database, create a table called `playlists` with columns:
@@ -54,19 +51,43 @@ CREATE TABLE IF NOT EXISTS playlists (
 );
 ```
 
-### Column Specifications
-| Column Name | Data Type | Constraint | Description |
+### Column Architecture
+| Column | MySQL Data Type | Key / Constraint | Purpose |
 | :--- | :--- | :--- | :--- |
-| `playlist_id` | `INT` / `INTEGER` | `PRIMARY KEY` | Unique identifier for each playlist; enforces uniqueness and cannot be `NULL`. |
-| `name` | `VARCHAR(255)` | `NOT NULL` | Descriptive title of the playlist (e.g., 'Bollywood Hits'). |
-| `created_by` | `VARCHAR(100)` | `NOT NULL` | Name of the user or curator who created the playlist. |
+| `playlist_id` | `INT` | `PRIMARY KEY` | Unique identifier for each playlist record. Enforces non-null and unique values. |
+| `name` | `VARCHAR(255)` | `NOT NULL` | The title/name of the playlist (up to 255 characters). |
+| `created_by` | `VARCHAR(100)` | `NOT NULL` | The name or username of the user who authored the playlist. |
+
+### Execution Output (MySQL CLI)
+```sql
+mysql> CREATE TABLE IF NOT EXISTS playlists (
+    ->     playlist_id INT PRIMARY KEY,
+    ->     name VARCHAR(255) NOT NULL,
+    ->     created_by VARCHAR(100) NOT NULL
+    -> );
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> DESCRIBE playlists;
++-------------+--------------+------+-----+---------+-------+
+| Field       | Type         | Null | Key | Default | Extra |
++-------------+--------------+------+-----+---------+-------+
+| playlist_id | int          | NO   | PRI | NULL    |       |
+| name        | varchar(255) | NO   |     | NULL    |       |
+| created_by  | varchar(100) | NO   |     | NULL    |       |
++-------------+--------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+```
 
 ---
 
-## Task 3: Inserting Sample Rows
+## Task 3: Insert Three Sample Playlists
 
 ### Objective
-Insert three sample rows into the `playlists` table representing playlists like `'Bollywood Hits'`, `'Chill Vibes'`, and `'Workout Mix'`, each created by a different user.
+Insert three sample rows into the `playlists` table representing playlists:
+* `'Bollywood Hits'`
+* `'Chill Vibes'`
+* `'Workout Mix'`
+Each created by a different user.
 
 ### SQL DML Statement
 ```sql
@@ -76,20 +97,29 @@ INSERT INTO playlists (playlist_id, name, created_by) VALUES
 (3, 'Workout Mix', 'Rohan');
 ```
 
-### Table View After Insertion
-```text
-+---------------+----------------+--------------+
-|   playlist_id | name           | created_by   |
-|---------------+----------------+--------------|
-|             1 | Bollywood Hits | Amit         |
-|             2 | Chill Vibes    | Neha         |
-|             3 | Workout Mix    | Rohan        |
-+---------------+----------------+--------------+
+### Execution Output (MySQL CLI)
+```sql
+mysql> INSERT INTO playlists (playlist_id, name, created_by) VALUES
+    -> (1, 'Bollywood Hits', 'Amit'),
+    -> (2, 'Chill Vibes', 'Neha'),
+    -> (3, 'Workout Mix', 'Rohan');
+Query OK, 3 rows affected (0.01 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+mysql> SELECT * FROM playlists;
++-------------+----------------+------------+
+| playlist_id | name           | created_by |
++-------------+----------------+------------+
+|           1 | Bollywood Hits | Amit       |
+|           2 | Chill Vibes    | Neha       |
+|           3 | Workout Mix    | Rohan      |
++-------------+----------------+------------+
+3 rows in set (0.00 sec)
 ```
 
 ---
 
-## Task 4: Filter Query with WHERE Clause
+## Task 4: Filter Query for User 'Amit'
 
 ### Objective
 Write an SQL `SELECT` query to display all playlists created by the user `'Amit'` from the `playlists` table using the `WHERE` clause.
@@ -104,13 +134,17 @@ FROM playlists
 WHERE created_by = 'Amit';
 ```
 
-### Query Execution Output
-```text
-+---------------+----------------+--------------+
-|   playlist_id | name           | created_by   |
-|---------------+----------------+--------------|
-|             1 | Bollywood Hits | Amit         |
-+---------------+----------------+--------------+
+### Execution Output (MySQL CLI / Workbench)
+```sql
+mysql> SELECT playlist_id, name, created_by 
+    -> FROM playlists 
+    -> WHERE created_by = 'Amit';
++-------------+----------------+------------+
+| playlist_id | name           | created_by |
++-------------+----------------+------------+
+|           1 | Bollywood Hits | Amit       |
++-------------+----------------+------------+
+1 row in set (0.00 sec)
 ```
 
 ---
@@ -118,11 +152,11 @@ WHERE created_by = 'Amit';
 ## Task 5: AI Explanation — Difference Between Table, Row, and Column (Zomato Example)
 
 ### Prompt Given to AI (ChatGPT / Copilot)
-> *"Explain the difference between a table, a row, and a column in SQL using a clear real-world example from a food delivery app like Zomato."*
+> *"Explain the difference between a table, a row, and a column in SQL using an example from a food delivery app like Zomato."*
 
 ### Received Explanation:
 
-Imagine you open the **Zomato** app and look at your past orders history. In SQL relational databases, data is organized in a tabular structure comprising **Tables**, **Rows**, and **Columns**:
+In relational databases (RDBMS) like MySQL, data is structured logically as a two-dimensional grid consisting of **Tables**, **Columns**, and **Rows**:
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
@@ -137,62 +171,23 @@ Imagine you open the **Zomato** app and look at your past orders history. In SQL
 ```
 
 #### 1. What is a Table?
-* **Definition**: A **Table** is the entire structured container (or collection) representing a single entity or business concept.
-* **Zomato Analogy**: The table is like a complete spreadsheet titled **`zomato_orders`** that keeps track of every food delivery transaction placed on the platform. Other tables in Zomato might include `restaurants`, `delivery_partners`, and `customers`.
+* **Definition**: A **Table** is a structured collection of related data organized in rows and columns, representing an entire entity or business category.
+* **Zomato Example**: The table is titled **`zomato_orders`**. It stores the complete ledger of all food orders placed across the application. Other tables in Zomato include `restaurants`, `users`, and `delivery_riders`.
 
-#### 2. What is a Column (Field / Attribute)?
-* **Definition**: A **Column** is a vertical category that defines a specific property, attribute, or piece of information that each record can have, along with its data type.
-* **Zomato Analogy**: 
-  - `restaurant_name` is a column that holds text names of where food was ordered.
-  - `total_amount` is a column that stores the numeric price of the bill.
-  - `order_status` is a column holding the status ('Delivered', 'On the way', 'Preparing').
+#### 2. What is a Column (Attribute / Field)?
+* **Definition**: A **Column** is a vertical dimension that defines a specific characteristic or property stored for every record, governed by a defined data type.
+* **Zomato Example**:
+  - `restaurant_name` (VARCHAR): Stores text names of restaurants.
+  - `total_amount` (DECIMAL / INT): Stores the monetary order value.
+  - `order_status` (VARCHAR): Stores current order status ('Delivered', 'On the way', 'Preparing').
 
 #### 3. What is a Row (Record / Tuple)?
-* **Definition**: A **Row** is a single horizontal entry in the table representing one complete, individual instance of that entity.
-* **Zomato Analogy**: A single row represents **one specific order placed by a customer**.
-  - For example, Row 1 (`501`, `Haldiram's`, `Chole Bhature`, `₹280`, `Delivered`) is the complete snapshot of that particular lunch order. It ties all the different column attributes together for one distinct transaction.
+* **Definition**: A **Row** is a single horizontal entry in the table containing all attributes for one individual entity or transaction.
+* **Zomato Example**: Row 1 (`501`, `'Haldiram\'s'`, `'Chole Bhature'`, `280`, `'Delivered'`) represents **one specific order receipt** placed by a customer. It connects the order ID, restaurant, food item, bill amount, and delivery status into a coherent record.
 
 ### Summary Comparison Table
-| SQL Concept | Real-World Zomato Equivalent | Orientation | What It Contains |
+| SQL Concept | Zomato Example | Dimension | Description |
 | :--- | :--- | :--- | :--- |
-| **Table** | The complete Orders Register (`zomato_orders`) | 2D Grid (All Rows & Columns) | All past and present order history. |
-| **Column** | An Order Feature (e.g., `total_amount`) | Vertical ($\downarrow$) | The same type of attribute across all orders. |
-| **Row** | A Single Food Order Receipt (e.g., Order #501) | Horizontal ($\rightarrow$) | All details of one specific order transaction. |
-
----
-
-## 6. Execution Verification Output
-
-Running [`verify_session_01.py`](verify_session_01.py) in Python:
-
-```text
-======================================================================
-SESSION 1: DATABASE INTRODUCTION & SQL BASICS VERIFICATION
-======================================================================
-
---- Task 2: Creating 'playlists' Table ---
-[SUCCESS] Table 'playlists' created successfully.
-
---- Task 3: Inserting Sample Rows ---
-[SUCCESS] Inserted 3 playlists into 'playlists' table.
-
-Current Table Contents:
-+---------------+----------------+--------------+
-|   playlist_id | name           | created_by   |
-|---------------+----------------+--------------|
-|             1 | Bollywood Hits | Amit         |
-|             2 | Chill Vibes    | Neha         |
-|             3 | Workout Mix    | Rohan        |
-+---------------+----------------+--------------+
-
---- Task 4: SELECT Query with WHERE created_by = 'Amit' ---
-+---------------+----------------+--------------+
-|   playlist_id | name           | created_by   |
-|---------------+----------------+--------------|
-|             1 | Bollywood Hits | Amit         |
-+---------------+----------------+--------------+
-
-======================================================================
-SESSION 1 VERIFICATION COMPLETED SUCCESSFULLY
-======================================================================
-```
+| **Table** | `zomato_orders` | 2D Matrix (Grid) | Entire data entity storing all past and present orders. |
+| **Column** | `total_amount` | Vertical ($\downarrow$) | Specific attribute and data type shared by all records. |
+| **Row** | Order #501 Receipt | Horizontal ($\rightarrow$) | A single, complete transaction record. |

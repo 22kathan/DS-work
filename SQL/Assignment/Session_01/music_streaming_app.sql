@@ -1,26 +1,22 @@
 -- ============================================================================
 -- SESSION 1: Database Introduction & SQL Basics
--- Course: Data Science (Module: Working with Databases)
--- Database Engine: MySQL / PostgreSQL / SQLite Compatible
+-- Preferred Technology: SQL (MySQL / MySQL Workbench)
+-- Course: Data Science
+-- Database: music_streaming_app
 -- ============================================================================
 
 -- ----------------------------------------------------------------------------
 -- TASK 1: Create a new database named 'music_streaming_app'
 -- ----------------------------------------------------------------------------
--- For MySQL:
 CREATE DATABASE IF NOT EXISTS music_streaming_app;
 USE music_streaming_app;
-
--- For PostgreSQL:
--- CREATE DATABASE music_streaming_app;
--- \c music_streaming_app;
 
 -- ----------------------------------------------------------------------------
 -- TASK 2: Create a table called 'playlists'
 -- Columns:
---   - playlist_id: Integer, Primary Key
---   - name       : VARCHAR (Playlist title)
---   - created_by : VARCHAR (User creator name)
+--   - playlist_id : INT (Primary Key)
+--   - name        : VARCHAR(255) (Playlist title)
+--   - created_by  : VARCHAR(100) (User name who created playlist)
 -- ----------------------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS playlists (
     playlist_id INT PRIMARY KEY,
@@ -28,18 +24,23 @@ CREATE TABLE IF NOT EXISTS playlists (
     created_by VARCHAR(100) NOT NULL
 );
 
+-- Inspect table schema definition
+DESCRIBE playlists;
+
 -- ----------------------------------------------------------------------------
--- TASK 3: Insert three sample rows into 'playlists'
--- Sample Playlists: 'Bollywood Hits', 'Chill Vibes', 'Workout Mix'
--- Created by different users (including user 'Amit')
+-- TASK 3: Insert three sample rows representing playlists
+-- 'Bollywood Hits', 'Chill Vibes', and 'Workout Mix', each by different users
 -- ----------------------------------------------------------------------------
 INSERT INTO playlists (playlist_id, name, created_by) VALUES
 (1, 'Bollywood Hits', 'Amit'),
 (2, 'Chill Vibes', 'Neha'),
 (3, 'Workout Mix', 'Rohan');
 
+-- Display all inserted rows
+SELECT * FROM playlists;
+
 -- ----------------------------------------------------------------------------
--- TASK 4: SQL SELECT query to display all playlists created by 'Amit'
+-- TASK 4: Write an SQL SELECT query to display all playlists created by 'Amit'
 -- Using the WHERE clause to filter by the 'created_by' column
 -- ----------------------------------------------------------------------------
 SELECT 
@@ -48,10 +49,3 @@ SELECT
     created_by
 FROM playlists
 WHERE created_by = 'Amit';
-
--- EXPECTED RESULT:
--- +-------------+----------------+------------+
--- | playlist_id | name           | created_by |
--- +-------------+----------------+------------+
--- | 1           | Bollywood Hits | Amit       |
--- +-------------+----------------+------------+
