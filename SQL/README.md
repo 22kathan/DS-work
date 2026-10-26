@@ -118,5 +118,13 @@ Contains ongoing weekly assignments and practical SQL exercises:
   - Task 4: Cumulative lifetime spend with `SUM() OVER (ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW)`
   - Task 5: 3-order moving average calculation using bounded window frames (`ROWS BETWEEN 2 PRECEDING AND CURRENT ROW`)
 
+* 📂 [**Session 15: SQL + Python Integration**](./Assignment/Session_15/)
+  - Task 1: SQLite3 standard module integration & `Restaurants` table creation (`foodie.db`)
+  - Task 2: DML batch insertion and rating threshold filtering via Python cursor
+  - Task 3: Direct tabular loading into Pandas with `pd.read_sql_query` & `df.head(2)`
+  - Task 4: Feature engineering: Static delivery charges & conditional rating boosts via `apply()` and lambda
+  - Task 5: Automated daily analytics pipeline exporting top-rated restaurants (`rating > 4.5`) to CSV
+
+
 
 
