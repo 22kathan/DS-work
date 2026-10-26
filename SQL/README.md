@@ -48,3 +48,10 @@ Contains ongoing weekly assignments and practical SQL exercises:
   - Task 3: DDL `FoodOrders` table and unique restaurant listing with `DISTINCT`
   - Task 4: Custom column aliases with `AS Dish` and `` `Date Ordered` ``
   - Task 5: Diagnostic analysis and bug fix for `SELECT DISTINCT ... LIMIT 2` syntax and non-deterministic sorting
+
+* 📂 [**Session 05: WHERE Clause + LIKE**](./Assignment/Session_05/)
+  - Task 1: DDL `Restaurants` table and sample Zomato insertions
+  - Task 2: Filter by rating > 4.0 and city in Ahmedabad or Surat with boolean precedence
+  - Task 3: Pattern matching using `LIKE 'Swa%'`
+  - Task 4: Continuous range filtering with `BETWEEN 3.5 AND 4.5`
+  - Task 5: Discrete set membership with `IN ('Chinese', 'Italian', 'South Indian')`
