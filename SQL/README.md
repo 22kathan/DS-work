@@ -96,3 +96,11 @@ Contains ongoing weekly assignments and practical SQL exercises:
   - Task 2: DDL `Users` and `Orders` tables with scalar subquery in `SELECT` for total orders
   - Task 3: DDL `Movies` and `Reviews` tables with subquery in `IN` for 5-star movies
   - Task 4: DDL `Categories`, `Sellers`, and `Products` with nested subqueries for relational division
+
+* 📂 [**Session 12: CTE (WITH Clause)**](./Assignment/Session_12/)
+  - Task 1: DDL `Products` table and `WITH` clause for top-rated items (`rating > 4.5`)
+  - Task 2: DDL `Restaurants` table and readability comparison of subquery vs. CTE for delivery charges under 50
+  - Task 3: DDL `Users` & `Posts` tables and multiple CTEs with `UNION ALL` for top 3 users and posts
+  - Task 4: Recursive CTE (`WITH RECURSIVE`) generating 7-day movie booking schedule
+  - Task 5: Refactoring nested, redundant follower queries into modular CTE pipelines
+
