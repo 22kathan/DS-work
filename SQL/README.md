@@ -69,3 +69,10 @@ Contains ongoing weekly assignments and practical SQL exercises:
   - Task 3: Mean order calculation with `AVG()` ignoring `NULL` values
   - Task 4: Flipkart dashboard extremes with `MAX()` and `MIN()` in a single result row
   - Task 5: Total sales calculation with `SUM()` and `WHERE total_amount IS NOT NULL`
+
+* 📂 [**Session 08: GROUP BY + HAVING**](./Assignment/Session_08/)
+  - Task 1: DDL `Orders` table with payment methods (UPI, Card, Wallet, COD)
+  - Task 2: Order frequency breakdown by payment instrument (`COUNT(*) GROUP BY payment_method`)
+  - Task 3: Customer cumulative spend calculation (`SUM(amount) GROUP BY user_id`)
+  - Task 4: Group threshold filtering on average order value (`HAVING AVG(amount) > 300`)
+  - Task 5: Pipeline comparison and query examples for row-level `WHERE` vs. group-level `HAVING`
