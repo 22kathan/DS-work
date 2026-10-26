@@ -8,17 +8,6 @@
 
 ---
 
-## 📌 Overview
-
-This session focuses on advanced row filtering techniques using the SQL `WHERE` clause:
-1. **Relational & Comparison Operators**: Evaluating numeric thresholds (`rating > 4.0`).
-2. **Compound Boolean Logic & Precedence**: Combining `AND` with grouped `OR` / `IN` conditions.
-3. **Pattern Matching with Wildcards**: Using `LIKE` with the `%` wildcard for prefix searches.
-4. **Range Testing**: Applying `BETWEEN ... AND ...` for inclusive numeric bounds.
-5. **Set Membership**: Utilizing the `IN (...)` operator for clean multi-value equality testing.
-
----
-
 ## Task 1: Create Table `Restaurants` & Insert Zomato Records
 
 ### Objective
@@ -225,13 +214,4 @@ mysql> SELECT * FROM Restaurants WHERE cuisine IN ('Chinese', 'Italian', 'South 
 5 rows in set (0.00 sec)
 ```
 
----
 
-## 💡 Summary of Filtering Concepts Learned
-
-| Operator | Syntax Example | Meaning / Behavior |
-| :--- | :--- | :--- |
-| **`AND` / `OR`** | `WHERE rating > 4.0 AND (city = 'Ahmedabad' OR city = 'Surat')` | Combines boolean conditions. Always use parentheses when mixing `AND` and `OR` due to operator precedence. |
-| **`LIKE`** | `WHERE name LIKE 'Swa%'` | Matches string patterns (`%` matches any sequence of characters, `_` matches exactly one character). |
-| **`BETWEEN`** | `WHERE rating BETWEEN 3.5 AND 4.5` | Filters values within a continuous range (inclusive of both lower and upper bounds). |
-| **`IN`** | `WHERE cuisine IN ('Chinese', 'Italian', 'South Indian')` | Tests whether an expression matches any value in a discrete set or subquery. |

@@ -184,10 +184,3 @@ In relational databases (RDBMS) like MySQL, data is structured logically as a tw
 #### 3. What is a Row (Record / Tuple)?
 * **Definition**: A **Row** is a single horizontal entry in the table containing all attributes for one individual entity or transaction.
 * **Zomato Example**: Row 1 (`501`, `'Haldiram\'s'`, `'Chole Bhature'`, `280`, `'Delivered'`) represents **one specific order receipt** placed by a customer. It connects the order ID, restaurant, food item, bill amount, and delivery status into a coherent record.
-
-### Summary Comparison Table
-| SQL Concept | Zomato Example | Dimension | Description |
-| :--- | :--- | :--- | :--- |
-| **Table** | `zomato_orders` | 2D Matrix (Grid) | Entire data entity storing all past and present orders. |
-| **Column** | `total_amount` | Vertical ($\downarrow$) | Specific attribute and data type shared by all records. |
-| **Row** | Order #501 Receipt | Horizontal ($\rightarrow$) | A single, complete transaction record. |

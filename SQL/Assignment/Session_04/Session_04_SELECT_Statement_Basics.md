@@ -8,17 +8,6 @@
 
 ---
 
-## 📌 Overview
-
-This session covers fundamental Data Query Language (DQL) concepts in SQL:
-1. **Full Table Projections**: Using `SELECT *` to inspect complete table records.
-2. **Column Projection & Result Limiting**: Selecting specific columns and restricting returned rows using `LIMIT`.
-3. **De-duplication**: Using the `DISTINCT` keyword to extract unique entities.
-4. **Column Aliasing**: Renaming output columns using `AS` for human-friendly presentation.
-5. **Syntax & Logic Troubleshooting**: Diagnosing common errors with `LIMIT` placement, determinism (`ORDER BY`), and multi-column `DISTINCT` behavior.
-
----
-
 ## Task 1: Create Table `MusicPlaylist` & Retrieve All Records
 
 ### Objective
@@ -299,12 +288,4 @@ LIMIT 2;
 2 rows in set (0.00 sec)
 ```
 
----
 
-## 💡 Summary of Key Takeaways
-
-1. **`SELECT *` vs Explicit Columns**: While `SELECT *` is helpful for ad-hoc inspection, production queries should specify explicit column names to minimize bandwidth and memory consumption.
-2. **`LIMIT` Placement**: `LIMIT` always sits at the very end of the SQL statement.
-3. **`LIMIT` + `ORDER BY` Pair**: Never use `LIMIT` without an `ORDER BY` unless random sampling is explicitly desired.
-4. **`DISTINCT` Multi-Column Evaluation**: `DISTINCT` evaluates the entire row projection, not just the first column following the keyword.
-5. **Column Aliases (`AS`)**: Make output intuitive for reporting and dashboards. Use backticks (`` `alias` ``) or quotes when spaces are present.
