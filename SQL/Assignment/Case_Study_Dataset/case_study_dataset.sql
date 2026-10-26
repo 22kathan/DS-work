@@ -1,12 +1,13 @@
 -- ============================================================================
--- SESSION 19: Case Study – Zomato Bangalore Restaurants
+-- CASE-STUDY DATASET: Zomato Bangalore Restaurants
 -- Preferred Technology: SQL (MySQL Community Server 8.0 / MySQL Workbench)
 -- Database Engine: MySQL 8.0 / 8.4 & SQLite3
--- Target Database: session19_db
+-- Target Database: zomato_case_study_db
 -- ============================================================================
 
-CREATE DATABASE IF NOT EXISTS session19_db;
-USE session19_db;
+CREATE DATABASE IF NOT EXISTS zomato_case_study_db;
+USE zomato_case_study_db;
+
 
 -- ----------------------------------------------------------------------------
 -- TABLE DDL & SAMPLE DATASET INGESTION

@@ -1,12 +1,12 @@
-# Session 19: Case Study – Zomato Bangalore Restaurants
+# Case-Study Dataset: Zomato Bangalore Restaurants
 
 **Course**: Data Science  
 **Module**: Working with Databases  
 **Preferred Technology**: **SQL (MySQL Community Server 8.0 & MySQL Workbench)**  
 **Target Table**: `zomato_bangalore_restaurants`  
-**Target Database**: `session19_db`  
+**Target Database**: `zomato_case_study_db`  
 **Source Files**:
-* SQL Pipeline: [`session_19_zomato_bangalore.sql`](session_19_zomato_bangalore.sql)
+* SQL Pipeline: [`case_study_dataset.sql`](case_study_dataset.sql)
 * Dataset: [`zomato_bangalore_dataset.csv`](zomato_bangalore_dataset.csv)
 
 ---
@@ -18,10 +18,11 @@ Write an SQL query to find the top 5 highest-rated restaurants in Koramangala th
 
 ### SQL Implementation
 ```sql
-CREATE DATABASE IF NOT EXISTS session19_db;
-USE session19_db;
+CREATE DATABASE IF NOT EXISTS zomato_case_study_db;
+USE zomato_case_study_db;
 
 DROP TABLE IF EXISTS zomato_bangalore_restaurants;
+
 
 CREATE TABLE zomato_bangalore_restaurants (
     restaurant_id INT PRIMARY KEY,
