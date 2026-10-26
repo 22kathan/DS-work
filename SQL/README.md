@@ -55,3 +55,10 @@ Contains ongoing weekly assignments and practical SQL exercises:
   - Task 3: Pattern matching using `LIKE 'Swa%'`
   - Task 4: Continuous range filtering with `BETWEEN 3.5 AND 4.5`
   - Task 5: Discrete set membership with `IN ('Chinese', 'Italian', 'South Indian')`
+
+* 📂 [**Session 06: ORDER BY + Sorting**](./Assignment/Session_06/)
+  - Task 1: DDL `products` table and Flipkart ascending price sort (`ORDER BY price ASC`)
+  - Task 2: Top 5 most expensive products (`ORDER BY price DESC LIMIT 5`)
+  - Task 3: DDL `movies` table and multi-level sorting (`release_year DESC, rating DESC`)
+  - Task 4: DDL `restaurants` table and alphabetical A-Z listing (`ORDER BY name ASC LIMIT 10`)
+  - Task 5: DDL `songs` table and tie-breaker sorting (`play_count DESC, added_date DESC LIMIT 3`)
