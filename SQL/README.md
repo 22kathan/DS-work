@@ -104,3 +104,11 @@ Contains ongoing weekly assignments and practical SQL exercises:
   - Task 4: Recursive CTE (`WITH RECURSIVE`) generating 7-day movie booking schedule
   - Task 5: Refactoring nested, redundant follower queries into modular CTE pipelines
 
+* 📂 [**Session 13: Window Functions - Part 1**](./Assignment/Session_13/)
+  - Task 1: DDL `Playlists` table and sample data generation across multiple users
+  - Task 2: Unique row indexing with `ROW_NUMBER() OVER (ORDER BY total_likes DESC)`
+  - Task 3: Standard rank calculation with gaps using `RANK() OVER (ORDER BY total_likes DESC)`
+  - Task 4: User-level dense ranking without gaps using `DENSE_RANK() OVER (PARTITION BY user_id)`
+  - Task 5: Top 2 playlists per user filter using window ranking in CTE (Spotify 'Your Top Playlists')
+
+
