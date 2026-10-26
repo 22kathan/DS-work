@@ -32,6 +32,13 @@ SQL/
     ├── task4_queries.sql                   # Task 4: Standalone SQL schema and queries
     ├── food_delivery.db                    # Task 4: SQLite database file
     └── restaurant_performance_report.csv   # Task 4: Exported restaurant performance CSV
+│
+└── Section C/                               # Mini Capstone Project
+    ├── Section_C_Mini_Capstone.md          # Complete project documentation with execution logs
+    ├── food_delivery_app.py                # Menu-driven console analytics application (Options 0 - 4)
+    ├── section_c_charts.png                # Generated side-by-side Seaborn charts
+    ├── food_delivery_report.xlsx           # Multi-sheet Excel export (Cleaned Data, SQL Summary & Join)
+    └── food_delivery.db                    # SQLite analytics database file
 ```
 
 ---
@@ -40,3 +47,4 @@ SQL/
 
 * 📂 [**Section A (Concept Application)**](./Section%20A/) — Detailed theoretical analyses, Python scripts, SQL queries, and generated visual charts for questions S1 through S6.
 * 📂 [**Section B (Practical Coding Tasks)**](./Section%20B/) — Standalone runnable scripts, database creation, $2 \times 2$ visualization dashboard, and exported ranking reports.
+* 📂 [**Section C (Mini Capstone Project)**](./Section%20C/) — Interactive console application integrating data cleaning, SQLite analytics, Seaborn charts, and multi-sheet Excel reporting.
