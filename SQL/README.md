@@ -39,6 +39,14 @@ SQL/
     ├── section_c_charts.png                # Generated side-by-side Seaborn charts
     ├── food_delivery_report.xlsx           # Multi-sheet Excel export (Cleaned Data, SQL Summary & Join)
     └── food_delivery.db                    # SQLite analytics database file
+│
+└── Section D/                               # AI-Augmented Learning
+    ├── Section_D_AIAugmented_Learning.md   # Prompt, AI vs Human comparison & 3-4 line note
+    ├── step1_ai_original.py                # Original AI code containing classic flaws
+    ├── step2_corrected_solution.py         # Corrected & optimized production script
+    ├── setup_section_d_db.py               # SQLite database setup script
+    ├── orders.db                           # SQLite database with 26 sample orders
+    └── top3_restaurants_rating.png         # Generated horizontal bar chart artifact
 ```
 
 ---
@@ -48,3 +56,4 @@ SQL/
 * 📂 [**Section A (Concept Application)**](./Section%20A/) — Detailed theoretical analyses, Python scripts, SQL queries, and generated visual charts for questions S1 through S6.
 * 📂 [**Section B (Practical Coding Tasks)**](./Section%20B/) — Standalone runnable scripts, database creation, $2 \times 2$ visualization dashboard, and exported ranking reports.
 * 📂 [**Section C (Mini Capstone Project)**](./Section%20C/) — Interactive console application integrating data cleaning, SQLite analytics, Seaborn charts, and multi-sheet Excel reporting.
+* 📂 [**Section D (AI-Augmented Learning)**](./Section%20D/) — AI prompt documentation, original vs. corrected code comparison, bug fixes, and horizontal rating bar chart.
