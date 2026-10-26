@@ -83,3 +83,10 @@ Contains ongoing weekly assignments and practical SQL exercises:
   - Task 3: Preserving menu-less restaurants with `LEFT JOIN`
   - Task 4: Preserving unlinked orphan records with `RIGHT JOIN`
   - Task 5: Spotify dashboard join strategy (handling empty playlists with `LEFT JOIN`)
+
+* 📂 [**Session 10: JOINS - Part 2**](./Assignment/Session_10/)
+  - Task 1: DDL `Influencers` & `Collaborations` tables and `FULL JOIN` simulation with `UNION`
+  - Task 2: DDL `Playlists` table and `SELF JOIN` for nested Spotify playlists
+  - Task 3: DDL `Users`, `Orders`, and `Payments` with cascading multiple `LEFT JOIN`s
+  - Task 4: Duplicate row diagnosis and elimination on 1:N relations (`DISTINCT` & `GROUP BY`)
+  - Task 5: Join condition performance benchmarking (Integer Primary Key vs. String column)
