@@ -9,7 +9,7 @@
 ## 📌 Topics Covered
 - **What is NumPy & why it's essential for Data Science**
   - High-performance N-dimensional array processing (`ndarray`)
-  - Vectorization and C-speed contiguous memory execution without Python loop overhead
+  - Vectorization and fast element-wise execution without Python loop overhead
 - **Installing & importing NumPy**
   - Standard alias: `import numpy as np`
 - **Creating NumPy arrays**
@@ -21,13 +21,12 @@
 - **Array attributes**
   - `shape`, `ndim`, `size`, `dtype`, `itemsize`
 - **Conversion between Python lists and NumPy arrays**
-- **Understanding contiguous memory layout**
 
 ---
 
 ## 📋 Task Walkthrough & Implementation
 
-### Task 1: Installing & Importing NumPy (`insta_likes.py`)
+### Task 1: Installing & Importing NumPy
 **Problem Statement:**  
 *Install NumPy in your Python environment using pip, then create a Python file called `insta_likes.py` and import numpy as np at the top.*
 
@@ -137,23 +136,11 @@ Total array memory     : 40 bytes
 
 ---
 
-## 🧠 Memory Architecture: Python Lists vs. NumPy ndarrays
-
-| Feature | Standard Python `list` | NumPy `ndarray` |
-| :--- | :--- | :--- |
-| **Memory Layout** | Array of pointers referencing discrete `PyObject` integers scattered across the heap | Contiguous linear memory buffer holding raw binary numeric data (`C_CONTIGUOUS`) |
-| **Memory Overhead** | High (each integer has a 28-byte `PyObject` wrapper + 8-byte pointer = ~36 bytes per item) | Minimal (exactly 8 bytes per 64-bit integer, inspected via `.itemsize`) |
-| **CPU Cache Efficiency** | Poor (cache misses due to pointer dereferencing) | Optimal (adjacent bytes are prefetched into CPU L1/L2 caches) |
-| **Performance** | Slow interpreted iteration subject to Python GIL | SIMD vectorized operations executed in optimized C / Fortran routines |
-
----
-
 ## 📁 Files in this Directory
 
 ```text
 Session-01/
 ├── README.md             # Session documentation & explanations
-├── insta_likes.py        # Complete runnable standalone Python script
 └── insta_likes.ipynb     # Interactive Jupyter Notebook with outputs & markdown
 ```
 
@@ -162,9 +149,6 @@ Session-01/
 ## 🚀 How to Run
 
 ```bash
-# Execute standalone script
-python "Data collection, Cleaning, Visualization and Analysis/Session-01/insta_likes.py"
-
-# Or launch Jupyter Notebook
+# Launch Jupyter Notebook
 jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-01/insta_likes.ipynb"
 ```
