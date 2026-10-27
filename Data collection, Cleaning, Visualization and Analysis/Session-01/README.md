@@ -122,7 +122,6 @@ print("Original Python List   :", cricket_scores_list)
 print("Converted NumPy Array  :", cricket_scores_array)
 print("Array Data Type (dtype):", cricket_scores_array.dtype)
 print("Bytes per item (itemsize):", cricket_scores_array.itemsize, "bytes")
-print("Total array memory     :", cricket_scores_array.nbytes, "bytes")
 ```
 
 **Output:**
@@ -131,7 +130,6 @@ Original Python List   : [45, 67, 120, 89, 54]
 Converted NumPy Array  : [ 45  67 120  89  54]
 Array Data Type (dtype): int64
 Bytes per item (itemsize): 8 bytes
-Total array memory     : 40 bytes
 ```
 
 ---
