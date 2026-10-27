@@ -1,0 +1,7 @@
+restaurant_id	name	cuisine	rating	cost_for_two	city
+501	Haldiram's	North Indian	4.2	400	Delhi
+502	Paradise Biryani	Hyderabadi	4.4	650	Hyderabad
+503	Truffles	American	4.6	700	Bengaluru
+504	Bawarchi	Biryani	4.3	550	Hyderabad
+505	Chai Point	Beverages	3.9	250	Bengaluru
+506	Barbeque Nation	Barbecue	4.5	1500	Mumbai

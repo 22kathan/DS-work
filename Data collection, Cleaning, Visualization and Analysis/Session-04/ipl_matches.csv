@@ -1,0 +1,16 @@
+match_id,season,team1,team2,winner,win_by_runs,win_by_wickets,venue
+101,2024,CSK,RCB,CSK,18,0,Chennai
+102,2024,RCB,MI,RCB,0,7,Bengaluru
+103,2024,MI,KKR,KKR,12,0,Mumbai
+104,2024,KKR,DC,KKR,24,0,Kolkata
+105,2024,DC,RR,DC,0,4,Delhi
+106,2024,RR,SRH,RR,15,0,Jaipur
+107,2024,SRH,GT,SRH,32,0,Hyderabad
+108,2024,GT,LSG,GT,0,6,Ahmedabad
+109,2024,LSG,PK,LSG,8,0,Lucknow
+110,2024,PK,CSK,CSK,14,0,Mullanpur
+111,2024,CSK,GT,CSK,20,0,Chennai
+112,2024,MI,RR,MI,0,5,Mumbai
+113,2024,RCB,CSK,RCB,6,0,Bengaluru
+114,2024,KKR,MI,KKR,16,0,Kolkata
+115,2024,SRH,DC,SRH,28,0,Hyderabad

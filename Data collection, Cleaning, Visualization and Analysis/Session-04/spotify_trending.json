@@ -1,0 +1,42 @@
+[
+  {
+    "song_id":"S01",
+    "title":"Espresso",
+    "artist":"Sabrina Carpenter",
+    "streams":1250000000,
+    "danceability":0.78,
+    "release_year":2024
+  },
+  {
+    "song_id":"S02",
+    "title":"Birds of a Feather",
+    "artist":"Billie Eilish",
+    "streams":980000000,
+    "danceability":0.72,
+    "release_year":2024
+  },
+  {
+    "song_id":"S03",
+    "title":"Die With A Smile",
+    "artist":"Lady Gaga & Bruno Mars",
+    "streams":820000000,
+    "danceability":0.68,
+    "release_year":2024
+  },
+  {
+    "song_id":"S04",
+    "title":"Not Like Us",
+    "artist":"Kendrick Lamar",
+    "streams":750000000,
+    "danceability":0.89,
+    "release_year":2024
+  },
+  {
+    "song_id":"S05",
+    "title":"Greedy",
+    "artist":"Tate McRae",
+    "streams":1100000000,
+    "danceability":0.75,
+    "release_year":2023
+  }
+]
