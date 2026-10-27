@@ -44,6 +44,7 @@ Welcome to the **Data Science Coursework (`DS-work`)** repository. This reposito
 | # | Session Title | Topic Highlights | Notebook / Directory | Status |
 |---|---|---|---|---|
 | **01** | **NumPy Foundations (Part 1: Arrays & Creation)** | What is NumPy & essential role in DS, Instagram follower counts array (`shape`, `ndim`, `dtype`), Zomato sequential order IDs (`np.arange`), Spotify playlist 'like' identity matrix (`np.eye`), Cricket scores list conversion & byte size inspection (`.itemsize`) | [📂 Session 01](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-01/insta_likes.ipynb) | ✅ Completed |
+| **02** | **NumPy Intermediate (Part 2: Indexing, Slicing, Broadcasting)** | 2D Zomato food ratings array row slicing, daily steps boolean indexing filter (`> 8000`), IPL match scores fancy indexing, Flipkart product prices 10% discount broadcasting, Spotify song ratings negative-to-zero boolean masking | [📂 Session 02](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-02/session_2_numpy_intermediate.ipynb) | ✅ Completed |
 
 ---
 
@@ -141,8 +142,11 @@ DS-work/
     ├── README.md                                          # Module Roadmap & Overview
     ├── Session-01/                                        # Session 01 Deliverables
     │   ├── README.md                                      # Task Documentation & Explanations
-    │   └── insta_likes.ipynb                              # Interactive Task Notebook with Outputs (.ipynb)
-    └── Session-02/                                        # Session 02 (Pending Tasks)
+    │   └── insta_likes.ipynb                              # Interactive Task Notebook (.ipynb)
+    ├── Session-02/                                        # Session 02 Deliverables
+    │   ├── README.md                                      # Task Documentation & Explanations
+    │   └── session_2_numpy_intermediate.ipynb             # Interactive Task Notebook (.ipynb)
+    └── Session-03/                                        # Session 03 (Pending Tasks)
         └── README.md                                      # Session Placeholder
 ```
 
