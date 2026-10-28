@@ -57,6 +57,7 @@ Welcome to the **Data Science Coursework (`DS-work`)** repository. This reposito
 | **12** | **Data Visualization: Seaborn (Part 1)** | Introduction to Seaborn & statistical data visualization, `histplot` with KDE on Zomato delivery times, `boxplot` & stripplot on `tips` dataset for weekday spending, `violinplot` for 8 IPL team score distributions under `'darkgrid'` theme, `countplot` of 40 Spotify tracks across 5 genres, and `'whitegrid'` `kdeplot` of daily fitness step counts | [📁 Session 12](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-12/session_12_seaborn_visualization_part1.ipynb) | ✅ Completed |
 | **13** | **Data Visualization: Seaborn (Part 2)** | Multivariate exploratory analysis with `pairplot`, seasonal passenger volume intensity `heatmap` on reshaped `flights` matrix (`pivot_table`), BOLD signal response time-series `relplot` with 95% CI on `fmri`, `titanic` survival probability `catplot` by class and gender with error caps, and Palmer `penguins` morphometrics `jointplot` with OLS regression fit | [📁 Session 13](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-13/session_13_seaborn_visualization_part2.ipynb) | ✅ Completed |
 | **14** | **Exploratory Data Analysis (EDA) (Part 1)** | Core tenets of exploratory data analysis (EDA), univariate summary statistics & dual boxplot/histplot on IPL match `total_runs`, star rating distribution countplot on Flipkart reviews, bivariate scatter plot & trendline on Zomato meal pricing vs user rating, BookMyShow box office `groupby` analysis sorted by genre, and multivariate Spotify audio features `pairplot` uncovering acoustic correlations | [📁 Session 14](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-14/session_14_exploratory_data_analysis_part1.ipynb) | ✅ Completed |
+| **15** | **Exploratory Data Analysis (EDA) (Part 2: Auto-EDA + Case Study Setup)** | Automated EDA landscape (`ydata-profiling`, `Sweetviz`, `D-Tale`), Spotify Top 100 profiling report & missing value detection, Zomato Mumbai vs. Delhi `Sweetviz` cohort comparison, interactive `D-Tale` GUI filtering for Myntra products > ₹2,000, diagnostic interpretation of Flipkart review warnings, AI-generated code execution on Swiggy orders, and Kaggle Superstore Sales case study staging | [📁 Session 15](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-15/session_15_auto_eda_and_case_study.ipynb) | ✅ Completed |
 
 ---
 
@@ -263,7 +264,23 @@ DS-work/
     │   ├── zomato_cost_vs_rating_scatter.png              # Exported cost vs rating scatterplot (PNG)
     │   ├── bookmyshow_genre_barchart.png                  # Exported sorted genre box office bar chart (PNG)
     │   └── spotify_audio_features_pairplot.png            # Exported multivariate pairplot figure (PNG)
-    └── Session-15/                                        # Session 15 (Pending Tasks)
+    ├── Session-15/                                        # Session 15 Deliverables
+    │   ├── README.md                                      # Task Documentation & Explanations
+    │   ├── session_15_auto_eda_and_case_study.ipynb       # Interactive Task Notebook (.ipynb)
+    │   ├── spotify_top100.csv                             # Spotify Top 100 tracks dataset (CSV)
+    │   ├── zomato_mumbai.csv                              # Zomato Mumbai restaurant listings (CSV)
+    │   ├── zomato_delhi.csv                               # Zomato Delhi restaurant listings (CSV)
+    │   ├── myntra_products.csv                            # Myntra fashion catalog with prices (CSV)
+    │   ├── flipkart_reviews_profiling.csv                 # Flipkart reviews with diagnostic alerts (CSV)
+    │   ├── swiggy_orders.csv                              # Swiggy food orders transactional data (CSV)
+    │   ├── superstore_sales.csv                           # Superstore sales case study dataset (CSV)
+    │   ├── spotify_top100_report.html                     # Exported Pandas-profiling HTML report (HTML)
+    │   ├── zomato_mumbai_vs_delhi_report.html             # Exported Sweetviz comparison HTML report (HTML)
+    │   ├── flipkart_reviews_report.html                   # Exported Flipkart profiling HTML report (HTML)
+    │   ├── swiggy_orders_report.html                      # Exported Swiggy Auto-EDA HTML report (HTML)
+    │   ├── myntra_dtale_filtered_view.png                 # Exported D-Tale filtered UI view (PNG)
+    │   └── swiggy_eda_summary.png                         # Exported Swiggy summary dashboard (PNG)
+    └── Session-16/                                        # Session 16 (Pending Tasks)
         └── README.md                                      # Session Placeholder
 ```
 

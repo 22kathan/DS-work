@@ -1,0 +1,101 @@
+restaurant_id,name,cuisine,average_cost_for_two,user_rating,votes,online_order
+ZOM-MUM-1001,Mumbai Eatery 1,North Indian,1400,3.7,1472,No
+ZOM-MUM-1002,Mumbai Eatery 2,Coastal / Seafood,1800,3.8,1550,Yes
+ZOM-MUM-1003,Mumbai Eatery 3,Fast Food,1800,3.9,3504,Yes
+ZOM-MUM-1004,Mumbai Eatery 4,Cafe,1800,4.1,1389,No
+ZOM-MUM-1005,Mumbai Eatery 5,Chinese,600,4.2,694,Yes
+ZOM-MUM-1006,Mumbai Eatery 6,Chinese,1400,3.3,1172,Yes
+ZOM-MUM-1007,Mumbai Eatery 7,Street Food,800,4.2,839,Yes
+ZOM-MUM-1008,Mumbai Eatery 8,Continental,400,4.0,474,Yes
+ZOM-MUM-1009,Mumbai Eatery 9,Coastal / Seafood,1100,4.4,1085,No
+ZOM-MUM-1010,Mumbai Eatery 10,Fast Food,2400,3.4,4234,Yes
+ZOM-MUM-1011,Mumbai Eatery 11,Continental,400,4.5,697,Yes
+ZOM-MUM-1012,Mumbai Eatery 12,Street Food,2400,3.9,2959,Yes
+ZOM-MUM-1013,Mumbai Eatery 13,Chinese,1100,4.3,1466,No
+ZOM-MUM-1014,Mumbai Eatery 14,Continental,1100,4.4,2193,Yes
+ZOM-MUM-1015,Mumbai Eatery 15,Coastal / Seafood,800,3.6,1502,Yes
+ZOM-MUM-1016,Mumbai Eatery 16,Coastal / Seafood,1100,3.5,1547,Yes
+ZOM-MUM-1017,Mumbai Eatery 17,North Indian,2400,4.0,4177,Yes
+ZOM-MUM-1018,Mumbai Eatery 18,Street Food,1400,3.9,2297,No
+ZOM-MUM-1019,Mumbai Eatery 19,Street Food,1100,3.9,1162,Yes
+ZOM-MUM-1020,Mumbai Eatery 20,Continental,800,4.5,1072,Yes
+ZOM-MUM-1021,Mumbai Eatery 21,Chinese,600,3.7,863,Yes
+ZOM-MUM-1022,Mumbai Eatery 22,Cafe,800,4.3,1161,Yes
+ZOM-MUM-1023,Mumbai Eatery 23,North Indian,1100,4.1,984,Yes
+ZOM-MUM-1024,Mumbai Eatery 24,Coastal / Seafood,600,4.1,1397,Yes
+ZOM-MUM-1025,Mumbai Eatery 25,Cafe,1100,4.1,726,Yes
+ZOM-MUM-1026,Mumbai Eatery 26,Coastal / Seafood,800,4.6,682,Yes
+ZOM-MUM-1027,Mumbai Eatery 27,Fast Food,600,4.6,1187,Yes
+ZOM-MUM-1028,Mumbai Eatery 28,Coastal / Seafood,2400,4.2,2029,Yes
+ZOM-MUM-1029,Mumbai Eatery 29,Cafe,1100,3.4,2477,Yes
+ZOM-MUM-1030,Mumbai Eatery 30,Cafe,1400,4.3,2096,Yes
+ZOM-MUM-1031,Mumbai Eatery 31,Continental,1100,3.9,959,Yes
+ZOM-MUM-1032,Mumbai Eatery 32,North Indian,1100,4.5,1634,Yes
+ZOM-MUM-1033,Mumbai Eatery 33,Chinese,1100,3.8,2076,No
+ZOM-MUM-1034,Mumbai Eatery 34,Fast Food,400,3.2,590,Yes
+ZOM-MUM-1035,Mumbai Eatery 35,Coastal / Seafood,800,3.9,983,Yes
+ZOM-MUM-1036,Mumbai Eatery 36,Continental,600,3.7,1240,Yes
+ZOM-MUM-1037,Mumbai Eatery 37,Continental,1100,4.0,1641,Yes
+ZOM-MUM-1038,Mumbai Eatery 38,Street Food,1100,4.5,1524,Yes
+ZOM-MUM-1039,Mumbai Eatery 39,Continental,800,4.2,1818,Yes
+ZOM-MUM-1040,Mumbai Eatery 40,Street Food,1100,3.4,2119,Yes
+ZOM-MUM-1041,Mumbai Eatery 41,Cafe,600,4.1,1140,Yes
+ZOM-MUM-1042,Mumbai Eatery 42,Chinese,800,3.8,1189,Yes
+ZOM-MUM-1043,Mumbai Eatery 43,Cafe,1100,3.6,2291,Yes
+ZOM-MUM-1044,Mumbai Eatery 44,Continental,600,3.4,1526,Yes
+ZOM-MUM-1045,Mumbai Eatery 45,Street Food,400,4.0,827,Yes
+ZOM-MUM-1046,Mumbai Eatery 46,Chinese,600,3.5,928,Yes
+ZOM-MUM-1047,Mumbai Eatery 47,Cafe,600,3.8,1162,Yes
+ZOM-MUM-1048,Mumbai Eatery 48,Fast Food,1400,4.7,1626,Yes
+ZOM-MUM-1049,Mumbai Eatery 49,Fast Food,600,4.0,842,Yes
+ZOM-MUM-1050,Mumbai Eatery 50,Coastal / Seafood,800,3.8,851,No
+ZOM-MUM-1051,Mumbai Eatery 51,North Indian,400,4.0,998,Yes
+ZOM-MUM-1052,Mumbai Eatery 52,North Indian,800,4.1,1615,Yes
+ZOM-MUM-1053,Mumbai Eatery 53,Cafe,800,3.6,1624,Yes
+ZOM-MUM-1054,Mumbai Eatery 54,Chinese,800,4.2,1587,Yes
+ZOM-MUM-1055,Mumbai Eatery 55,Coastal / Seafood,1400,4.0,2008,No
+ZOM-MUM-1056,Mumbai Eatery 56,Fast Food,1100,4.1,1083,No
+ZOM-MUM-1057,Mumbai Eatery 57,Continental,1100,4.2,1384,Yes
+ZOM-MUM-1058,Mumbai Eatery 58,Cafe,1100,3.5,2311,No
+ZOM-MUM-1059,Mumbai Eatery 59,Coastal / Seafood,2400,3.8,2782,Yes
+ZOM-MUM-1060,Mumbai Eatery 60,Cafe,800,4.0,1358,No
+ZOM-MUM-1061,Mumbai Eatery 61,Fast Food,800,3.9,1227,Yes
+ZOM-MUM-1062,Mumbai Eatery 62,Coastal / Seafood,800,4.0,1288,Yes
+ZOM-MUM-1063,Mumbai Eatery 63,Coastal / Seafood,600,3.5,580,Yes
+ZOM-MUM-1064,Mumbai Eatery 64,Street Food,800,3.7,1236,No
+ZOM-MUM-1065,Mumbai Eatery 65,Street Food,800,3.5,1478,Yes
+ZOM-MUM-1066,Mumbai Eatery 66,North Indian,1400,3.4,2503,Yes
+ZOM-MUM-1067,Mumbai Eatery 67,Fast Food,1800,3.5,1766,Yes
+ZOM-MUM-1068,Mumbai Eatery 68,Street Food,600,4.5,979,Yes
+ZOM-MUM-1069,Mumbai Eatery 69,Chinese,1400,3.3,2231,Yes
+ZOM-MUM-1070,Mumbai Eatery 70,Chinese,800,4.1,928,Yes
+ZOM-MUM-1071,Mumbai Eatery 71,Street Food,1400,3.7,2742,No
+ZOM-MUM-1072,Mumbai Eatery 72,Continental,800,3.6,1603,Yes
+ZOM-MUM-1073,Mumbai Eatery 73,Street Food,600,4.8,1346,Yes
+ZOM-MUM-1074,Mumbai Eatery 74,Street Food,800,4.1,1695,Yes
+ZOM-MUM-1075,Mumbai Eatery 75,Street Food,600,4.3,1290,Yes
+ZOM-MUM-1076,Mumbai Eatery 76,Street Food,1400,3.6,1424,Yes
+ZOM-MUM-1077,Mumbai Eatery 77,Coastal / Seafood,1100,3.8,1149,Yes
+ZOM-MUM-1078,Mumbai Eatery 78,Continental,600,4.1,1022,Yes
+ZOM-MUM-1079,Mumbai Eatery 79,Coastal / Seafood,800,3.7,1175,Yes
+ZOM-MUM-1080,Mumbai Eatery 80,North Indian,2400,4.5,1939,Yes
+ZOM-MUM-1081,Mumbai Eatery 81,Cafe,1100,3.8,1004,Yes
+ZOM-MUM-1082,Mumbai Eatery 82,Coastal / Seafood,600,3.9,903,Yes
+ZOM-MUM-1083,Mumbai Eatery 83,Continental,400,3.7,821,Yes
+ZOM-MUM-1084,Mumbai Eatery 84,North Indian,800,4.2,1151,Yes
+ZOM-MUM-1085,Mumbai Eatery 85,Street Food,2400,4.2,4229,Yes
+ZOM-MUM-1086,Mumbai Eatery 86,Cafe,1100,4.6,2516,Yes
+ZOM-MUM-1087,Mumbai Eatery 87,Fast Food,600,3.6,799,Yes
+ZOM-MUM-1088,Mumbai Eatery 88,Continental,2400,4.0,3114,Yes
+ZOM-MUM-1089,Mumbai Eatery 89,Continental,2400,3.7,3829,Yes
+ZOM-MUM-1090,Mumbai Eatery 90,Street Food,1400,4.2,2855,Yes
+ZOM-MUM-1091,Mumbai Eatery 91,Continental,1100,3.7,1092,Yes
+ZOM-MUM-1092,Mumbai Eatery 92,North Indian,1400,3.5,1591,Yes
+ZOM-MUM-1093,Mumbai Eatery 93,Fast Food,600,4.1,1128,Yes
+ZOM-MUM-1094,Mumbai Eatery 94,Fast Food,800,4.4,1424,Yes
+ZOM-MUM-1095,Mumbai Eatery 95,Street Food,1400,4.1,1559,Yes
+ZOM-MUM-1096,Mumbai Eatery 96,North Indian,600,4.2,1198,No
+ZOM-MUM-1097,Mumbai Eatery 97,Street Food,1400,3.9,2387,No
+ZOM-MUM-1098,Mumbai Eatery 98,Continental,800,4.2,1000,Yes
+ZOM-MUM-1099,Mumbai Eatery 99,Street Food,400,4.0,925,Yes
+ZOM-MUM-1100,Mumbai Eatery 100,Fast Food,800,4.1,1337,No

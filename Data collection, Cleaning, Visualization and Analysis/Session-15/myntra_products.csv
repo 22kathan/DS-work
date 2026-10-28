@@ -1,0 +1,121 @@
+product_id,brand,category,price,discount_pct,rating,color
+MYN-10001,Nike,T-Shirts,1599,60,4.1,Black
+MYN-10002,Puma,Jeans,2999,30,4.0,Navy
+MYN-10003,W,T-Shirts,1299,50,3.5,White
+MYN-10004,Zara,T-Shirts,1599,60,4.1,Black
+MYN-10005,Roadster,Footwear,2599,40,4.0,Green
+MYN-10006,Levis,T-Shirts,999,20,3.8,White
+MYN-10007,Puma,Footwear,999,50,4.4,Green
+MYN-10008,H&M,Ethnic Wear,1599,10,3.9,Grey
+MYN-10009,H&M,Ethnic Wear,999,60,4.0,White
+MYN-10010,MANGO,Dresses,2199,40,3.7,Green
+MYN-10011,Roadster,Dresses,2199,40,3.9,Green
+MYN-10012,Nike,T-Shirts,1899,20,4.2,Blue
+MYN-10013,HRX by Hrithik,Jackets,1299,40,3.7,Navy
+MYN-10014,MANGO,Jackets,2999,40,4.0,Blue
+MYN-10015,H&M,Sweaters,2199,20,4.6,Blue
+MYN-10016,H&M,Ethnic Wear,1599,60,4.6,Blue
+MYN-10017,H&M,Footwear,699,40,4.3,Green
+MYN-10018,HRX by Hrithik,Dresses,699,60,3.7,Blue
+MYN-10019,Roadster,T-Shirts,1299,30,3.8,Grey
+MYN-10020,W,Dresses,999,10,4.1,Grey
+MYN-10021,FabIndia,Sweaters,2599,60,4.3,Blue
+MYN-10022,Zara,Ethnic Wear,699,10,4.4,Green
+MYN-10023,Puma,Jeans,1599,40,4.3,Navy
+MYN-10024,FabIndia,Sweaters,699,30,4.3,Blue
+MYN-10025,FabIndia,Footwear,2199,10,4.7,Navy
+MYN-10026,Levis,Sweaters,999,10,4.9,Black
+MYN-10027,Zara,Ethnic Wear,699,40,4.6,White
+MYN-10028,Roadster,T-Shirts,1899,50,3.9,Blue
+MYN-10029,Zara,Jackets,1599,40,3.7,Blue
+MYN-10030,Puma,Ethnic Wear,1299,20,4.1,White
+MYN-10031,HRX by Hrithik,Footwear,2199,50,4.3,Green
+MYN-10032,Levis,Jeans,1299,30,4.0,Grey
+MYN-10033,Puma,Jackets,4999,10,4.1,Green
+MYN-10034,Puma,Jackets,4999,10,4.3,Black
+MYN-10035,HRX by Hrithik,Dresses,2199,30,3.9,Blue
+MYN-10036,H&M,Jeans,699,60,4.5,Grey
+MYN-10037,Levis,Jackets,2599,40,4.5,Green
+MYN-10038,H&M,Dresses,1899,30,3.4,Navy
+MYN-10039,H&M,Dresses,4999,40,3.7,Blue
+MYN-10040,H&M,Dresses,2199,40,3.6,Green
+MYN-10041,Roadster,Dresses,1599,30,4.2,Blue
+MYN-10042,Puma,Dresses,1299,60,3.7,Green
+MYN-10043,Puma,Ethnic Wear,1599,50,3.8,Red
+MYN-10044,W,Jackets,4299,30,4.4,White
+MYN-10045,W,Jackets,1599,60,3.4,Red
+MYN-10046,Roadster,Footwear,2199,30,4.6,White
+MYN-10047,FabIndia,Ethnic Wear,1599,30,4.1,Navy
+MYN-10048,H&M,Sweaters,2199,40,4.5,Grey
+MYN-10049,H&M,Sweaters,699,40,3.7,Grey
+MYN-10050,Puma,Ethnic Wear,1299,50,3.8,Grey
+MYN-10051,Nike,Jeans,1599,50,4.9,Green
+MYN-10052,HRX by Hrithik,T-Shirts,999,60,4.3,Black
+MYN-10053,H&M,Ethnic Wear,999,20,3.9,Grey
+MYN-10054,H&M,T-Shirts,1299,50,4.4,Black
+MYN-10055,Levis,Dresses,2199,50,4.3,Black
+MYN-10056,Zara,Ethnic Wear,1899,10,4.3,Blue
+MYN-10057,Zara,Footwear,699,30,3.8,Navy
+MYN-10058,HRX by Hrithik,Dresses,4299,30,4.0,Red
+MYN-10059,HRX by Hrithik,T-Shirts,1599,20,4.0,Blue
+MYN-10060,HRX by Hrithik,Jeans,1299,40,3.5,Blue
+MYN-10061,Nike,Ethnic Wear,2599,60,3.9,Red
+MYN-10062,Nike,Dresses,2599,10,3.8,Black
+MYN-10063,Levis,Dresses,1899,50,4.7,Grey
+MYN-10064,Roadster,Sweaters,1599,60,3.9,Blue
+MYN-10065,W,Jackets,1899,40,4.3,Blue
+MYN-10066,Zara,Dresses,2599,60,4.9,Red
+MYN-10067,Zara,Dresses,3499,20,3.7,Blue
+MYN-10068,HRX by Hrithik,Jeans,2199,10,4.0,Navy
+MYN-10069,Roadster,Sweaters,699,10,3.8,Red
+MYN-10070,Puma,T-Shirts,699,20,4.1,Black
+MYN-10071,Puma,Dresses,3499,50,4.2,Blue
+MYN-10072,Zara,Jackets,2999,30,3.7,Green
+MYN-10073,H&M,T-Shirts,1299,40,3.8,Grey
+MYN-10074,W,Dresses,1299,30,4.2,Black
+MYN-10075,MANGO,Sweaters,699,50,4.5,Black
+MYN-10076,MANGO,Jackets,999,40,4.6,Grey
+MYN-10077,FabIndia,Footwear,999,40,4.3,Blue
+MYN-10078,Roadster,Dresses,1599,40,4.6,Black
+MYN-10079,H&M,Sweaters,699,60,4.0,Green
+MYN-10080,Zara,Sweaters,2199,10,4.2,Black
+MYN-10081,Puma,Ethnic Wear,2199,60,4.4,Green
+MYN-10082,HRX by Hrithik,T-Shirts,999,40,3.7,Blue
+MYN-10083,H&M,Jackets,4299,40,4.7,Red
+MYN-10084,Roadster,Jackets,699,30,3.8,White
+MYN-10085,FabIndia,T-Shirts,699,20,3.7,Blue
+MYN-10086,Levis,Footwear,1299,60,4.1,Black
+MYN-10087,Zara,Footwear,1299,10,3.8,Navy
+MYN-10088,Puma,Jackets,699,30,4.6,Black
+MYN-10089,Zara,Jeans,1599,60,4.0,Grey
+MYN-10090,Roadster,Jackets,4299,30,4.7,Red
+MYN-10091,Levis,Jeans,2199,60,3.6,Grey
+MYN-10092,Levis,T-Shirts,2199,20,3.9,Grey
+MYN-10093,Zara,T-Shirts,1299,30,4.3,Navy
+MYN-10094,H&M,T-Shirts,1599,10,4.9,Grey
+MYN-10095,FabIndia,Dresses,1299,40,4.2,Green
+MYN-10096,HRX by Hrithik,Jeans,1599,40,4.3,Grey
+MYN-10097,W,Jackets,4299,10,4.2,Navy
+MYN-10098,HRX by Hrithik,Ethnic Wear,4299,40,3.5,Red
+MYN-10099,FabIndia,T-Shirts,999,40,4.4,Black
+MYN-10100,W,Ethnic Wear,1599,30,4.2,Green
+MYN-10101,Levis,Jackets,1299,40,4.5,Grey
+MYN-10102,Zara,Footwear,1299,40,4.3,Black
+MYN-10103,FabIndia,Footwear,699,10,4.1,Black
+MYN-10104,MANGO,Footwear,1299,60,4.4,White
+MYN-10105,HRX by Hrithik,Sweaters,1299,20,3.9,Red
+MYN-10106,Puma,Footwear,1299,20,4.2,Red
+MYN-10107,H&M,Footwear,2999,40,4.2,Black
+MYN-10108,HRX by Hrithik,Ethnic Wear,1299,40,4.4,Red
+MYN-10109,FabIndia,Jackets,4299,30,4.1,White
+MYN-10110,Levis,T-Shirts,3499,60,4.2,Red
+MYN-10111,HRX by Hrithik,Jeans,699,40,4.3,Grey
+MYN-10112,MANGO,Dresses,2999,60,4.1,Navy
+MYN-10113,Roadster,Ethnic Wear,1899,30,4.2,Green
+MYN-10114,W,Jackets,1299,40,4.5,Blue
+MYN-10115,Levis,Jeans,1299,20,4.7,Red
+MYN-10116,Levis,Ethnic Wear,699,30,4.1,Navy
+MYN-10117,W,Jackets,1299,30,4.1,Black
+MYN-10118,Nike,T-Shirts,1899,40,4.3,Green
+MYN-10119,H&M,Ethnic Wear,4299,30,4.4,Green
+MYN-10120,Zara,Dresses,1599,30,3.5,Blue

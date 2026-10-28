@@ -1,0 +1,101 @@
+order_id,restaurant_name,cuisine,order_value,delivery_time_mins,payment_method,tip_amount
+SWIG-5001,Wow! Momo,Pizza,193.2,24,Cash on Delivery,0
+SWIG-5002,Domino's,Pizza,236.1,36,Cash on Delivery,20
+SWIG-5003,Biryani By Kilo,Biryani,495.1,27,UPI,0
+SWIG-5004,Faasos,North Indian,373.0,35,UPI,0
+SWIG-5005,Domino's,Biryani,208.4,34,Debit Card,20
+SWIG-5006,Wow! Momo,Fast Food,483.0,30,UPI,20
+SWIG-5007,Faasos,Pizza,1159.7,42,Credit Card,20
+SWIG-5008,Biryani By Kilo,North Indian,137.7,25,Credit Card,30
+SWIG-5009,Behrouz Biryani,Biryani,391.0,27,Debit Card,30
+SWIG-5010,Behrouz Biryani,North Indian,2258.0,32,Debit Card,0
+SWIG-5011,Biryani By Kilo,Biryani,275.6,42,UPI,30
+SWIG-5012,Subway,Fast Food,572.0,30,UPI,20
+SWIG-5013,Domino's,Pizza,171.0,26,Credit Card,30
+SWIG-5014,Faasos,Pizza,306.2,37,Credit Card,0
+SWIG-5015,Biryani By Kilo,Pizza,154.8,27,Net Banking,10
+SWIG-5016,Behrouz Biryani,North Indian,1148.3,20,Credit Card,10
+SWIG-5017,Faasos,Biryani,265.2,34,UPI,50
+SWIG-5018,Biryani By Kilo,Biryani,123.9,35,UPI,0
+SWIG-5019,Subway,Chinese,721.2,27,UPI,0
+SWIG-5020,Behrouz Biryani,Fast Food,803.7,28,Cash on Delivery,0
+SWIG-5021,Wow! Momo,Pizza,156.8,34,UPI,10
+SWIG-5022,Wow! Momo,Fast Food,227.6,23,Cash on Delivery,10
+SWIG-5023,Subway,Fast Food,241.2,28,Cash on Delivery,20
+SWIG-5024,Biryani By Kilo,Pizza,355.8,25,UPI,20
+SWIG-5025,Behrouz Biryani,Biryani,856.8,40,UPI,20
+SWIG-5026,Domino's,Biryani,1190.5,27,Debit Card,20
+SWIG-5027,Domino's,Fast Food,192.3,24,UPI,10
+SWIG-5028,Domino's,Biryani,336.2,31,UPI,0
+SWIG-5029,Subway,North Indian,137.6,25,UPI,10
+SWIG-5030,Subway,Pizza,1206.3,33,Debit Card,0
+SWIG-5031,Wow! Momo,Pizza,149.9,26,UPI,30
+SWIG-5032,Behrouz Biryani,North Indian,701.5,30,Credit Card,10
+SWIG-5033,Domino's,Pizza,161.4,33,Debit Card,50
+SWIG-5034,Faasos,Pizza,234.3,23,UPI,0
+SWIG-5035,Wow! Momo,Pizza,166.7,32,Credit Card,0
+SWIG-5036,Wow! Momo,Fast Food,447.5,28,Debit Card,20
+SWIG-5037,Biryani By Kilo,Biryani,366.6,22,Credit Card,0
+SWIG-5038,Wow! Momo,Pizza,803.7,22,Debit Card,0
+SWIG-5039,Subway,Pizza,302.3,35,UPI,0
+SWIG-5040,Wow! Momo,Pizza,1144.6,35,Cash on Delivery,10
+SWIG-5041,Behrouz Biryani,North Indian,408.2,31,Credit Card,50
+SWIG-5042,Wow! Momo,Pizza,433.9,28,UPI,0
+SWIG-5043,Behrouz Biryani,Chinese,392.9,39,Credit Card,30
+SWIG-5044,Domino's,Pizza,138.2,41,UPI,0
+SWIG-5045,Faasos,Pizza,162.5,24,UPI,0
+SWIG-5046,Subway,Chinese,196.2,19,Cash on Delivery,0
+SWIG-5047,Subway,North Indian,214.5,44,UPI,0
+SWIG-5048,Behrouz Biryani,North Indian,808.2,33,UPI,0
+SWIG-5049,Faasos,Pizza,247.9,30,Debit Card,0
+SWIG-5050,Wow! Momo,Pizza,343.0,27,Credit Card,0
+SWIG-5051,Domino's,Fast Food,1209.8,29,Debit Card,10
+SWIG-5052,Domino's,Fast Food,394.3,30,Credit Card,0
+SWIG-5053,Domino's,North Indian,135.2,42,Cash on Delivery,0
+SWIG-5054,Subway,Pizza,701.1,27,Net Banking,0
+SWIG-5055,Biryani By Kilo,North Indian,471.6,40,Cash on Delivery,0
+SWIG-5056,Domino's,Chinese,490.4,39,UPI,0
+SWIG-5057,Biryani By Kilo,Fast Food,186.4,29,Cash on Delivery,0
+SWIG-5058,Biryani By Kilo,Biryani,309.8,23,Credit Card,10
+SWIG-5059,Faasos,Chinese,187.6,29,UPI,30
+SWIG-5060,Biryani By Kilo,North Indian,211.4,28,UPI,0
+SWIG-5061,Behrouz Biryani,Chinese,452.6,31,UPI,50
+SWIG-5062,Subway,North Indian,418.6,31,Credit Card,0
+SWIG-5063,Behrouz Biryani,Chinese,1011.5,37,UPI,0
+SWIG-5064,Biryani By Kilo,Chinese,215.3,17,Debit Card,30
+SWIG-5065,Behrouz Biryani,Pizza,158.1,18,UPI,0
+SWIG-5066,Domino's,Chinese,650.6,27,UPI,0
+SWIG-5067,Subway,Pizza,274.7,36,Credit Card,20
+SWIG-5068,Behrouz Biryani,Pizza,662.6,16,UPI,0
+SWIG-5069,Domino's,Chinese,290.2,43,Credit Card,0
+SWIG-5070,Subway,Pizza,737.0,25,UPI,0
+SWIG-5071,Biryani By Kilo,Chinese,262.1,38,Credit Card,20
+SWIG-5072,Behrouz Biryani,North Indian,312.2,34,UPI,10
+SWIG-5073,Domino's,North Indian,239.9,38,Net Banking,20
+SWIG-5074,Faasos,Fast Food,336.5,44,Credit Card,10
+SWIG-5075,Subway,Biryani,383.9,31,UPI,0
+SWIG-5076,Faasos,Chinese,471.2,32,UPI,30
+SWIG-5077,Faasos,Fast Food,1953.0,25,Credit Card,10
+SWIG-5078,Subway,Fast Food,143.9,27,Credit Card,20
+SWIG-5079,Faasos,Biryani,269.0,38,Credit Card,10
+SWIG-5080,Wow! Momo,Chinese,333.0,43,Debit Card,0
+SWIG-5081,Biryani By Kilo,Fast Food,567.9,36,UPI,10
+SWIG-5082,Biryani By Kilo,Chinese,210.7,22,Credit Card,0
+SWIG-5083,Behrouz Biryani,Biryani,2316.1,34,UPI,0
+SWIG-5084,Faasos,Chinese,152.3,23,UPI,20
+SWIG-5085,Faasos,Biryani,544.6,31,Net Banking,0
+SWIG-5086,Behrouz Biryani,Chinese,960.1,44,Credit Card,10
+SWIG-5087,Wow! Momo,Fast Food,147.3,33,Cash on Delivery,0
+SWIG-5088,Behrouz Biryani,Pizza,178.8,26,UPI,10
+SWIG-5089,Biryani By Kilo,Pizza,574.8,32,Credit Card,30
+SWIG-5090,Domino's,North Indian,253.3,33,UPI,30
+SWIG-5091,Wow! Momo,Chinese,269.8,30,UPI,10
+SWIG-5092,Wow! Momo,Chinese,429.0,24,Cash on Delivery,10
+SWIG-5093,Subway,North Indian,382.6,36,UPI,20
+SWIG-5094,Subway,Pizza,287.6,29,Net Banking,10
+SWIG-5095,Wow! Momo,Fast Food,394.5,32,Credit Card,0
+SWIG-5096,Biryani By Kilo,Chinese,224.4,26,UPI,0
+SWIG-5097,Wow! Momo,Fast Food,792.7,31,UPI,30
+SWIG-5098,Faasos,Pizza,356.8,34,UPI,0
+SWIG-5099,Subway,Biryani,544.2,23,Credit Card,0
+SWIG-5100,Behrouz Biryani,Chinese,448.3,39,Credit Card,20

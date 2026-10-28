@@ -1,0 +1,101 @@
+restaurant_id,name,cuisine,average_cost_for_two,user_rating,votes,online_order
+ZOM-DEL-2001,Delhi Bistro 1,South Indian,300,3.2,344,No
+ZOM-DEL-2002,Delhi Bistro 2,Street Food,500,4.4,781,Yes
+ZOM-DEL-2003,Delhi Bistro 3,Continental,2200,3.6,1676,Yes
+ZOM-DEL-2004,Delhi Bistro 4,Continental,1000,3.7,879,Yes
+ZOM-DEL-2005,Delhi Bistro 5,Mughlai / North Indian,500,3.6,946,No
+ZOM-DEL-2006,Delhi Bistro 6,South Indian,1300,3.6,1456,Yes
+ZOM-DEL-2007,Delhi Bistro 7,Fast Food,1300,4.2,769,Yes
+ZOM-DEL-2008,Delhi Bistro 8,Fast Food,1000,4.2,1360,Yes
+ZOM-DEL-2009,Delhi Bistro 9,Street Food,500,3.8,548,Yes
+ZOM-DEL-2010,Delhi Bistro 10,South Indian,1300,4.1,1136,Yes
+ZOM-DEL-2011,Delhi Bistro 11,Street Food,500,3.8,575,No
+ZOM-DEL-2012,Delhi Bistro 12,South Indian,300,4.5,348,Yes
+ZOM-DEL-2013,Delhi Bistro 13,Mughlai / North Indian,1300,3.8,2493,Yes
+ZOM-DEL-2014,Delhi Bistro 14,Chinese,700,3.7,954,Yes
+ZOM-DEL-2015,Delhi Bistro 15,Continental,1300,4.3,954,Yes
+ZOM-DEL-2016,Delhi Bistro 16,South Indian,300,3.8,589,No
+ZOM-DEL-2017,Delhi Bistro 17,Chinese,300,3.3,536,Yes
+ZOM-DEL-2018,Delhi Bistro 18,Cafe,500,3.5,817,Yes
+ZOM-DEL-2019,Delhi Bistro 19,Street Food,300,4.2,481,Yes
+ZOM-DEL-2020,Delhi Bistro 20,Cafe,1000,3.5,1495,Yes
+ZOM-DEL-2021,Delhi Bistro 21,Street Food,500,3.8,632,Yes
+ZOM-DEL-2022,Delhi Bistro 22,Continental,700,3.4,1176,Yes
+ZOM-DEL-2023,Delhi Bistro 23,Continental,300,3.5,459,Yes
+ZOM-DEL-2024,Delhi Bistro 24,Street Food,1700,3.9,1633,Yes
+ZOM-DEL-2025,Delhi Bistro 25,Chinese,1300,3.3,2186,No
+ZOM-DEL-2026,Delhi Bistro 26,Cafe,1700,4.2,1595,No
+ZOM-DEL-2027,Delhi Bistro 27,Fast Food,1000,4.1,855,No
+ZOM-DEL-2028,Delhi Bistro 28,Mughlai / North Indian,1700,4.3,1242,Yes
+ZOM-DEL-2029,Delhi Bistro 29,Continental,300,3.8,291,No
+ZOM-DEL-2030,Delhi Bistro 30,Chinese,1000,4.1,1508,Yes
+ZOM-DEL-2031,Delhi Bistro 31,Chinese,500,3.9,1088,Yes
+ZOM-DEL-2032,Delhi Bistro 32,Street Food,700,3.5,1388,No
+ZOM-DEL-2033,Delhi Bistro 33,Cafe,300,4.4,278,No
+ZOM-DEL-2034,Delhi Bistro 34,Fast Food,700,3.7,672,No
+ZOM-DEL-2035,Delhi Bistro 35,Cafe,700,3.9,1160,No
+ZOM-DEL-2036,Delhi Bistro 36,South Indian,500,3.9,744,No
+ZOM-DEL-2037,Delhi Bistro 37,Fast Food,1300,4.5,2413,Yes
+ZOM-DEL-2038,Delhi Bistro 38,Fast Food,700,3.7,1224,Yes
+ZOM-DEL-2039,Delhi Bistro 39,Cafe,500,3.3,1078,Yes
+ZOM-DEL-2040,Delhi Bistro 40,South Indian,700,3.2,1153,Yes
+ZOM-DEL-2041,Delhi Bistro 41,Fast Food,1300,4.2,1742,Yes
+ZOM-DEL-2042,Delhi Bistro 42,South Indian,1000,3.6,1932,No
+ZOM-DEL-2043,Delhi Bistro 43,Chinese,700,3.7,929,Yes
+ZOM-DEL-2044,Delhi Bistro 44,Mughlai / North Indian,700,3.5,1176,Yes
+ZOM-DEL-2045,Delhi Bistro 45,Mughlai / North Indian,700,3.3,1060,No
+ZOM-DEL-2046,Delhi Bistro 46,Chinese,1000,3.8,1835,No
+ZOM-DEL-2047,Delhi Bistro 47,Chinese,300,3.9,550,Yes
+ZOM-DEL-2048,Delhi Bistro 48,Chinese,700,3.1,1232,Yes
+ZOM-DEL-2049,Delhi Bistro 49,South Indian,1000,3.7,1843,No
+ZOM-DEL-2050,Delhi Bistro 50,Cafe,1000,3.9,933,Yes
+ZOM-DEL-2051,Delhi Bistro 51,Cafe,1000,3.8,1042,Yes
+ZOM-DEL-2052,Delhi Bistro 52,Fast Food,500,3.8,647,Yes
+ZOM-DEL-2053,Delhi Bistro 53,Mughlai / North Indian,1000,3.8,666,Yes
+ZOM-DEL-2054,Delhi Bistro 54,Chinese,300,3.6,403,Yes
+ZOM-DEL-2055,Delhi Bistro 55,Continental,300,3.9,606,Yes
+ZOM-DEL-2056,Delhi Bistro 56,Street Food,700,3.9,790,No
+ZOM-DEL-2057,Delhi Bistro 57,Street Food,300,3.5,481,Yes
+ZOM-DEL-2058,Delhi Bistro 58,Cafe,700,4.1,555,Yes
+ZOM-DEL-2059,Delhi Bistro 59,Mughlai / North Indian,2200,3.7,2776,Yes
+ZOM-DEL-2060,Delhi Bistro 60,Street Food,300,3.3,432,Yes
+ZOM-DEL-2061,Delhi Bistro 61,South Indian,1700,4.0,2035,No
+ZOM-DEL-2062,Delhi Bistro 62,Cafe,300,4.2,447,Yes
+ZOM-DEL-2063,Delhi Bistro 63,Chinese,1000,3.6,821,No
+ZOM-DEL-2064,Delhi Bistro 64,Fast Food,300,3.5,317,No
+ZOM-DEL-2065,Delhi Bistro 65,Cafe,500,3.9,842,Yes
+ZOM-DEL-2066,Delhi Bistro 66,Fast Food,500,4.1,514,Yes
+ZOM-DEL-2067,Delhi Bistro 67,Fast Food,500,3.0,546,No
+ZOM-DEL-2068,Delhi Bistro 68,Cafe,700,3.4,947,Yes
+ZOM-DEL-2069,Delhi Bistro 69,South Indian,500,3.4,1082,Yes
+ZOM-DEL-2070,Delhi Bistro 70,Cafe,700,4.1,799,No
+ZOM-DEL-2071,Delhi Bistro 71,Chinese,2200,3.7,1766,No
+ZOM-DEL-2072,Delhi Bistro 72,Chinese,500,3.7,1054,No
+ZOM-DEL-2073,Delhi Bistro 73,Mughlai / North Indian,1300,4.1,1416,No
+ZOM-DEL-2074,Delhi Bistro 74,Street Food,500,3.9,1085,Yes
+ZOM-DEL-2075,Delhi Bistro 75,Chinese,1000,3.6,1258,Yes
+ZOM-DEL-2076,Delhi Bistro 76,South Indian,500,4.1,1019,Yes
+ZOM-DEL-2077,Delhi Bistro 77,Cafe,2200,4.0,2253,Yes
+ZOM-DEL-2078,Delhi Bistro 78,Chinese,1300,4.1,1853,Yes
+ZOM-DEL-2079,Delhi Bistro 79,Street Food,300,3.6,399,Yes
+ZOM-DEL-2080,Delhi Bistro 80,Fast Food,1000,3.7,1858,Yes
+ZOM-DEL-2081,Delhi Bistro 81,Mughlai / North Indian,300,3.4,612,Yes
+ZOM-DEL-2082,Delhi Bistro 82,Fast Food,1300,4.3,1319,Yes
+ZOM-DEL-2083,Delhi Bistro 83,Continental,500,3.7,544,Yes
+ZOM-DEL-2084,Delhi Bistro 84,South Indian,700,4.0,1118,No
+ZOM-DEL-2085,Delhi Bistro 85,Cafe,1000,4.0,1501,Yes
+ZOM-DEL-2086,Delhi Bistro 86,Fast Food,700,3.8,1365,Yes
+ZOM-DEL-2087,Delhi Bistro 87,Fast Food,1300,3.7,1671,No
+ZOM-DEL-2088,Delhi Bistro 88,Continental,300,3.8,574,No
+ZOM-DEL-2089,Delhi Bistro 89,Street Food,1000,4.3,1476,Yes
+ZOM-DEL-2090,Delhi Bistro 90,Continental,700,4.7,751,Yes
+ZOM-DEL-2091,Delhi Bistro 91,Fast Food,300,3.2,819,Yes
+ZOM-DEL-2092,Delhi Bistro 92,Chinese,1000,4.1,1385,No
+ZOM-DEL-2093,Delhi Bistro 93,Street Food,1000,4.2,962,Yes
+ZOM-DEL-2094,Delhi Bistro 94,Fast Food,1000,3.9,619,Yes
+ZOM-DEL-2095,Delhi Bistro 95,Fast Food,1300,3.6,2266,Yes
+ZOM-DEL-2096,Delhi Bistro 96,South Indian,700,3.9,453,No
+ZOM-DEL-2097,Delhi Bistro 97,Mughlai / North Indian,300,3.6,718,No
+ZOM-DEL-2098,Delhi Bistro 98,Mughlai / North Indian,500,3.9,628,No
+ZOM-DEL-2099,Delhi Bistro 99,Fast Food,700,3.4,883,Yes
+ZOM-DEL-2100,Delhi Bistro 100,Cafe,700,4.2,1176,Yes

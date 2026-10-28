@@ -1,0 +1,151 @@
+review_id,user_name,product_sku,rating,review_title,review_body,purchase_verified,feedback_score
+REV-2001,User_4008,SKU-ELEC-101,5,Value for money,Review body text containing detailed customer sentiment description 1,False,0.0
+REV-2002,User_4786,SKU-ELEC-108,1,Value for money,Review body text containing detailed customer sentiment description 2,False,0.0
+REV-2003,User_2772,SKU-ELEC-108,5,Super fast delivery,Review body text containing detailed customer sentiment description 3,True,1.0
+REV-2004,User_1660,SKU-ELEC-102,3,Average performance,Review body text containing detailed customer sentiment description 4,True,0.0
+REV-2005,User_8470,SKU-ELEC-106,5,Super fast delivery,Review body text containing detailed customer sentiment description 5,True,5.0
+REV-2006,User_9275,SKU-ELEC-114,4,Super fast delivery,Review body text containing detailed customer sentiment description 6,True,0.0
+REV-2007,User_1614,SKU-ELEC-113,3,Great battery life,Review body text containing detailed customer sentiment description 7,True,0.0
+REV-2008,User_3468,SKU-ELEC-100,4,Average performance,Review body text containing detailed customer sentiment description 8,True,0.0
+REV-2009,User_4607,SKU-ELEC-107,4,Average performance,Review body text containing detailed customer sentiment description 9,True,1.0
+REV-2010,User_4252,SKU-ELEC-107,3,Super fast delivery,Review body text containing detailed customer sentiment description 10,True,0.0
+REV-2011,User_8997,SKU-ELEC-108,1,Great battery life,Review body text containing detailed customer sentiment description 11,True,0.0
+REV-2012,User_7534,SKU-ELEC-106,3,Super fast delivery,Review body text containing detailed customer sentiment description 12,True,12.0
+REV-2013,User_9533,SKU-ELEC-114,3,Stopped working after 2 weeks,Review body text containing detailed customer sentiment description 13,True,2.0
+REV-2014,User_4240,SKU-ELEC-104,5,Value for money,Review body text containing detailed customer sentiment description 14,True,0.0
+REV-2015,User_7680,SKU-ELEC-110,3,Great battery life,Review body text containing detailed customer sentiment description 15,True,
+REV-2016,User_4811,SKU-ELEC-106,3,Screen is fantastic,Review body text containing detailed customer sentiment description 16,True,1.0
+REV-2017,User_9463,SKU-ELEC-110,4,Value for money,Review body text containing detailed customer sentiment description 17,True,0.0
+REV-2018,User_9712,SKU-ELEC-100,5,Value for money,Review body text containing detailed customer sentiment description 18,True,0.0
+REV-2019,User_6679,SKU-ELEC-103,4,Average performance,Review body text containing detailed customer sentiment description 19,True,0.0
+REV-2020,User_6310,SKU-ELEC-108,2,Great battery life,Review body text containing detailed customer sentiment description 20,False,5.0
+REV-2021,User_5199,SKU-ELEC-114,5,Average performance,Review body text containing detailed customer sentiment description 21,True,0.0
+REV-2022,User_1166,SKU-ELEC-112,5,Great battery life,Review body text containing detailed customer sentiment description 22,True,0.0
+REV-2023,User_3120,SKU-ELEC-112,3,Stopped working after 2 weeks,Review body text containing detailed customer sentiment description 23,False,12.0
+REV-2024,User_8742,SKU-ELEC-100,5,Super fast delivery,Review body text containing detailed customer sentiment description 24,False,1.0
+REV-2025,User_8106,SKU-ELEC-109,2,Stopped working after 2 weeks,Review body text containing detailed customer sentiment description 25,True,0.0
+REV-2026,User_2907,SKU-ELEC-102,1,Value for money,Review body text containing detailed customer sentiment description 26,True,5.0
+REV-2027,User_7871,SKU-ELEC-110,4,Screen is fantastic,Review body text containing detailed customer sentiment description 27,True,
+REV-2028,User_3240,SKU-ELEC-104,5,Screen is fantastic,Review body text containing detailed customer sentiment description 28,True,
+REV-2029,User_9125,SKU-ELEC-102,5,Average performance,Review body text containing detailed customer sentiment description 29,False,5.0
+REV-2030,User_8262,SKU-ELEC-103,4,Value for money,Review body text containing detailed customer sentiment description 30,False,2.0
+REV-2031,User_5068,SKU-ELEC-107,3,Average performance,Review body text containing detailed customer sentiment description 31,False,
+REV-2032,User_5595,SKU-ELEC-107,1,Great battery life,Review body text containing detailed customer sentiment description 32,True,0.0
+REV-2033,User_1139,SKU-ELEC-100,5,Super fast delivery,Review body text containing detailed customer sentiment description 33,True,1.0
+REV-2034,User_7261,SKU-ELEC-107,5,Screen is fantastic,Review body text containing detailed customer sentiment description 34,True,0.0
+REV-2035,User_5821,SKU-ELEC-104,1,Screen is fantastic,Review body text containing detailed customer sentiment description 35,True,
+REV-2036,User_4765,SKU-ELEC-106,4,Screen is fantastic,Review body text containing detailed customer sentiment description 36,True,5.0
+REV-2037,User_8644,SKU-ELEC-107,5,Value for money,Review body text containing detailed customer sentiment description 37,False,
+REV-2038,User_7361,SKU-ELEC-113,4,Great battery life,Review body text containing detailed customer sentiment description 38,True,1.0
+REV-2039,User_2988,SKU-ELEC-101,5,Great battery life,Review body text containing detailed customer sentiment description 39,True,1.0
+REV-2040,User_8162,SKU-ELEC-102,3,Great battery life,Review body text containing detailed customer sentiment description 40,True,2.0
+REV-2041,User_7309,SKU-ELEC-105,2,Average performance,Review body text containing detailed customer sentiment description 41,True,
+REV-2042,User_3600,SKU-ELEC-105,5,Average performance,Review body text containing detailed customer sentiment description 42,True,2.0
+REV-2043,User_3849,SKU-ELEC-105,5,Average performance,Review body text containing detailed customer sentiment description 43,True,2.0
+REV-2044,User_5195,SKU-ELEC-110,4,Super fast delivery,Review body text containing detailed customer sentiment description 44,True,0.0
+REV-2045,User_7409,SKU-ELEC-104,5,Screen is fantastic,Review body text containing detailed customer sentiment description 45,False,0.0
+REV-2046,User_2271,SKU-ELEC-105,4,Screen is fantastic,Review body text containing detailed customer sentiment description 46,True,1.0
+REV-2047,User_5396,SKU-ELEC-103,5,Great battery life,Review body text containing detailed customer sentiment description 47,True,
+REV-2048,User_3093,SKU-ELEC-109,5,Screen is fantastic,Review body text containing detailed customer sentiment description 48,False,0.0
+REV-2049,User_1369,SKU-ELEC-110,4,Average performance,Review body text containing detailed customer sentiment description 49,False,0.0
+REV-2050,User_4676,SKU-ELEC-110,5,Value for money,Review body text containing detailed customer sentiment description 50,False,0.0
+REV-2051,User_5138,SKU-ELEC-108,4,Value for money,Review body text containing detailed customer sentiment description 51,True,0.0
+REV-2052,User_9560,SKU-ELEC-104,5,Stopped working after 2 weeks,Review body text containing detailed customer sentiment description 52,True,0.0
+REV-2053,User_7136,SKU-ELEC-113,3,Value for money,Review body text containing detailed customer sentiment description 53,True,1.0
+REV-2054,User_4901,SKU-ELEC-109,4,Value for money,Review body text containing detailed customer sentiment description 54,True,0.0
+REV-2055,User_2361,SKU-ELEC-105,4,Stopped working after 2 weeks,Review body text containing detailed customer sentiment description 55,False,1.0
+REV-2056,User_2993,SKU-ELEC-105,5,Average performance,Review body text containing detailed customer sentiment description 56,True,0.0
+REV-2057,User_1489,SKU-ELEC-100,5,Screen is fantastic,Review body text containing detailed customer sentiment description 57,True,0.0
+REV-2058,User_5027,SKU-ELEC-111,5,Super fast delivery,Review body text containing detailed customer sentiment description 58,True,5.0
+REV-2059,User_3817,SKU-ELEC-112,5,Average performance,Review body text containing detailed customer sentiment description 59,True,1.0
+REV-2060,User_6738,SKU-ELEC-104,5,Value for money,Review body text containing detailed customer sentiment description 60,True,0.0
+REV-2061,User_8352,SKU-ELEC-112,3,Super fast delivery,Review body text containing detailed customer sentiment description 61,True,0.0
+REV-2062,User_4278,SKU-ELEC-100,5,Screen is fantastic,Review body text containing detailed customer sentiment description 62,True,1.0
+REV-2063,User_2637,SKU-ELEC-105,2,Super fast delivery,Review body text containing detailed customer sentiment description 63,True,0.0
+REV-2064,User_3068,SKU-ELEC-101,5,Super fast delivery,Review body text containing detailed customer sentiment description 64,True,1.0
+REV-2065,User_6059,SKU-ELEC-104,1,Stopped working after 2 weeks,Review body text containing detailed customer sentiment description 65,True,1.0
+REV-2066,User_4606,SKU-ELEC-108,4,Value for money,Review body text containing detailed customer sentiment description 66,True,5.0
+REV-2067,User_3591,SKU-ELEC-106,5,Stopped working after 2 weeks,Review body text containing detailed customer sentiment description 67,True,0.0
+REV-2068,User_3854,SKU-ELEC-100,3,Super fast delivery,Review body text containing detailed customer sentiment description 68,True,1.0
+REV-2069,User_3594,SKU-ELEC-106,3,Screen is fantastic,Review body text containing detailed customer sentiment description 69,True,12.0
+REV-2070,User_7219,SKU-ELEC-106,4,Screen is fantastic,Review body text containing detailed customer sentiment description 70,True,2.0
+REV-2071,User_2700,SKU-ELEC-106,2,Screen is fantastic,Review body text containing detailed customer sentiment description 71,True,1.0
+REV-2072,User_6164,SKU-ELEC-100,5,Super fast delivery,Review body text containing detailed customer sentiment description 72,True,2.0
+REV-2073,User_5757,SKU-ELEC-105,2,Great battery life,Review body text containing detailed customer sentiment description 73,True,2.0
+REV-2074,User_9690,SKU-ELEC-113,2,Stopped working after 2 weeks,Review body text containing detailed customer sentiment description 74,True,0.0
+REV-2075,User_8178,SKU-ELEC-113,2,Screen is fantastic,Review body text containing detailed customer sentiment description 75,True,0.0
+REV-2076,User_4453,SKU-ELEC-111,4,Average performance,Review body text containing detailed customer sentiment description 76,True,1.0
+REV-2077,User_4005,SKU-ELEC-100,4,Value for money,Review body text containing detailed customer sentiment description 77,True,5.0
+REV-2078,User_2948,SKU-ELEC-101,3,Super fast delivery,Review body text containing detailed customer sentiment description 78,False,2.0
+REV-2079,User_1238,SKU-ELEC-112,5,Super fast delivery,Review body text containing detailed customer sentiment description 79,True,0.0
+REV-2080,User_3687,SKU-ELEC-107,5,Super fast delivery,Review body text containing detailed customer sentiment description 80,True,12.0
+REV-2081,User_6126,SKU-ELEC-109,4,Super fast delivery,Review body text containing detailed customer sentiment description 81,True,2.0
+REV-2082,User_7314,SKU-ELEC-108,4,Average performance,Review body text containing detailed customer sentiment description 82,True,2.0
+REV-2083,User_4893,SKU-ELEC-111,5,Great battery life,Review body text containing detailed customer sentiment description 83,True,12.0
+REV-2084,User_7773,SKU-ELEC-108,4,Super fast delivery,Review body text containing detailed customer sentiment description 84,True,12.0
+REV-2085,User_5994,SKU-ELEC-110,1,Screen is fantastic,Review body text containing detailed customer sentiment description 85,True,0.0
+REV-2086,User_9575,SKU-ELEC-101,1,Screen is fantastic,Review body text containing detailed customer sentiment description 86,True,0.0
+REV-2087,User_6991,SKU-ELEC-103,5,Stopped working after 2 weeks,Review body text containing detailed customer sentiment description 87,True,0.0
+REV-2088,User_7476,SKU-ELEC-112,5,Stopped working after 2 weeks,Review body text containing detailed customer sentiment description 88,False,1.0
+REV-2089,User_1002,SKU-ELEC-105,5,Average performance,Review body text containing detailed customer sentiment description 89,True,0.0
+REV-2090,User_8739,SKU-ELEC-103,1,Average performance,Review body text containing detailed customer sentiment description 90,False,0.0
+REV-2091,User_1897,SKU-ELEC-113,5,Great battery life,Review body text containing detailed customer sentiment description 91,True,5.0
+REV-2092,User_7460,SKU-ELEC-107,4,Great battery life,Review body text containing detailed customer sentiment description 92,True,1.0
+REV-2093,User_7457,SKU-ELEC-104,4,Screen is fantastic,Review body text containing detailed customer sentiment description 93,True,1.0
+REV-2094,User_4792,SKU-ELEC-102,4,Stopped working after 2 weeks,Review body text containing detailed customer sentiment description 94,True,0.0
+REV-2095,User_3942,SKU-ELEC-111,4,Value for money,Review body text containing detailed customer sentiment description 95,False,5.0
+REV-2096,User_2812,SKU-ELEC-109,5,Super fast delivery,Review body text containing detailed customer sentiment description 96,True,5.0
+REV-2097,User_3891,SKU-ELEC-109,4,Average performance,Review body text containing detailed customer sentiment description 97,True,0.0
+REV-2098,User_6944,SKU-ELEC-107,4,Value for money,Review body text containing detailed customer sentiment description 98,True,
+REV-2099,User_4278,SKU-ELEC-100,4,Value for money,Review body text containing detailed customer sentiment description 99,True,5.0
+REV-2100,User_8485,SKU-ELEC-100,3,Screen is fantastic,Review body text containing detailed customer sentiment description 100,True,2.0
+REV-2101,User_7204,SKU-ELEC-100,4,Stopped working after 2 weeks,Review body text containing detailed customer sentiment description 101,True,0.0
+REV-2102,User_1922,SKU-ELEC-103,5,Value for money,Review body text containing detailed customer sentiment description 102,True,5.0
+REV-2103,User_8647,SKU-ELEC-106,5,Stopped working after 2 weeks,Review body text containing detailed customer sentiment description 103,True,2.0
+REV-2104,User_1160,SKU-ELEC-111,3,Super fast delivery,Review body text containing detailed customer sentiment description 104,True,0.0
+REV-2105,User_5500,SKU-ELEC-102,5,Stopped working after 2 weeks,Review body text containing detailed customer sentiment description 105,True,2.0
+REV-2106,User_3103,SKU-ELEC-113,5,Super fast delivery,Review body text containing detailed customer sentiment description 106,True,2.0
+REV-2107,User_7033,SKU-ELEC-101,5,Great battery life,Review body text containing detailed customer sentiment description 107,True,0.0
+REV-2108,User_3735,SKU-ELEC-110,5,Average performance,Review body text containing detailed customer sentiment description 108,False,5.0
+REV-2109,User_2474,SKU-ELEC-112,4,Super fast delivery,Review body text containing detailed customer sentiment description 109,True,
+REV-2110,User_3964,SKU-ELEC-102,4,Screen is fantastic,Review body text containing detailed customer sentiment description 110,True,2.0
+REV-2111,User_3850,SKU-ELEC-105,1,Screen is fantastic,Review body text containing detailed customer sentiment description 111,False,2.0
+REV-2112,User_7047,SKU-ELEC-106,5,Average performance,Review body text containing detailed customer sentiment description 112,True,
+REV-2113,User_5804,SKU-ELEC-104,4,Average performance,Review body text containing detailed customer sentiment description 113,True,
+REV-2114,User_5478,SKU-ELEC-102,4,Value for money,Review body text containing detailed customer sentiment description 114,True,1.0
+REV-2115,User_3258,SKU-ELEC-106,5,Screen is fantastic,Review body text containing detailed customer sentiment description 115,True,2.0
+REV-2116,User_4262,SKU-ELEC-110,4,Super fast delivery,Review body text containing detailed customer sentiment description 116,False,2.0
+REV-2117,User_6232,SKU-ELEC-109,5,Great battery life,Review body text containing detailed customer sentiment description 117,True,
+REV-2118,User_3961,SKU-ELEC-110,4,Value for money,Review body text containing detailed customer sentiment description 118,True,
+REV-2119,User_4716,SKU-ELEC-106,5,Great battery life,Review body text containing detailed customer sentiment description 119,True,0.0
+REV-2120,User_7982,SKU-ELEC-103,4,Stopped working after 2 weeks,Review body text containing detailed customer sentiment description 120,True,1.0
+REV-2121,User_5749,SKU-ELEC-101,1,Great battery life,Review body text containing detailed customer sentiment description 121,True,2.0
+REV-2122,User_5875,SKU-ELEC-107,5,Screen is fantastic,Review body text containing detailed customer sentiment description 122,False,2.0
+REV-2123,User_9281,SKU-ELEC-113,5,Value for money,Review body text containing detailed customer sentiment description 123,True,0.0
+REV-2124,User_4875,SKU-ELEC-105,4,Stopped working after 2 weeks,Review body text containing detailed customer sentiment description 124,True,0.0
+REV-2125,User_8175,SKU-ELEC-112,4,Screen is fantastic,Review body text containing detailed customer sentiment description 125,False,2.0
+REV-2126,User_7582,SKU-ELEC-113,4,Super fast delivery,Review body text containing detailed customer sentiment description 126,False,2.0
+REV-2127,User_8382,SKU-ELEC-107,5,Great battery life,Review body text containing detailed customer sentiment description 127,False,0.0
+REV-2128,User_2257,SKU-ELEC-100,4,Great battery life,Review body text containing detailed customer sentiment description 128,True,5.0
+REV-2129,User_4805,SKU-ELEC-113,4,Super fast delivery,Review body text containing detailed customer sentiment description 129,False,5.0
+REV-2130,User_4135,SKU-ELEC-109,5,Average performance,Review body text containing detailed customer sentiment description 130,True,5.0
+REV-2131,User_2094,SKU-ELEC-111,2,Average performance,Review body text containing detailed customer sentiment description 131,True,0.0
+REV-2132,User_7628,SKU-ELEC-103,5,Screen is fantastic,Review body text containing detailed customer sentiment description 132,True,0.0
+REV-2133,User_5331,SKU-ELEC-107,2,Average performance,Review body text containing detailed customer sentiment description 133,True,0.0
+REV-2134,User_1861,SKU-ELEC-107,2,Stopped working after 2 weeks,Review body text containing detailed customer sentiment description 134,True,2.0
+REV-2135,User_5131,SKU-ELEC-104,2,Stopped working after 2 weeks,Review body text containing detailed customer sentiment description 135,True,0.0
+REV-2136,User_3430,SKU-ELEC-107,2,Screen is fantastic,Review body text containing detailed customer sentiment description 136,True,0.0
+REV-2137,User_3011,SKU-ELEC-113,5,Super fast delivery,Review body text containing detailed customer sentiment description 137,True,5.0
+REV-2138,User_4199,SKU-ELEC-113,3,Stopped working after 2 weeks,Review body text containing detailed customer sentiment description 138,True,1.0
+REV-2139,User_4216,SKU-ELEC-100,4,Value for money,Review body text containing detailed customer sentiment description 139,True,0.0
+REV-2140,User_7327,SKU-ELEC-101,4,Super fast delivery,Review body text containing detailed customer sentiment description 140,True,1.0
+REV-2141,User_6067,SKU-ELEC-107,4,Value for money,Review body text containing detailed customer sentiment description 141,True,1.0
+REV-2142,User_5774,SKU-ELEC-112,5,Great battery life,Review body text containing detailed customer sentiment description 142,False,0.0
+REV-2143,User_8124,SKU-ELEC-101,4,Great battery life,Review body text containing detailed customer sentiment description 143,True,1.0
+REV-2144,User_2234,SKU-ELEC-111,4,Average performance,Review body text containing detailed customer sentiment description 144,True,0.0
+REV-2145,User_1186,SKU-ELEC-108,4,Super fast delivery,Review body text containing detailed customer sentiment description 145,False,5.0
+REV-2146,User_6509,SKU-ELEC-102,5,Stopped working after 2 weeks,Review body text containing detailed customer sentiment description 146,True,2.0
+REV-2147,User_7139,SKU-ELEC-106,5,Super fast delivery,Review body text containing detailed customer sentiment description 147,True,0.0
+REV-2148,User_2445,SKU-ELEC-107,3,Screen is fantastic,Review body text containing detailed customer sentiment description 148,False,1.0
+REV-2149,User_7901,SKU-ELEC-101,5,Super fast delivery,Review body text containing detailed customer sentiment description 149,True,1.0
+REV-2150,User_5482,SKU-ELEC-110,4,Average performance,Review body text containing detailed customer sentiment description 150,True,5.0
