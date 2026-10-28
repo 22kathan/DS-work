@@ -21,7 +21,8 @@ This module covers practical end-to-end data workflows in Python: array manipula
 | **Session-11** | **Data Visualization: Matplotlib (Part 2)** | [`session_11_matplotlib_visualization_part2.ipynb`](./Session-11/session_11_matplotlib_visualization_part2.ipynb), [`README.md`](./Session-11/README.md) | ✅ Completed |
 | **Session-12** | **Data Visualization with Seaborn (Part 1)** | [`session_12_seaborn_visualization_part1.ipynb`](./Session-12/session_12_seaborn_visualization_part1.ipynb), [`README.md`](./Session-12/README.md) | ✅ Completed |
 | **Session-13** | **Data Visualization with Seaborn (Part 2)** | [`session_13_seaborn_visualization_part2.ipynb`](./Session-13/session_13_seaborn_visualization_part2.ipynb), [`README.md`](./Session-13/README.md) | ✅ Completed |
-| **Session-14** | *Upcoming Session* | [Directory](./Session-14/) | ⏳ Pending |
+| **Session-14** | **Exploratory Data Analysis (EDA) (Part 1)** | [`session_14_exploratory_data_analysis_part1.ipynb`](./Session-14/session_14_exploratory_data_analysis_part1.ipynb), [`README.md`](./Session-14/README.md) | ✅ Completed |
+| **Session-15** | *Upcoming Session* | [Directory](./Session-15/) | ⏳ Pending |
 
 ---
 
@@ -147,7 +148,21 @@ Data collection, Cleaning, Visualization and Analysis/
 │   ├── titanic_survival_catplot.png          # Exported survival rates by class/sex with CI (PNG)
 │   └── penguins_jointplot_regression.png     # Exported joint distribution with OLS fit (PNG)
 │
-└── Session-14/                               # Session 14: Upcoming Session
+├── Session-14/                               # Session 14: Exploratory Data Analysis (EDA) (Part 1)
+│   ├── README.md                             # Task documentation & outputs
+│   ├── session_14_exploratory_data_analysis_part1.ipynb # Interactive notebook (.ipynb)
+│   ├── ipl_matches.csv                       # 60 IPL cricket match records (CSV)
+│   ├── flipkart_reviews.csv                  # 150 Flipkart customer review records (CSV)
+│   ├── zomato_restaurants.csv                # 100 Zomato restaurant listings (CSV)
+│   ├── bookmyshow_movies.csv                 # 70 BookMyShow box office movie records (CSV)
+│   ├── spotify_songs.csv                     # 100 Spotify tracks with acoustic metrics (CSV)
+│   ├── ipl_total_runs_univariate.png         # Exported univariate distribution figure (PNG)
+│   ├── flipkart_rating_countplot.png         # Exported star rating countplot figure (PNG)
+│   ├── zomato_cost_vs_rating_scatter.png     # Exported cost vs rating scatterplot (PNG)
+│   ├── bookmyshow_genre_barchart.png         # Exported sorted genre box office bar chart (PNG)
+│   └── spotify_audio_features_pairplot.png   # Exported multivariate pairplot figure (PNG)
+│
+└── Session-15/                               # Session 15: Upcoming Session
     └── README.md                             # Placeholder awaiting session tasks
 ```
 
@@ -195,4 +210,7 @@ jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-
 
 # Session 13 Notebook
 jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-13/session_13_seaborn_visualization_part2.ipynb"
+
+# Session 14 Notebook
+jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-14/session_14_exploratory_data_analysis_part1.ipynb"
 ```

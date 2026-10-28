@@ -1,0 +1,151 @@
+review_id,product_id,category,rating,verified_purchase,helpful_votes
+REV-1001,PROD-HOM-101,Home & Kitchen,4,True,0
+REV-1002,PROD-ELE-123,Electronics,1,True,3
+REV-1003,PROD-BOO-106,Books,5,True,2
+REV-1004,PROD-BOO-110,Books,5,True,1
+REV-1005,PROD-BOO-114,Books,4,True,9
+REV-1006,PROD-BOO-101,Books,2,True,4
+REV-1007,PROD-FAS-108,Fashion,3,True,3
+REV-1008,PROD-FAS-103,Fashion,4,True,1
+REV-1009,PROD-ELE-105,Electronics,4,True,6
+REV-1010,PROD-ELE-115,Electronics,4,True,4
+REV-1011,PROD-BOO-111,Books,4,True,7
+REV-1012,PROD-BEA-118,Beauty & Personal Care,5,True,3
+REV-1013,PROD-HOM-102,Home & Kitchen,1,False,2
+REV-1014,PROD-ELE-128,Electronics,5,True,2
+REV-1015,PROD-HOM-129,Home & Kitchen,4,False,1
+REV-1016,PROD-ELE-128,Electronics,4,False,1
+REV-1017,PROD-FAS-102,Fashion,4,True,0
+REV-1018,PROD-HOM-119,Home & Kitchen,3,True,0
+REV-1019,PROD-HOM-108,Home & Kitchen,2,False,0
+REV-1020,PROD-ELE-103,Electronics,5,True,3
+REV-1021,PROD-FAS-119,Fashion,4,True,5
+REV-1022,PROD-FAS-129,Fashion,3,True,0
+REV-1023,PROD-ELE-112,Electronics,4,True,6
+REV-1024,PROD-ELE-113,Electronics,4,True,0
+REV-1025,PROD-ELE-122,Electronics,4,True,2
+REV-1026,PROD-HOM-129,Home & Kitchen,5,True,0
+REV-1027,PROD-ELE-103,Electronics,1,True,12
+REV-1028,PROD-FAS-114,Fashion,5,False,3
+REV-1029,PROD-FAS-124,Fashion,1,True,3
+REV-1030,PROD-HOM-113,Home & Kitchen,4,True,1
+REV-1031,PROD-HOM-125,Home & Kitchen,3,True,1
+REV-1032,PROD-FAS-117,Fashion,4,True,0
+REV-1033,PROD-BEA-113,Beauty & Personal Care,3,False,1
+REV-1034,PROD-FAS-113,Fashion,5,True,0
+REV-1035,PROD-FAS-108,Fashion,4,True,2
+REV-1036,PROD-FAS-106,Fashion,3,False,3
+REV-1037,PROD-FAS-127,Fashion,3,True,1
+REV-1038,PROD-ELE-122,Electronics,3,True,0
+REV-1039,PROD-BEA-124,Beauty & Personal Care,5,True,5
+REV-1040,PROD-HOM-108,Home & Kitchen,4,True,12
+REV-1041,PROD-FAS-111,Fashion,4,False,0
+REV-1042,PROD-ELE-106,Electronics,4,True,5
+REV-1043,PROD-FAS-108,Fashion,4,True,0
+REV-1044,PROD-BEA-126,Beauty & Personal Care,2,True,3
+REV-1045,PROD-BEA-117,Beauty & Personal Care,4,False,0
+REV-1046,PROD-FAS-106,Fashion,5,True,2
+REV-1047,PROD-BEA-103,Beauty & Personal Care,3,True,1
+REV-1048,PROD-FAS-110,Fashion,4,False,0
+REV-1049,PROD-FAS-105,Fashion,1,True,4
+REV-1050,PROD-HOM-106,Home & Kitchen,4,True,4
+REV-1051,PROD-ELE-128,Electronics,5,False,1
+REV-1052,PROD-BOO-109,Books,5,True,0
+REV-1053,PROD-HOM-122,Home & Kitchen,5,False,5
+REV-1054,PROD-HOM-114,Home & Kitchen,5,False,0
+REV-1055,PROD-BOO-119,Books,2,True,3
+REV-1056,PROD-BEA-110,Beauty & Personal Care,3,True,3
+REV-1057,PROD-HOM-101,Home & Kitchen,4,True,1
+REV-1058,PROD-ELE-101,Electronics,3,True,1
+REV-1059,PROD-BOO-119,Books,5,True,0
+REV-1060,PROD-HOM-108,Home & Kitchen,4,True,0
+REV-1061,PROD-BOO-107,Books,4,True,4
+REV-1062,PROD-ELE-105,Electronics,3,True,4
+REV-1063,PROD-BEA-110,Beauty & Personal Care,4,True,6
+REV-1064,PROD-ELE-113,Electronics,2,True,1
+REV-1065,PROD-BOO-124,Books,2,True,4
+REV-1066,PROD-BOO-104,Books,4,False,4
+REV-1067,PROD-HOM-119,Home & Kitchen,4,False,2
+REV-1068,PROD-HOM-120,Home & Kitchen,4,True,9
+REV-1069,PROD-FAS-112,Fashion,5,True,2
+REV-1070,PROD-FAS-115,Fashion,4,False,6
+REV-1071,PROD-BEA-116,Beauty & Personal Care,2,False,4
+REV-1072,PROD-BOO-110,Books,4,True,2
+REV-1073,PROD-FAS-119,Fashion,1,True,0
+REV-1074,PROD-ELE-123,Electronics,5,True,0
+REV-1075,PROD-BOO-104,Books,2,True,5
+REV-1076,PROD-ELE-123,Electronics,5,True,2
+REV-1077,PROD-BOO-121,Books,3,True,0
+REV-1078,PROD-ELE-109,Electronics,1,True,1
+REV-1079,PROD-ELE-106,Electronics,5,True,1
+REV-1080,PROD-HOM-117,Home & Kitchen,5,False,0
+REV-1081,PROD-BEA-122,Beauty & Personal Care,5,False,2
+REV-1082,PROD-BEA-124,Beauty & Personal Care,4,True,1
+REV-1083,PROD-HOM-128,Home & Kitchen,4,True,3
+REV-1084,PROD-ELE-117,Electronics,5,False,1
+REV-1085,PROD-BEA-108,Beauty & Personal Care,4,True,1
+REV-1086,PROD-BOO-119,Books,3,True,4
+REV-1087,PROD-BOO-129,Books,4,True,5
+REV-1088,PROD-HOM-114,Home & Kitchen,1,True,1
+REV-1089,PROD-FAS-117,Fashion,4,True,2
+REV-1090,PROD-HOM-101,Home & Kitchen,2,False,5
+REV-1091,PROD-HOM-110,Home & Kitchen,3,True,3
+REV-1092,PROD-BEA-123,Beauty & Personal Care,5,False,5
+REV-1093,PROD-BOO-125,Books,4,True,0
+REV-1094,PROD-HOM-108,Home & Kitchen,4,True,1
+REV-1095,PROD-BOO-101,Books,2,False,0
+REV-1096,PROD-FAS-124,Fashion,5,True,2
+REV-1097,PROD-HOM-120,Home & Kitchen,5,True,0
+REV-1098,PROD-FAS-107,Fashion,1,True,0
+REV-1099,PROD-HOM-119,Home & Kitchen,2,False,3
+REV-1100,PROD-FAS-115,Fashion,5,True,1
+REV-1101,PROD-FAS-103,Fashion,5,True,0
+REV-1102,PROD-BEA-106,Beauty & Personal Care,4,False,2
+REV-1103,PROD-FAS-103,Fashion,5,False,11
+REV-1104,PROD-BEA-110,Beauty & Personal Care,2,True,2
+REV-1105,PROD-ELE-117,Electronics,4,True,4
+REV-1106,PROD-FAS-107,Fashion,4,True,0
+REV-1107,PROD-HOM-126,Home & Kitchen,4,True,6
+REV-1108,PROD-FAS-111,Fashion,3,True,7
+REV-1109,PROD-BOO-109,Books,5,True,0
+REV-1110,PROD-BOO-126,Books,4,False,0
+REV-1111,PROD-FAS-127,Fashion,2,True,0
+REV-1112,PROD-HOM-112,Home & Kitchen,4,True,3
+REV-1113,PROD-FAS-126,Fashion,5,True,1
+REV-1114,PROD-FAS-102,Fashion,4,False,9
+REV-1115,PROD-ELE-104,Electronics,1,True,0
+REV-1116,PROD-BOO-111,Books,5,False,7
+REV-1117,PROD-HOM-103,Home & Kitchen,3,True,1
+REV-1118,PROD-BOO-126,Books,4,False,2
+REV-1119,PROD-HOM-111,Home & Kitchen,4,True,2
+REV-1120,PROD-BOO-109,Books,2,True,1
+REV-1121,PROD-ELE-117,Electronics,1,True,2
+REV-1122,PROD-HOM-125,Home & Kitchen,4,True,0
+REV-1123,PROD-FAS-112,Fashion,5,True,0
+REV-1124,PROD-FAS-105,Fashion,2,False,4
+REV-1125,PROD-ELE-110,Electronics,2,True,1
+REV-1126,PROD-BEA-124,Beauty & Personal Care,4,True,3
+REV-1127,PROD-BOO-105,Books,5,True,3
+REV-1128,PROD-ELE-112,Electronics,5,True,3
+REV-1129,PROD-ELE-115,Electronics,5,False,3
+REV-1130,PROD-ELE-121,Electronics,2,True,7
+REV-1131,PROD-BOO-119,Books,5,False,0
+REV-1132,PROD-HOM-118,Home & Kitchen,5,True,5
+REV-1133,PROD-HOM-110,Home & Kitchen,3,True,0
+REV-1134,PROD-HOM-113,Home & Kitchen,4,True,6
+REV-1135,PROD-HOM-123,Home & Kitchen,3,True,0
+REV-1136,PROD-ELE-122,Electronics,4,True,4
+REV-1137,PROD-ELE-110,Electronics,5,False,0
+REV-1138,PROD-HOM-127,Home & Kitchen,5,True,0
+REV-1139,PROD-FAS-103,Fashion,5,True,18
+REV-1140,PROD-BEA-117,Beauty & Personal Care,1,True,0
+REV-1141,PROD-BEA-124,Beauty & Personal Care,4,False,12
+REV-1142,PROD-FAS-107,Fashion,1,False,4
+REV-1143,PROD-ELE-114,Electronics,2,False,1
+REV-1144,PROD-BEA-105,Beauty & Personal Care,4,True,0
+REV-1145,PROD-BOO-109,Books,5,True,1
+REV-1146,PROD-BEA-126,Beauty & Personal Care,2,True,4
+REV-1147,PROD-HOM-107,Home & Kitchen,4,False,6
+REV-1148,PROD-HOM-102,Home & Kitchen,5,True,4
+REV-1149,PROD-BEA-120,Beauty & Personal Care,3,True,3
+REV-1150,PROD-BOO-114,Books,5,True,0

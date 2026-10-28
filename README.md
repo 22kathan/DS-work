@@ -56,6 +56,7 @@ Welcome to the **Data Science Coursework (`DS-work`)** repository. This reposito
 | **11** | **Data Visualization: Matplotlib (Part 2)** | Subplots & 2x2 multi-panel grid (`plt.subplots()`), custom edge linestyles (`--`, `-.-`, `:`) & linewidths on delivery times bar chart, dual-axis visualization (`ax.twinx()`) for Instagram followers vs daily posts, categorical vs numeric scatter plot with movie annotations, and custom callout arrow annotation (`ax.annotate()`) for Flipkart Big Billion Days sales peak | [📁 Session 11](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-11/session_11_matplotlib_visualization_part2.ipynb) | ✅ Completed |
 | **12** | **Data Visualization: Seaborn (Part 1)** | Introduction to Seaborn & statistical data visualization, `histplot` with KDE on Zomato delivery times, `boxplot` & stripplot on `tips` dataset for weekday spending, `violinplot` for 8 IPL team score distributions under `'darkgrid'` theme, `countplot` of 40 Spotify tracks across 5 genres, and `'whitegrid'` `kdeplot` of daily fitness step counts | [📁 Session 12](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-12/session_12_seaborn_visualization_part1.ipynb) | ✅ Completed |
 | **13** | **Data Visualization: Seaborn (Part 2)** | Multivariate exploratory analysis with `pairplot`, seasonal passenger volume intensity `heatmap` on reshaped `flights` matrix (`pivot_table`), BOLD signal response time-series `relplot` with 95% CI on `fmri`, `titanic` survival probability `catplot` by class and gender with error caps, and Palmer `penguins` morphometrics `jointplot` with OLS regression fit | [📁 Session 13](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-13/session_13_seaborn_visualization_part2.ipynb) | ✅ Completed |
+| **14** | **Exploratory Data Analysis (EDA) (Part 1)** | Core tenets of exploratory data analysis (EDA), univariate summary statistics & dual boxplot/histplot on IPL match `total_runs`, star rating distribution countplot on Flipkart reviews, bivariate scatter plot & trendline on Zomato meal pricing vs user rating, BookMyShow box office `groupby` analysis sorted by genre, and multivariate Spotify audio features `pairplot` uncovering acoustic correlations | [📁 Session 14](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-14/session_14_exploratory_data_analysis_part1.ipynb) | ✅ Completed |
 
 ---
 
@@ -249,7 +250,20 @@ DS-work/
     │   ├── fmri_signal_relplot.png                        # Exported BOLD signal temporal trajectory (PNG)
     │   ├── titanic_survival_catplot.png                   # Exported survival rates by class/sex with CI (PNG)
     │   └── penguins_jointplot_regression.png              # Exported joint distribution with OLS fit (PNG)
-    └── Session-14/                                        # Session 14 (Pending Tasks)
+    ├── Session-14/                                        # Session 14 Deliverables
+    │   ├── README.md                                      # Task Documentation & Explanations
+    │   ├── session_14_exploratory_data_analysis_part1.ipynb # Interactive Task Notebook (.ipynb)
+    │   ├── ipl_matches.csv                                # IPL cricket matches dataset (CSV)
+    │   ├── flipkart_reviews.csv                           # Flipkart customer reviews (CSV)
+    │   ├── zomato_restaurants.csv                         # Zomato restaurant listings (CSV)
+    │   ├── bookmyshow_movies.csv                          # BookMyShow movie records (CSV)
+    │   ├── spotify_songs.csv                              # Spotify acoustic features dataset (CSV)
+    │   ├── ipl_total_runs_univariate.png                  # Exported univariate distribution figure (PNG)
+    │   ├── flipkart_rating_countplot.png                  # Exported star rating countplot figure (PNG)
+    │   ├── zomato_cost_vs_rating_scatter.png              # Exported cost vs rating scatterplot (PNG)
+    │   ├── bookmyshow_genre_barchart.png                  # Exported sorted genre box office bar chart (PNG)
+    │   └── spotify_audio_features_pairplot.png            # Exported multivariate pairplot figure (PNG)
+    └── Session-15/                                        # Session 15 (Pending Tasks)
         └── README.md                                      # Session Placeholder
 ```
 

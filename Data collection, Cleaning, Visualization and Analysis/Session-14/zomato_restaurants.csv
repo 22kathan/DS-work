@@ -1,0 +1,101 @@
+restaurant_id,restaurant_name,city,cuisine,average_cost_for_two,user_rating,votes
+ZOM-2001,The Mumbai Kitchen 1,Mumbai,North Indian,300,3.5,408
+ZOM-2002,Chinese Delights 2,Hyderabad,Chinese,2800,4.7,3535
+ZOM-2003,The Mumbai Kitchen 3,Mumbai,South Indian,800,3.6,1114
+ZOM-2004,Fast Food Delights 4,Delhi NCR,Fast Food,800,3.4,1575
+ZOM-2005,The Delhi NCR Kitchen 5,Delhi NCR,Chinese,600,3.4,800
+ZOM-2006,Continental Delights 6,Mumbai,Continental,1000,3.0,2223
+ZOM-2007,The Bengaluru Kitchen 7,Bengaluru,Chinese,450,3.3,853
+ZOM-2008,Continental Delights 8,Pune,Continental,1200,3.7,3145
+ZOM-2009,The Pune Kitchen 9,Pune,Cafe,600,3.9,1237
+ZOM-2010,Cafe Delights 10,Bengaluru,Cafe,1200,3.8,2722
+ZOM-2011,The Hyderabad Kitchen 11,Hyderabad,Chinese,1200,3.8,3061
+ZOM-2012,Fast Food Delights 12,Mumbai,Fast Food,300,3.6,833
+ZOM-2013,The Pune Kitchen 13,Pune,Italian,1200,3.6,1850
+ZOM-2014,Italian Delights 14,Mumbai,Italian,1000,3.7,2275
+ZOM-2015,The Mumbai Kitchen 15,Mumbai,Italian,450,3.4,1115
+ZOM-2016,South Indian Delights 16,Hyderabad,South Indian,300,3.3,1032
+ZOM-2017,The Kolkata Kitchen 17,Kolkata,Chinese,300,3.7,823
+ZOM-2018,Mughlai Delights 18,Pune,Mughlai,300,3.2,1118
+ZOM-2019,The Mumbai Kitchen 19,Mumbai,Continental,1800,4.1,4031
+ZOM-2020,North Indian Delights 20,Kolkata,North Indian,800,3.3,1057
+ZOM-2021,The Pune Kitchen 21,Pune,Mughlai,600,3.8,949
+ZOM-2022,Chinese Delights 22,Delhi NCR,Chinese,600,4.0,1462
+ZOM-2023,The Mumbai Kitchen 23,Mumbai,Chinese,300,3.3,869
+ZOM-2024,Fast Food Delights 24,Delhi NCR,Fast Food,450,3.0,1174
+ZOM-2025,The Hyderabad Kitchen 25,Hyderabad,Chinese,1200,3.4,1471
+ZOM-2026,North Indian Delights 26,Kolkata,North Indian,450,3.6,760
+ZOM-2027,The Pune Kitchen 27,Pune,Italian,800,3.0,2284
+ZOM-2028,South Indian Delights 28,Hyderabad,South Indian,1000,3.4,2279
+ZOM-2029,The Delhi NCR Kitchen 29,Delhi NCR,Cafe,800,3.9,1404
+ZOM-2030,Continental Delights 30,Kolkata,Continental,450,3.3,486
+ZOM-2031,The Bengaluru Kitchen 31,Bengaluru,Italian,1200,3.9,1457
+ZOM-2032,Cafe Delights 32,Hyderabad,Cafe,1800,4.4,2071
+ZOM-2033,The Kolkata Kitchen 33,Kolkata,North Indian,300,3.5,674
+ZOM-2034,Cafe Delights 34,Delhi NCR,Cafe,450,3.1,1024
+ZOM-2035,The Bengaluru Kitchen 35,Bengaluru,South Indian,2200,4.0,4691
+ZOM-2036,Mughlai Delights 36,Kolkata,Mughlai,450,3.0,1229
+ZOM-2037,The Kolkata Kitchen 37,Kolkata,Continental,1500,4.1,1697
+ZOM-2038,North Indian Delights 38,Kolkata,North Indian,450,3.7,876
+ZOM-2039,The Hyderabad Kitchen 39,Hyderabad,Continental,600,3.5,1843
+ZOM-2040,North Indian Delights 40,Pune,North Indian,300,3.0,685
+ZOM-2041,The Mumbai Kitchen 41,Mumbai,Mughlai,800,3.3,1221
+ZOM-2042,Cafe Delights 42,Bengaluru,Cafe,450,3.6,1103
+ZOM-2043,The Delhi NCR Kitchen 43,Delhi NCR,Mughlai,300,4.0,911
+ZOM-2044,Continental Delights 44,Kolkata,Continental,1000,3.7,2272
+ZOM-2045,The Bengaluru Kitchen 45,Bengaluru,Italian,1200,4.1,1934
+ZOM-2046,Italian Delights 46,Delhi NCR,Italian,450,3.4,756
+ZOM-2047,The Hyderabad Kitchen 47,Hyderabad,Italian,450,3.3,1511
+ZOM-2048,Fast Food Delights 48,Pune,Fast Food,1000,3.7,2275
+ZOM-2049,The Mumbai Kitchen 49,Mumbai,Continental,300,2.9,624
+ZOM-2050,Chinese Delights 50,Hyderabad,Chinese,450,3.8,1022
+ZOM-2051,The Delhi NCR Kitchen 51,Delhi NCR,Mughlai,1200,4.1,2511
+ZOM-2052,Continental Delights 52,Kolkata,Continental,2200,4.0,2136
+ZOM-2053,The Delhi NCR Kitchen 53,Delhi NCR,Chinese,600,3.4,1837
+ZOM-2054,Continental Delights 54,Kolkata,Continental,800,4.1,2224
+ZOM-2055,The Pune Kitchen 55,Pune,Mughlai,450,3.9,1324
+ZOM-2056,South Indian Delights 56,Hyderabad,South Indian,1500,4.3,2135
+ZOM-2057,The Kolkata Kitchen 57,Kolkata,Mughlai,600,3.2,1290
+ZOM-2058,Fast Food Delights 58,Kolkata,Fast Food,600,3.4,1025
+ZOM-2059,The Kolkata Kitchen 59,Kolkata,Italian,800,3.2,2116
+ZOM-2060,Italian Delights 60,Delhi NCR,Italian,1000,3.0,1372
+ZOM-2061,The Bengaluru Kitchen 61,Bengaluru,Italian,1200,3.0,2256
+ZOM-2062,Mughlai Delights 62,Delhi NCR,Mughlai,600,3.2,953
+ZOM-2063,The Delhi NCR Kitchen 63,Delhi NCR,Continental,450,2.9,1047
+ZOM-2064,Fast Food Delights 64,Hyderabad,Fast Food,600,2.9,1434
+ZOM-2065,The Hyderabad Kitchen 65,Hyderabad,Cafe,1200,4.2,1412
+ZOM-2066,South Indian Delights 66,Delhi NCR,South Indian,800,4.3,2247
+ZOM-2067,The Bengaluru Kitchen 67,Bengaluru,North Indian,600,3.4,1252
+ZOM-2068,Continental Delights 68,Mumbai,Continental,600,3.6,1269
+ZOM-2069,The Kolkata Kitchen 69,Kolkata,Chinese,1800,4.2,3307
+ZOM-2070,South Indian Delights 70,Hyderabad,South Indian,800,3.6,986
+ZOM-2071,The Hyderabad Kitchen 71,Hyderabad,Fast Food,1000,3.8,2626
+ZOM-2072,Italian Delights 72,Pune,Italian,600,3.1,1500
+ZOM-2073,The Mumbai Kitchen 73,Mumbai,Italian,800,3.5,857
+ZOM-2074,South Indian Delights 74,Delhi NCR,South Indian,300,3.4,1065
+ZOM-2075,The Delhi NCR Kitchen 75,Delhi NCR,Continental,800,3.8,1613
+ZOM-2076,South Indian Delights 76,Kolkata,South Indian,600,4.1,1501
+ZOM-2077,The Pune Kitchen 77,Pune,Cafe,1000,4.2,2723
+ZOM-2078,Mughlai Delights 78,Kolkata,Mughlai,1500,4.0,2448
+ZOM-2079,The Delhi NCR Kitchen 79,Delhi NCR,Fast Food,600,3.3,920
+ZOM-2080,Fast Food Delights 80,Delhi NCR,Fast Food,600,3.8,1338
+ZOM-2081,The Hyderabad Kitchen 81,Hyderabad,Chinese,800,3.9,1395
+ZOM-2082,South Indian Delights 82,Bengaluru,South Indian,800,4.3,1927
+ZOM-2083,The Kolkata Kitchen 83,Kolkata,South Indian,600,3.7,1805
+ZOM-2084,Fast Food Delights 84,Pune,Fast Food,600,3.5,1220
+ZOM-2085,The Hyderabad Kitchen 85,Hyderabad,Fast Food,600,3.8,1654
+ZOM-2086,Chinese Delights 86,Bengaluru,Chinese,300,2.6,724
+ZOM-2087,The Pune Kitchen 87,Pune,Italian,1200,3.7,1408
+ZOM-2088,Fast Food Delights 88,Kolkata,Fast Food,450,3.4,909
+ZOM-2089,The Kolkata Kitchen 89,Kolkata,Continental,600,3.5,1266
+ZOM-2090,Mughlai Delights 90,Mumbai,Mughlai,600,3.9,1615
+ZOM-2091,The Kolkata Kitchen 91,Kolkata,North Indian,450,3.0,881
+ZOM-2092,Italian Delights 92,Delhi NCR,Italian,800,3.7,1073
+ZOM-2093,The Hyderabad Kitchen 93,Hyderabad,Continental,300,3.2,604
+ZOM-2094,Chinese Delights 94,Pune,Chinese,800,3.9,2017
+ZOM-2095,The Delhi NCR Kitchen 95,Delhi NCR,Continental,1000,3.2,1632
+ZOM-2096,Cafe Delights 96,Delhi NCR,Cafe,450,3.5,1056
+ZOM-2097,The Bengaluru Kitchen 97,Bengaluru,Cafe,1200,4.0,3011
+ZOM-2098,South Indian Delights 98,Pune,South Indian,450,3.6,1198
+ZOM-2099,The Pune Kitchen 99,Pune,North Indian,300,3.3,758
+ZOM-2100,Chinese Delights 100,Mumbai,Chinese,450,3.3,1333
