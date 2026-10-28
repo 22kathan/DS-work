@@ -20,7 +20,8 @@ This module covers practical end-to-end data workflows in Python: array manipula
 | **Session-10** | **Data Visualization: Matplotlib (Part 1)** | [`session_10_matplotlib_visualization_part1.ipynb`](./Session-10/session_10_matplotlib_visualization_part1.ipynb), [`README.md`](./Session-10/README.md) | ✅ Completed |
 | **Session-11** | **Data Visualization: Matplotlib (Part 2)** | [`session_11_matplotlib_visualization_part2.ipynb`](./Session-11/session_11_matplotlib_visualization_part2.ipynb), [`README.md`](./Session-11/README.md) | ✅ Completed |
 | **Session-12** | **Data Visualization with Seaborn (Part 1)** | [`session_12_seaborn_visualization_part1.ipynb`](./Session-12/session_12_seaborn_visualization_part1.ipynb), [`README.md`](./Session-12/README.md) | ✅ Completed |
-| **Session-13** | *Upcoming Session* | [Directory](./Session-13/) | ⏳ Pending |
+| **Session-13** | **Data Visualization with Seaborn (Part 2)** | [`session_13_seaborn_visualization_part2.ipynb`](./Session-13/session_13_seaborn_visualization_part2.ipynb), [`README.md`](./Session-13/README.md) | ✅ Completed |
+| **Session-14** | *Upcoming Session* | [Directory](./Session-14/) | ⏳ Pending |
 
 ---
 
@@ -132,7 +133,21 @@ Data collection, Cleaning, Visualization and Analysis/
 │   ├── spotify_genre_countplot.png           # Exported Spotify genre countplot (PNG)
 │   └── daily_steps_kdeplot.png               # Exported fitness steps KDE plot (PNG)
 │
-└── Session-13/                               # Session 13: Upcoming Session
+├── Session-13/                               # Session 13: Data Visualization with Seaborn (Part 2)
+│   ├── README.md                             # Task documentation & outputs
+│   ├── session_13_seaborn_visualization_part2.ipynb # Interactive notebook (.ipynb)
+│   ├── tips.csv                              # Dining tips & bill dataset (CSV)
+│   ├── flights.csv                           # 1949-1960 airline passengers dataset (CSV)
+│   ├── fmri.csv                              # Human brain BOLD signal time series (CSV)
+│   ├── titanic.csv                           # Titanic passenger demographics & survival (CSV)
+│   ├── penguins.csv                          # Palmer Archipelago penguins morphometrics (CSV)
+│   ├── tips_pairplot.png                     # Exported pairwise multivariate plot (PNG)
+│   ├── flights_passenger_heatmap.png         # Exported passenger seasonality heatmap (PNG)
+│   ├── fmri_signal_relplot.png               # Exported BOLD signal temporal trajectory (PNG)
+│   ├── titanic_survival_catplot.png          # Exported survival rates by class/sex with CI (PNG)
+│   └── penguins_jointplot_regression.png     # Exported joint distribution with OLS fit (PNG)
+│
+└── Session-14/                               # Session 14: Upcoming Session
     └── README.md                             # Placeholder awaiting session tasks
 ```
 
@@ -177,4 +192,7 @@ jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-
 
 # Session 12 Notebook
 jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-12/session_12_seaborn_visualization_part1.ipynb"
+
+# Session 13 Notebook
+jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-13/session_13_seaborn_visualization_part2.ipynb"
 ```
