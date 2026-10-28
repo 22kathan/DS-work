@@ -51,6 +51,7 @@ Welcome to the **Data Science Coursework (`DS-work`)** repository. This reposito
 | **06** | **Data Cleaning (Part 1: Missing Values)** | Detecting null values (`.isnull()`, `.notnull()`), dropping incomplete rows (`dropna(how='any')`) & shape comparison, mean imputation on runs (`fillna()`), sequential forward/backward fill on restaurant ratings (`ffill`, `bfill`), and missingness mechanism classification (MCAR vs MAR vs MNAR) | [📁 Session 06](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-06/session_6_data_cleaning_missing_values.ipynb) | ✅ Completed |
 | **07** | **Data Cleaning (Part 2: Outliers & Data Types)** | Outlier detection via IQR formula & Zomato user ratings, Matplotlib boxplot visual diagnostics (`plt.boxplot()`) on Swiggy order amounts, Winsorization / 5th-95th percentile capping (`.clip()`) on Paytm transactions, Flipkart string currency cleaning (`str.replace()`, `.astype()`), and Spotify mixed boolean type normalization | [📁 Session 07](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-07/session_7_data_cleaning_outliers_datatypes.ipynb) | ✅ Completed |
 | **08** | **Data Cleaning (Part 3: Duplicates, Typos, Consistency)** | Duplicate order detection with `duplicated()` on Zomato history, Flipkart repeated review frequency analysis (`value_counts()`), Spotify exact playlist deduplication (`drop_duplicates()`), Instagram username typo standardization (`replace()`), and Paytm payment status string hygiene (`str.strip()`, `str.lower()`, `map()`) | [📁 Session 08](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-08/session_8_data_cleaning_duplicates_consistency.ipynb) | ✅ Completed |
+| **09** | **Working with Date & Time Data** | String to datetime conversion with `pd.to_datetime()`, `.dt` temporal extraction (year, month, weekday), datetime indexing & weekly aggregation resampling (`df.resample('W').size()`), UTC to `'Asia/Kolkata'` timezone localization & conversion, and weekend feature engineering (`is_weekend`) | [📁 Session 09](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-09/session_9_date_time_data.ipynb) | ✅ Completed |
 
 ---
 
@@ -187,7 +188,12 @@ DS-work/
     │   ├── spotify_playlists.csv                          # Spotify playlists dataset (CSV)
     │   ├── instagram_users.csv                            # Instagram usernames dataset (CSV)
     │   └── paytm_payment_status.csv                       # Paytm payment status dataset (CSV)
-    └── Session-09/                                        # Session 09 (Pending Tasks)
+    ├── Session-09/                                        # Session 09 Deliverables
+    │   ├── README.md                                      # Task Documentation & Explanations
+    │   ├── session_9_date_time_data.ipynb                 # Interactive Task Notebook (.ipynb)
+    │   ├── flipkart_orders.csv                            # Flipkart orders with timestamps (CSV)
+    │   └── instagram_posts.csv                            # Instagram posts with UTC timestamps (CSV)
+    └── Session-10/                                        # Session 10 (Pending Tasks)
         └── README.md                                      # Session Placeholder
 ```
 

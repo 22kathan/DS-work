@@ -16,7 +16,8 @@ This module covers practical end-to-end data workflows in Python: array manipula
 | **Session-06** | **Data Cleaning (Part 1: Missing Values)** | [`session_6_data_cleaning_missing_values.ipynb`](./Session-06/session_6_data_cleaning_missing_values.ipynb), [`README.md`](./Session-06/README.md) | ✅ Completed |
 | **Session-07** | **Data Cleaning (Part 2: Outliers & Data Types)** | [`session_7_data_cleaning_outliers_datatypes.ipynb`](./Session-07/session_7_data_cleaning_outliers_datatypes.ipynb), [`README.md`](./Session-07/README.md) | ✅ Completed |
 | **Session-08** | **Data Cleaning (Part 3: Duplicates, Typos, Consistency)** | [`session_8_data_cleaning_duplicates_consistency.ipynb`](./Session-08/session_8_data_cleaning_duplicates_consistency.ipynb), [`README.md`](./Session-08/README.md) | ✅ Completed |
-| **Session-09** | *Upcoming Session* | [Directory](./Session-09/) | ⏳ Pending |
+| **Session-09** | **Working with Date & Time Data** | [`session_9_date_time_data.ipynb`](./Session-09/session_9_date_time_data.ipynb), [`README.md`](./Session-09/README.md) | ✅ Completed |
+| **Session-10** | *Upcoming Session* | [Directory](./Session-10/) | ⏳ Pending |
 
 ---
 
@@ -80,7 +81,13 @@ Data collection, Cleaning, Visualization and Analysis/
 │   ├── instagram_users.csv                   # Instagram usernames containing typos (CSV)
 │   └── paytm_payment_status.csv              # Mixed boolean/string payment statuses (CSV)
 │
-└── Session-09/                               # Session 09: Upcoming Session
+├── Session-09/                               # Session 09: Working with Date & Time Data
+│   ├── README.md                             # Task documentation & outputs
+│   ├── session_9_date_time_data.ipynb        # Interactive notebook (.ipynb)
+│   ├── flipkart_orders.csv                   # Flipkart orders with timestamps (CSV)
+│   └── instagram_posts.csv                   # Instagram posts with UTC timestamps (CSV)
+│
+└── Session-10/                               # Session 10: Upcoming Session
     └── README.md                             # Placeholder awaiting session tasks
 ```
 
@@ -113,4 +120,7 @@ jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-
 
 # Session 8 Notebook
 jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-08/session_8_data_cleaning_duplicates_consistency.ipynb"
+
+# Session 9 Notebook
+jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-09/session_9_date_time_data.ipynb"
 ```
