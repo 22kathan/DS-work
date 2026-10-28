@@ -1,0 +1,6 @@
+month,web_traffic_thousands,product_category,category_sales_lakhs,ad_spend_thousands,conversions,browser,browser_market_share
+Jan,120,Electronics,45,15,320,Chrome,65
+Feb,145,Fashion,38,20,410,Safari,18
+Mar,180,Home & Kitchen,25,25,540,Edge,9
+Apr,210,Books & Toys,18,30,680,Firefox,5
+May,260,Beauty,30,35,820,Others,3

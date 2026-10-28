@@ -53,6 +53,7 @@ Welcome to the **Data Science Coursework (`DS-work`)** repository. This reposito
 | **08** | **Data Cleaning (Part 3: Duplicates, Typos, Consistency)** | Duplicate order detection with `duplicated()` on Zomato history, Flipkart repeated review frequency analysis (`value_counts()`), Spotify exact playlist deduplication (`drop_duplicates()`), Instagram username typo standardization (`replace()`), and Paytm payment status string hygiene (`str.strip()`, `str.lower()`, `map()`) | [📁 Session 08](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-08/session_8_data_cleaning_duplicates_consistency.ipynb) | ✅ Completed |
 | **09** | **Working with Date & Time Data** | String to datetime conversion with `pd.to_datetime()`, `.dt` temporal extraction (year, month, weekday), datetime indexing & weekly aggregation resampling (`df.resample('W').size()`), UTC to `'Asia/Kolkata'` timezone localization & conversion, and weekend feature engineering (`is_weekend`) | [📁 Session 09](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-09/session_9_date_time_data.ipynb) | ✅ Completed |
 | **10** | **Data Visualization: Matplotlib (Part 1)** | Line chart of 7-day daily step counts (`steps_lineplot.png`), Zomato restaurant price vs rating scatter plot (`plt.scatter()`), Swiggy/Zomato/Domino's delivery bar chart with custom colors & legend, 20-session Spotify duration histogram (`bins=5`), and dual-axis composite Instagram usage dashboard (`social_media_usage.png`) | [📁 Session 10](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-10/session_10_matplotlib_visualization_part1.ipynb) | ✅ Completed |
+| **11** | **Data Visualization: Matplotlib (Part 2)** | Subplots & 2x2 multi-panel grid (`plt.subplots()`), custom edge linestyles (`--`, `-.-`, `:`) & linewidths on delivery times bar chart, dual-axis visualization (`ax.twinx()`) for Instagram followers vs daily posts, categorical vs numeric scatter plot with movie annotations, and custom callout arrow annotation (`ax.annotate()`) for Flipkart Big Billion Days sales peak | [📁 Session 11](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-11/session_11_matplotlib_visualization_part2.ipynb) | ✅ Completed |
 
 ---
 
@@ -207,7 +208,20 @@ DS-work/
     │   ├── food_delivery_barchart.png                     # Exported food delivery bar chart (PNG)
     │   ├── spotify_session_histogram.png                  # Exported session duration histogram (PNG)
     │   └── social_media_usage.png                         # Exported composite dashboard (PNG)
-    └── Session-11/                                        # Session 11 (Pending Tasks)
+    ├── Session-11/                                        # Session 11 Deliverables
+    │   ├── README.md                                      # Task Documentation & Explanations
+    │   ├── session_11_matplotlib_visualization_part2.ipynb # Interactive Task Notebook (.ipynb)
+    │   ├── four_charts_sample.csv                         # Multi-metric dataset for 2x2 grid (CSV)
+    │   ├── delivery_times.csv                             # Delivery duration & styling configurations (CSV)
+    │   ├── influencers_metrics.csv                        # Influencer follower & post metrics (CSV)
+    │   ├── bollywood_movies.csv                           # Bollywood box office & ratings dataset (CSV)
+    │   ├── flipkart_monthly_sales.csv                     # Flipkart monthly gross merchandise value (CSV)
+    │   ├── grid_2x2_charts.png                            # Exported 2x2 grid multi-chart figure (PNG)
+    │   ├── delivery_time_comparison.png                   # Exported delivery bar chart with edge styling (PNG)
+    │   ├── influencers_dual_axis.png                      # Exported dual-axis comparison figure (PNG)
+    │   ├── bollywood_tickets_vs_rating.png                # Exported categorical vs numeric scatter plot (PNG)
+    │   └── flipkart_sales_annotation.png                  # Exported annotated sales trajectory figure (PNG)
+    └── Session-12/                                        # Session 12 (Pending Tasks)
         └── README.md                                      # Session Placeholder
 ```
 

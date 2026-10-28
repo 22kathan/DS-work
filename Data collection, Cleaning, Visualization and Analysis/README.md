@@ -18,7 +18,8 @@ This module covers practical end-to-end data workflows in Python: array manipula
 | **Session-08** | **Data Cleaning (Part 3: Duplicates, Typos, Consistency)** | [`session_8_data_cleaning_duplicates_consistency.ipynb`](./Session-08/session_8_data_cleaning_duplicates_consistency.ipynb), [`README.md`](./Session-08/README.md) | ✅ Completed |
 | **Session-09** | **Working with Date & Time Data** | [`session_9_date_time_data.ipynb`](./Session-09/session_9_date_time_data.ipynb), [`README.md`](./Session-09/README.md) | ✅ Completed |
 | **Session-10** | **Data Visualization: Matplotlib (Part 1)** | [`session_10_matplotlib_visualization_part1.ipynb`](./Session-10/session_10_matplotlib_visualization_part1.ipynb), [`README.md`](./Session-10/README.md) | ✅ Completed |
-| **Session-11** | *Upcoming Session* | [Directory](./Session-11/) | ⏳ Pending |
+| **Session-11** | **Data Visualization: Matplotlib (Part 2)** | [`session_11_matplotlib_visualization_part2.ipynb`](./Session-11/session_11_matplotlib_visualization_part2.ipynb), [`README.md`](./Session-11/README.md) | ✅ Completed |
+| **Session-12** | *Upcoming Session* | [Directory](./Session-12/) | ⏳ Pending |
 
 ---
 
@@ -102,7 +103,21 @@ Data collection, Cleaning, Visualization and Analysis/
 │   ├── spotify_session_histogram.png         # Exported session duration histogram (PNG)
 │   └── social_media_usage.png                # Exported multi-subplot dashboard (PNG)
 │
-└── Session-11/                               # Session 11: Upcoming Session
+├── Session-11/                               # Session 11: Data Visualization: Matplotlib (Part 2)
+│   ├── README.md                             # Task documentation & outputs
+│   ├── session_11_matplotlib_visualization_part2.ipynb # Interactive notebook (.ipynb)
+│   ├── four_charts_sample.csv                # Multi-metric dataset for 2x2 grid (CSV)
+│   ├── delivery_times.csv                    # Delivery duration and styling configurations (CSV)
+│   ├── influencers_metrics.csv               # Influencer follower and daily post metrics (CSV)
+│   ├── bollywood_movies.csv                  # Bollywood box office and ratings dataset (CSV)
+│   ├── flipkart_monthly_sales.csv            # Monthly gross merchandise value dataset (CSV)
+│   ├── grid_2x2_charts.png                   # Exported 2x2 grid multi-chart figure (PNG)
+│   ├── delivery_time_comparison.png          # Exported delivery bar chart with edge styling (PNG)
+│   ├── influencers_dual_axis.png             # Exported dual-axis comparison figure (PNG)
+│   ├── bollywood_tickets_vs_rating.png       # Exported categorical vs numeric scatter plot (PNG)
+│   └── flipkart_sales_annotation.png         # Exported annotated sales trajectory figure (PNG)
+│
+└── Session-12/                               # Session 12: Upcoming Session
     └── README.md                             # Placeholder awaiting session tasks
 ```
 
@@ -141,4 +156,7 @@ jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-
 
 # Session 10 Notebook
 jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-10/session_10_matplotlib_visualization_part1.ipynb"
+
+# Session 11 Notebook
+jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-11/session_11_matplotlib_visualization_part2.ipynb"
 ```

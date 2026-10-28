@@ -1,0 +1,4 @@
+platform,avg_delivery_time_mins,color,edge_color,linestyle,linewidth
+Zomato,32,#FFCDD2,#D32F2F,--,2.5
+Swiggy,28,#FFE0B2,#E65100,-.,3.0
+Domino's,22,#BBDEFB,#0D47A1,:,3.5
