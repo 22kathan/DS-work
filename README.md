@@ -49,6 +49,7 @@ Welcome to the **Data Science Coursework (`DS-work`)** repository. This reposito
 | **04** | **Data Collection using Pandas (Part 1)** | IPL match scores CSV ingestion, Spotify trending songs JSON import (`df.info()`), Zomato TSV separator handling (`df.describe(include='all')`), Flipkart 10,000-row batch iteration (chunksize), Paytm semicolon-separated transactions null detection | [📂 Session 04](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-04/session_4_data_collection_pandas.ipynb) | ✅ Completed |
 | **05** | **Data Collection using Pandas (Part 2)** | MySQL / PostgreSQL connection via SQLAlchemy (`create_engine`) & `pd.read_sql()`, BookMyShow filtered query (`pd.read_sql_query()`), JSONPlaceholder API direct ingestion (`pd.read_json()`), Multi-table merge on `user_id` with `pathlib`, order concatenation with `pd.concat()` & index reset | [📁 Session 05](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-05/session_5_data_collection_pandas.ipynb) | ✅ Completed |
 | **06** | **Data Cleaning (Part 1: Missing Values)** | Detecting null values (`.isnull()`, `.notnull()`), dropping incomplete rows (`dropna(how='any')`) & shape comparison, mean imputation on runs (`fillna()`), sequential forward/backward fill on restaurant ratings (`ffill`, `bfill`), and missingness mechanism classification (MCAR vs MAR vs MNAR) | [📁 Session 06](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-06/session_6_data_cleaning_missing_values.ipynb) | ✅ Completed |
+| **07** | **Data Cleaning (Part 2: Outliers & Data Types)** | Outlier detection via IQR formula & Zomato user ratings, Matplotlib boxplot visual diagnostics (`plt.boxplot()`) on Swiggy order amounts, Winsorization / 5th-95th percentile capping (`.clip()`) on Paytm transactions, Flipkart string currency cleaning (`str.replace()`, `.astype()`), and Spotify mixed boolean type normalization | [📁 Session 07](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-07/session_7_data_cleaning_outliers_datatypes.ipynb) | ✅ Completed |
 
 ---
 
@@ -168,7 +169,16 @@ DS-work/
     │   ├── session_6_data_cleaning_missing_values.ipynb   # Interactive Task Notebook (.ipynb)
     │   ├── ipl_player_stats.csv                           # IPL player stats dataset (CSV)
     │   └── zomato_ratings.csv                             # Zomato ratings dataset (CSV)
-    └── Session-07/                                        # Session 07 (Pending Tasks)
+    ├── Session-07/                                        # Session 07 Deliverables
+    │   ├── README.md                                      # Task Documentation & Explanations
+    │   ├── session_7_data_cleaning_outliers_datatypes.ipynb # Interactive Task Notebook (.ipynb)
+    │   ├── zomato_user_ratings.csv                        # Zomato user ratings with outliers (CSV)
+    │   ├── swiggy_orders.csv                              # Swiggy orders dataset (CSV)
+    │   ├── paytm_transactions.csv                         # Paytm transactions dataset (CSV)
+    │   ├── flipkart_prices.csv                            # Flipkart product prices (CSV)
+    │   ├── spotify_users.csv                              # Spotify users dataset (CSV)
+    │   └── swiggy_order_boxplot.png                       # Generated boxplot visualization (PNG)
+    └── Session-08/                                        # Session 08 (Pending Tasks)
         └── README.md                                      # Session Placeholder
 ```
 

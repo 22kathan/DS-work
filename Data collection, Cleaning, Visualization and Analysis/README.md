@@ -14,7 +14,8 @@ This module covers practical end-to-end data workflows in Python: array manipula
 | **Session-04** | **Data Collection using Pandas (Part 1)** | [`session_4_data_collection_pandas.ipynb`](./Session-04/session_4_data_collection_pandas.ipynb), [`README.md`](./Session-04/README.md) | ✅ Completed |
 | **Session-05** | **Data Collection using Pandas (Part 2)** | [`session_5_data_collection_pandas.ipynb`](./Session-05/session_5_data_collection_pandas.ipynb), [`README.md`](./Session-05/README.md) | ✅ Completed |
 | **Session-06** | **Data Cleaning (Part 1: Missing Values)** | [`session_6_data_cleaning_missing_values.ipynb`](./Session-06/session_6_data_cleaning_missing_values.ipynb), [`README.md`](./Session-06/README.md) | ✅ Completed |
-| **Session-07** | *Upcoming Session* | [Directory](./Session-07/) | ⏳ Pending |
+| **Session-07** | **Data Cleaning (Part 2: Outliers & Data Types)** | [`session_7_data_cleaning_outliers_datatypes.ipynb`](./Session-07/session_7_data_cleaning_outliers_datatypes.ipynb), [`README.md`](./Session-07/README.md) | ✅ Completed |
+| **Session-08** | *Upcoming Session* | [Directory](./Session-08/) | ⏳ Pending |
 
 ---
 
@@ -59,7 +60,17 @@ Data collection, Cleaning, Visualization and Analysis/
 │   ├── ipl_player_stats.csv                  # IPL player stats dataset with nulls (CSV)
 │   └── zomato_ratings.csv                    # Simulated Zomato ratings with nulls (CSV)
 │
-└── Session-07/                               # Session 07: Upcoming Session
+├── Session-07/                               # Session 07: Data Cleaning (Part 2: Outliers & Data Types)
+│   ├── README.md                             # Task documentation & outputs
+│   ├── session_7_data_cleaning_outliers_datatypes.ipynb # Interactive notebook (.ipynb)
+│   ├── zomato_user_ratings.csv               # Zomato user ratings with outliers (CSV)
+│   ├── swiggy_orders.csv                     # Swiggy orders dataset for boxplot (CSV)
+│   ├── paytm_transactions.csv                # Paytm transactions for Winsorization (CSV)
+│   ├── flipkart_prices.csv                   # Flipkart product prices as string (CSV)
+│   ├── spotify_users.csv                     # Spotify users with mixed boolean types (CSV)
+│   └── swiggy_order_boxplot.png              # Generated boxplot visualization (PNG)
+│
+└── Session-08/                               # Session 08: Upcoming Session
     └── README.md                             # Placeholder awaiting session tasks
 ```
 
@@ -86,4 +97,7 @@ jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-
 
 # Session 6 Notebook
 jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-06/session_6_data_cleaning_missing_values.ipynb"
+
+# Session 7 Notebook
+jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-07/session_7_data_cleaning_outliers_datatypes.ipynb"
 ```
