@@ -54,6 +54,7 @@ Welcome to the **Data Science Coursework (`DS-work`)** repository. This reposito
 | **09** | **Working with Date & Time Data** | String to datetime conversion with `pd.to_datetime()`, `.dt` temporal extraction (year, month, weekday), datetime indexing & weekly aggregation resampling (`df.resample('W').size()`), UTC to `'Asia/Kolkata'` timezone localization & conversion, and weekend feature engineering (`is_weekend`) | [📁 Session 09](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-09/session_9_date_time_data.ipynb) | ✅ Completed |
 | **10** | **Data Visualization: Matplotlib (Part 1)** | Line chart of 7-day daily step counts (`steps_lineplot.png`), Zomato restaurant price vs rating scatter plot (`plt.scatter()`), Swiggy/Zomato/Domino's delivery bar chart with custom colors & legend, 20-session Spotify duration histogram (`bins=5`), and dual-axis composite Instagram usage dashboard (`social_media_usage.png`) | [📁 Session 10](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-10/session_10_matplotlib_visualization_part1.ipynb) | ✅ Completed |
 | **11** | **Data Visualization: Matplotlib (Part 2)** | Subplots & 2x2 multi-panel grid (`plt.subplots()`), custom edge linestyles (`--`, `-.-`, `:`) & linewidths on delivery times bar chart, dual-axis visualization (`ax.twinx()`) for Instagram followers vs daily posts, categorical vs numeric scatter plot with movie annotations, and custom callout arrow annotation (`ax.annotate()`) for Flipkart Big Billion Days sales peak | [📁 Session 11](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-11/session_11_matplotlib_visualization_part2.ipynb) | ✅ Completed |
+| **12** | **Data Visualization: Seaborn (Part 1)** | Introduction to Seaborn & statistical data visualization, `histplot` with KDE on Zomato delivery times, `boxplot` & stripplot on `tips` dataset for weekday spending, `violinplot` for 8 IPL team score distributions under `'darkgrid'` theme, `countplot` of 40 Spotify tracks across 5 genres, and `'whitegrid'` `kdeplot` of daily fitness step counts | [📁 Session 12](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-12/session_12_seaborn_visualization_part1.ipynb) | ✅ Completed |
 
 ---
 
@@ -221,7 +222,20 @@ DS-work/
     │   ├── influencers_dual_axis.png                      # Exported dual-axis comparison figure (PNG)
     │   ├── bollywood_tickets_vs_rating.png                # Exported categorical vs numeric scatter plot (PNG)
     │   └── flipkart_sales_annotation.png                  # Exported annotated sales trajectory figure (PNG)
-    └── Session-12/                                        # Session 12 (Pending Tasks)
+    ├── Session-12/                                        # Session 12 Deliverables
+    │   ├── README.md                                      # Task Documentation & Explanations
+    │   ├── session_12_seaborn_visualization_part1.ipynb   # Interactive Task Notebook (.ipynb)
+    │   ├── zomato_delivery_times.csv                      # Zomato delivery records (CSV)
+    │   ├── tips.csv                                       # Tips spending dataset (CSV)
+    │   ├── ipl_team_scores.csv                            # IPL match scores dataset (CSV)
+    │   ├── spotify_tracks_genres.csv                      # Spotify tracks & genres (CSV)
+    │   ├── fitness_daily_steps.csv                        # Daily & hourly step counts (CSV)
+    │   ├── zomato_delivery_histplot.png                   # Exported delivery times histplot (PNG)
+    │   ├── total_bill_boxplot.png                         # Exported weekday spending boxplot (PNG)
+    │   ├── ipl_scores_violinplot.png                      # Exported IPL score violinplot (PNG)
+    │   ├── spotify_genre_countplot.png                    # Exported Spotify genre countplot (PNG)
+    │   └── daily_steps_kdeplot.png                        # Exported fitness steps KDE plot (PNG)
+    └── Session-13/                                        # Session 13 (Pending Tasks)
         └── README.md                                      # Session Placeholder
 ```
 

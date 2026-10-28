@@ -19,7 +19,8 @@ This module covers practical end-to-end data workflows in Python: array manipula
 | **Session-09** | **Working with Date & Time Data** | [`session_9_date_time_data.ipynb`](./Session-09/session_9_date_time_data.ipynb), [`README.md`](./Session-09/README.md) | ✅ Completed |
 | **Session-10** | **Data Visualization: Matplotlib (Part 1)** | [`session_10_matplotlib_visualization_part1.ipynb`](./Session-10/session_10_matplotlib_visualization_part1.ipynb), [`README.md`](./Session-10/README.md) | ✅ Completed |
 | **Session-11** | **Data Visualization: Matplotlib (Part 2)** | [`session_11_matplotlib_visualization_part2.ipynb`](./Session-11/session_11_matplotlib_visualization_part2.ipynb), [`README.md`](./Session-11/README.md) | ✅ Completed |
-| **Session-12** | *Upcoming Session* | [Directory](./Session-12/) | ⏳ Pending |
+| **Session-12** | **Data Visualization with Seaborn (Part 1)** | [`session_12_seaborn_visualization_part1.ipynb`](./Session-12/session_12_seaborn_visualization_part1.ipynb), [`README.md`](./Session-12/README.md) | ✅ Completed |
+| **Session-13** | *Upcoming Session* | [Directory](./Session-13/) | ⏳ Pending |
 
 ---
 
@@ -117,7 +118,21 @@ Data collection, Cleaning, Visualization and Analysis/
 │   ├── bollywood_tickets_vs_rating.png       # Exported categorical vs numeric scatter plot (PNG)
 │   └── flipkart_sales_annotation.png         # Exported annotated sales trajectory figure (PNG)
 │
-└── Session-12/                               # Session 12: Upcoming Session
+├── Session-12/                               # Session 12: Data Visualization with Seaborn (Part 1)
+│   ├── README.md                             # Task documentation & outputs
+│   ├── session_12_seaborn_visualization_part1.ipynb # Interactive notebook (.ipynb)
+│   ├── zomato_delivery_times.csv             # 50 Zomato food delivery records (CSV)
+│   ├── tips.csv                              # Seaborn canonical dining tips dataset (CSV)
+│   ├── ipl_team_scores.csv                   # Simulated IPL match scores for 8 teams (CSV)
+│   ├── spotify_tracks_genres.csv             # 40 Spotify tracks across 5 genres (CSV)
+│   ├── fitness_daily_steps.csv               # Fitness wearable daily and hourly steps (CSV)
+│   ├── zomato_delivery_histplot.png          # Exported delivery times histplot (PNG)
+│   ├── total_bill_boxplot.png                # Exported weekday spending boxplot (PNG)
+│   ├── ipl_scores_violinplot.png             # Exported IPL score violinplot (PNG)
+│   ├── spotify_genre_countplot.png           # Exported Spotify genre countplot (PNG)
+│   └── daily_steps_kdeplot.png               # Exported fitness steps KDE plot (PNG)
+│
+└── Session-13/                               # Session 13: Upcoming Session
     └── README.md                             # Placeholder awaiting session tasks
 ```
 
@@ -159,4 +174,7 @@ jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-
 
 # Session 11 Notebook
 jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-11/session_11_matplotlib_visualization_part2.ipynb"
+
+# Session 12 Notebook
+jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-12/session_12_seaborn_visualization_part1.ipynb"
 ```

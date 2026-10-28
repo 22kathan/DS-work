@@ -1,0 +1,51 @@
+order_id,restaurant_name,delivery_time_mins,distance_km
+ZOM-1001,Bikanervala,36.7,6.3
+ZOM-1002,Chai Point,32.6,6.24
+ZOM-1003,Chai Point,37.7,6.1
+ZOM-1004,Bikanervala,43.4,7.11
+ZOM-1005,Bikanervala,32.0,5.96
+ZOM-1006,Bikanervala,32.0,5.28
+ZOM-1007,Bikanervala,43.8,6.73
+ZOM-1008,Domino's Pizza,38.5,6.27
+ZOM-1009,Burger King,30.4,4.97
+ZOM-1010,Burger King,37.0,6.89
+ZOM-1011,Bikanervala,30.5,5.82
+ZOM-1012,Burger King,30.5,5.59
+ZOM-1013,Burger King,35.1,6.55
+ZOM-1014,Bikanervala,21.1,4.5
+ZOM-1015,Burger King,22.3,3.86
+ZOM-1016,Chai Point,29.8,5.83
+ZOM-1017,Haldiram's,26.9,4.97
+ZOM-1018,Haldiram's,35.5,6.52
+ZOM-1019,Bikanervala,27.6,5.53
+ZOM-1020,Domino's Pizza,24.3,4.32
+ZOM-1021,Bikanervala,43.0,6.66
+ZOM-1022,Domino's Pizza,32.0,5.28
+ZOM-1023,Haldiram's,33.9,5.8
+ZOM-1024,Bikanervala,24.2,4.95
+ZOM-1025,Subway,30.0,5.82
+ZOM-1026,Chai Point,34.2,5.3
+ZOM-1027,Burger King,26.0,4.8
+ZOM-1028,Domino's Pizza,35.9,6.07
+ZOM-1029,Subway,29.6,4.93
+ZOM-1030,Burger King,31.6,5.08
+ZOM-1031,Burger King,29.6,5.08
+ZOM-1032,Bikanervala,45.5,8.1
+ZOM-1033,Burger King,33.4,5.6
+ZOM-1034,Chai Point,26.6,4.9
+ZOM-1035,Subway,38.8,6.85
+ZOM-1036,Burger King,25.6,4.56
+ZOM-1037,Bikanervala,34.9,6.65
+ZOM-1038,Chai Point,20.8,4.66
+ZOM-1039,Haldiram's,24.9,4.31
+ZOM-1040,Subway,34.8,6.02
+ZOM-1041,Burger King,38.3,6.25
+ZOM-1042,Bikanervala,34.6,5.71
+ZOM-1043,Haldiram's,32.7,5.13
+ZOM-1044,Haldiram's,31.5,5.7
+ZOM-1045,Domino's Pizza,23.9,4.5
+ZOM-1046,Chai Point,28.8,4.6
+ZOM-1047,Burger King,30.5,5.13
+ZOM-1048,Bikanervala,40.4,7.34
+ZOM-1049,Domino's Pizza,35.7,5.81
+ZOM-1050,Chai Point,22.0,3.77
