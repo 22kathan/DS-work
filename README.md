@@ -50,6 +50,7 @@ Welcome to the **Data Science Coursework (`DS-work`)** repository. This reposito
 | **05** | **Data Collection using Pandas (Part 2)** | MySQL / PostgreSQL connection via SQLAlchemy (`create_engine`) & `pd.read_sql()`, BookMyShow filtered query (`pd.read_sql_query()`), JSONPlaceholder API direct ingestion (`pd.read_json()`), Multi-table merge on `user_id` with `pathlib`, order concatenation with `pd.concat()` & index reset | [📁 Session 05](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-05/session_5_data_collection_pandas.ipynb) | ✅ Completed |
 | **06** | **Data Cleaning (Part 1: Missing Values)** | Detecting null values (`.isnull()`, `.notnull()`), dropping incomplete rows (`dropna(how='any')`) & shape comparison, mean imputation on runs (`fillna()`), sequential forward/backward fill on restaurant ratings (`ffill`, `bfill`), and missingness mechanism classification (MCAR vs MAR vs MNAR) | [📁 Session 06](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-06/session_6_data_cleaning_missing_values.ipynb) | ✅ Completed |
 | **07** | **Data Cleaning (Part 2: Outliers & Data Types)** | Outlier detection via IQR formula & Zomato user ratings, Matplotlib boxplot visual diagnostics (`plt.boxplot()`) on Swiggy order amounts, Winsorization / 5th-95th percentile capping (`.clip()`) on Paytm transactions, Flipkart string currency cleaning (`str.replace()`, `.astype()`), and Spotify mixed boolean type normalization | [📁 Session 07](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-07/session_7_data_cleaning_outliers_datatypes.ipynb) | ✅ Completed |
+| **08** | **Data Cleaning (Part 3: Duplicates, Typos, Consistency)** | Duplicate order detection with `duplicated()` on Zomato history, Flipkart repeated review frequency analysis (`value_counts()`), Spotify exact playlist deduplication (`drop_duplicates()`), Instagram username typo standardization (`replace()`), and Paytm payment status string hygiene (`str.strip()`, `str.lower()`, `map()`) | [📁 Session 08](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-08/session_8_data_cleaning_duplicates_consistency.ipynb) | ✅ Completed |
 
 ---
 
@@ -178,7 +179,15 @@ DS-work/
     │   ├── flipkart_prices.csv                            # Flipkart product prices (CSV)
     │   ├── spotify_users.csv                              # Spotify users dataset (CSV)
     │   └── swiggy_order_boxplot.png                       # Generated boxplot visualization (PNG)
-    └── Session-08/                                        # Session 08 (Pending Tasks)
+    ├── Session-08/                                        # Session 08 Deliverables
+    │   ├── README.md                                      # Task Documentation & Explanations
+    │   ├── session_8_data_cleaning_duplicates_consistency.ipynb # Interactive Task Notebook (.ipynb)
+    │   ├── zomato_order_history.csv                       # Zomato orders dataset (CSV)
+    │   ├── flipkart_reviews.csv                           # Flipkart product reviews (CSV)
+    │   ├── spotify_playlists.csv                          # Spotify playlists dataset (CSV)
+    │   ├── instagram_users.csv                            # Instagram usernames dataset (CSV)
+    │   └── paytm_payment_status.csv                       # Paytm payment status dataset (CSV)
+    └── Session-09/                                        # Session 09 (Pending Tasks)
         └── README.md                                      # Session Placeholder
 ```
 

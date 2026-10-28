@@ -1,0 +1,11 @@
+order_id,restaurant_name,order_date,amount,cuisine
+Z101,Truffles,2026-10-15,450.0,Burgers
+Z102,Meghana Foods,2026-10-16,620.0,Biryani
+Z103,Truffles,2026-10-15,450.0,Burgers
+Z104,Corner House,2026-10-17,280.0,Desserts
+Z105,Bawarchi,2026-10-18,550.0,Biryani
+Z106,Meghana Foods,2026-10-16,320.0,Biryani
+Z107,Peter Cat,2026-10-19,890.0,Continental
+Z108,Bawarchi,2026-10-18,550.0,Biryani
+Z109,Toit,2026-10-20,1200.0,Brewery
+Z110,Truffles,2026-10-21,480.0,Burgers

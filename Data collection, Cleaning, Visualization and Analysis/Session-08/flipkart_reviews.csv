@@ -1,0 +1,16 @@
+review_id,product_id,review_text,rating
+R1001,P501,Great product, highly recommend!,5
+R1002,P502,Value for money.,4
+R1003,P501,Worst quality, do not buy!,1
+R1004,P503,Great product, highly recommend!,5
+R1005,P504,Average experience.,3
+R1006,P502,Value for money.,4
+R1007,P505,Worst quality, do not buy!,1
+R1008,P501,Great product, highly recommend!,5
+R1009,P503,Battery backup is very poor.,2
+R1010,P502,Value for money.,4
+R1011,P504,Great product, highly recommend!,5
+R1012,P505,Value for money.,4
+R1013,P501,Worst quality, do not buy!,1
+R1014,P503,Excellent build quality and sound.,5
+R1015,P502,Value for money.,4

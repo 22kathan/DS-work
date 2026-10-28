@@ -15,7 +15,8 @@ This module covers practical end-to-end data workflows in Python: array manipula
 | **Session-05** | **Data Collection using Pandas (Part 2)** | [`session_5_data_collection_pandas.ipynb`](./Session-05/session_5_data_collection_pandas.ipynb), [`README.md`](./Session-05/README.md) | ✅ Completed |
 | **Session-06** | **Data Cleaning (Part 1: Missing Values)** | [`session_6_data_cleaning_missing_values.ipynb`](./Session-06/session_6_data_cleaning_missing_values.ipynb), [`README.md`](./Session-06/README.md) | ✅ Completed |
 | **Session-07** | **Data Cleaning (Part 2: Outliers & Data Types)** | [`session_7_data_cleaning_outliers_datatypes.ipynb`](./Session-07/session_7_data_cleaning_outliers_datatypes.ipynb), [`README.md`](./Session-07/README.md) | ✅ Completed |
-| **Session-08** | *Upcoming Session* | [Directory](./Session-08/) | ⏳ Pending |
+| **Session-08** | **Data Cleaning (Part 3: Duplicates, Typos, Consistency)** | [`session_8_data_cleaning_duplicates_consistency.ipynb`](./Session-08/session_8_data_cleaning_duplicates_consistency.ipynb), [`README.md`](./Session-08/README.md) | ✅ Completed |
+| **Session-09** | *Upcoming Session* | [Directory](./Session-09/) | ⏳ Pending |
 
 ---
 
@@ -70,7 +71,16 @@ Data collection, Cleaning, Visualization and Analysis/
 │   ├── spotify_users.csv                     # Spotify users with mixed boolean types (CSV)
 │   └── swiggy_order_boxplot.png              # Generated boxplot visualization (PNG)
 │
-└── Session-08/                               # Session 08: Upcoming Session
+├── Session-08/                               # Session 08: Data Cleaning (Part 3: Duplicates, Typos, Consistency)
+│   ├── README.md                             # Task documentation & outputs
+│   ├── session_8_data_cleaning_duplicates_consistency.ipynb # Interactive notebook (.ipynb)
+│   ├── zomato_order_history.csv              # Zomato orders dataset with duplicate dates (CSV)
+│   ├── flipkart_reviews.csv                  # Product reviews with repeated text (CSV)
+│   ├── spotify_playlists.csv                 # Spotify playlists dataset with exact duplicates (CSV)
+│   ├── instagram_users.csv                   # Instagram usernames containing typos (CSV)
+│   └── paytm_payment_status.csv              # Mixed boolean/string payment statuses (CSV)
+│
+└── Session-09/                               # Session 09: Upcoming Session
     └── README.md                             # Placeholder awaiting session tasks
 ```
 
@@ -100,4 +110,7 @@ jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-
 
 # Session 7 Notebook
 jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-07/session_7_data_cleaning_outliers_datatypes.ipynb"
+
+# Session 8 Notebook
+jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-08/session_8_data_cleaning_duplicates_consistency.ipynb"
 ```
