@@ -17,7 +17,8 @@ This module covers practical end-to-end data workflows in Python: array manipula
 | **Session-07** | **Data Cleaning (Part 2: Outliers & Data Types)** | [`session_7_data_cleaning_outliers_datatypes.ipynb`](./Session-07/session_7_data_cleaning_outliers_datatypes.ipynb), [`README.md`](./Session-07/README.md) | ✅ Completed |
 | **Session-08** | **Data Cleaning (Part 3: Duplicates, Typos, Consistency)** | [`session_8_data_cleaning_duplicates_consistency.ipynb`](./Session-08/session_8_data_cleaning_duplicates_consistency.ipynb), [`README.md`](./Session-08/README.md) | ✅ Completed |
 | **Session-09** | **Working with Date & Time Data** | [`session_9_date_time_data.ipynb`](./Session-09/session_9_date_time_data.ipynb), [`README.md`](./Session-09/README.md) | ✅ Completed |
-| **Session-10** | *Upcoming Session* | [Directory](./Session-10/) | ⏳ Pending |
+| **Session-10** | **Data Visualization: Matplotlib (Part 1)** | [`session_10_matplotlib_visualization_part1.ipynb`](./Session-10/session_10_matplotlib_visualization_part1.ipynb), [`README.md`](./Session-10/README.md) | ✅ Completed |
+| **Session-11** | *Upcoming Session* | [Directory](./Session-11/) | ⏳ Pending |
 
 ---
 
@@ -87,7 +88,21 @@ Data collection, Cleaning, Visualization and Analysis/
 │   ├── flipkart_orders.csv                   # Flipkart orders with timestamps (CSV)
 │   └── instagram_posts.csv                   # Instagram posts with UTC timestamps (CSV)
 │
-└── Session-10/                               # Session 10: Upcoming Session
+├── Session-10/                               # Session 10: Data Visualization: Matplotlib (Part 1)
+│   ├── README.md                             # Task documentation & outputs
+│   ├── session_10_matplotlib_visualization_part1.ipynb # Interactive notebook (.ipynb)
+│   ├── daily_steps.csv                       # 7-day step counts dataset (CSV)
+│   ├── zomato_restaurants.csv                # Restaurant ratings and meal prices (CSV)
+│   ├── food_delivery_orders.csv              # Monthly order volume per platform (CSV)
+│   ├── spotify_sessions.csv                  # 20 Spotify session duration records (CSV)
+│   ├── instagram_usage.csv                   # Weekly screen time and engagement records (CSV)
+│   ├── steps_lineplot.png                    # Exported daily steps line chart (PNG)
+│   ├── restaurant_scatter.png                # Exported restaurant scatter plot (PNG)
+│   ├── food_delivery_barchart.png            # Exported platform delivery bar chart (PNG)
+│   ├── spotify_session_histogram.png         # Exported session duration histogram (PNG)
+│   └── social_media_usage.png                # Exported multi-subplot dashboard (PNG)
+│
+└── Session-11/                               # Session 11: Upcoming Session
     └── README.md                             # Placeholder awaiting session tasks
 ```
 
@@ -123,4 +138,7 @@ jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-
 
 # Session 9 Notebook
 jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-09/session_9_date_time_data.ipynb"
+
+# Session 10 Notebook
+jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-10/session_10_matplotlib_visualization_part1.ipynb"
 ```
