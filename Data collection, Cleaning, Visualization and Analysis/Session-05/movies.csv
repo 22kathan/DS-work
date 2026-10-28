@@ -1,0 +1,9 @@
+movie_id,name,rating,genre,release_year
+1,Inception,8.8,Sci-Fi,2010
+2,Interstellar,8.7,Sci-Fi,2014
+3,The Dark Knight,9.0,Action,2008
+4,Tenet,7.3,Sci-Fi,2020
+5,Oppenheimer,8.9,Biography,2023
+6,Avengers: Endgame,8.4,Action,2019
+7,Dunkirk,7.8,War,2017
+8,Fight Club,8.8,Drama,1999

@@ -47,6 +47,7 @@ Welcome to the **Data Science Coursework (`DS-work`)** repository. This reposito
 | **02** | **NumPy Intermediate (Part 2: Indexing, Slicing, Broadcasting)** | 2D Zomato food ratings array row slicing, daily steps boolean indexing filter (`> 8000`), IPL match scores fancy indexing, Flipkart product prices 10% discount broadcasting, Spotify song ratings negative-to-zero boolean masking | [📂 Session 02](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-02/session_2_numpy_intermediate.ipynb) | ✅ Completed |
 | **03** | **NumPy Advanced (Part 3: Matrix Ops & Manipulation)** | Daily step counts element-wise arithmetic, Spotify recommendations `dot()` vs `matmul()`, Instagram 4x4 image transpose (`.T`) & statistics (`mean`, `median`, `std`, `var`), Zomato 3x3 correlation `inv()`, `det()`, `eig()`, Swiggy orders `reshape()`, `flatten()`, `split()`, `vstack()` | [📂 Session 03](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-03/session_3_numpy_advanced.ipynb) | ✅ Completed |
 | **04** | **Data Collection using Pandas (Part 1)** | IPL match scores CSV ingestion, Spotify trending songs JSON import (`df.info()`), Zomato TSV separator handling (`df.describe(include='all')`), Flipkart 10,000-row batch iteration (chunksize), Paytm semicolon-separated transactions null detection | [📂 Session 04](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-04/session_4_data_collection_pandas.ipynb) | ✅ Completed |
+| **05** | **Data Collection using Pandas (Part 2)** | MySQL / PostgreSQL connection via SQLAlchemy (`create_engine`) & `pd.read_sql()`, BookMyShow filtered query (`pd.read_sql_query()`), JSONPlaceholder API direct ingestion (`pd.read_json()`), Multi-table merge on `user_id` with `pathlib`, order concatenation with `pd.concat()` & index reset | [📁 Session 05](./Data%20collection,%20Cleaning,%20Visualization%20and%20Analysis/Session-05/session_5_data_collection_pandas.ipynb) | ✅ Completed |
 
 ---
 
@@ -154,7 +155,14 @@ DS-work/
     ├── Session-04/                                        # Session 04 Deliverables
     │   ├── README.md                                      # Task Documentation & Explanations
     │   └── session_4_data_collection_pandas.ipynb         # Interactive Task Notebook (.ipynb)
-    └── Session-05/                                        # Session 05 (Pending Tasks)
+    ├── Session-05/                                        # Session 05 Deliverables
+    │   ├── README.md                                      # Task Documentation & Explanations
+    │   ├── session_5_data_collection_pandas.ipynb         # Interactive Task Notebook (.ipynb)
+    │   ├── orders.csv                                     # Orders dataset (CSV)
+    │   ├── users.csv                                      # Users dataset (CSV)
+    │   ├── restaurants.csv                                # Zomato restaurants DB seed (CSV)
+    │   └── movies.csv                                     # Movies DB seed (CSV)
+    └── Session-06/                                        # Session 06 (Pending Tasks)
         └── README.md                                      # Session Placeholder
 ```
 

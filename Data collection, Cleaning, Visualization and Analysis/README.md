@@ -4,7 +4,7 @@ This module covers practical end-to-end data workflows in Python: array manipula
 
 ---
 
-## 📚 Curriculum Roadmap
+## 📅 Curriculum Roadmap
 
 | Session | Title / Focus | Deliverables | Status |
 | :---: | :--- | :--- | :---: |
@@ -12,7 +12,8 @@ This module covers practical end-to-end data workflows in Python: array manipula
 | **Session-02** | **NumPy Intermediate (Part 2: Indexing, Slicing, Broadcasting)** | [`session_2_numpy_intermediate.ipynb`](./Session-02/session_2_numpy_intermediate.ipynb), [`README.md`](./Session-02/README.md) | ✅ Completed |
 | **Session-03** | **NumPy Advanced (Part 3: Matrix Ops & Manipulation)** | [`session_3_numpy_advanced.ipynb`](./Session-03/session_3_numpy_advanced.ipynb), [`README.md`](./Session-03/README.md) | ✅ Completed |
 | **Session-04** | **Data Collection using Pandas (Part 1)** | [`session_4_data_collection_pandas.ipynb`](./Session-04/session_4_data_collection_pandas.ipynb), [`README.md`](./Session-04/README.md) | ✅ Completed |
-| **Session-05** | *Upcoming Session* | [Directory](./Session-05/) | ⏳ Pending |
+| **Session-05** | **Data Collection using Pandas (Part 2)** | [`session_5_data_collection_pandas.ipynb`](./Session-05/session_5_data_collection_pandas.ipynb), [`README.md`](./Session-05/README.md) | ✅ Completed |
+| **Session-06** | *Upcoming Session* | [Directory](./Session-06/) | ⏳ Pending |
 
 ---
 
@@ -43,7 +44,15 @@ Data collection, Cleaning, Visualization and Analysis/
 │   ├── flipkart_products.xlsx                # 10,000-row catalog (Excel)
 │   └── paytm_transactions.csv                # Semicolon-separated transactions with nulls
 │
-└── Session-05/                               # Session 05: Upcoming Session
+├── Session-05/                               # Session 05: Data Collection using Pandas (Part 2)
+│   ├── README.md                             # Task documentation & outputs
+│   ├── session_5_data_collection_pandas.ipynb # Interactive notebook (.ipynb)
+│   ├── orders.csv                            # Order transactions dataset (CSV)
+│   ├── users.csv                             # User profiles dataset (CSV)
+│   ├── restaurants.csv                       # Zomato restaurants database seed (CSV)
+│   └── movies.csv                            # BookMyShow movies database seed (CSV)
+│
+└── Session-06/                               # Session 06: Upcoming Session
     └── README.md                             # Placeholder awaiting session tasks
 ```
 
@@ -64,4 +73,7 @@ jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-
 
 # Session 4 Notebook
 jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-04/session_4_data_collection_pandas.ipynb"
+
+# Session 5 Notebook
+jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-05/session_5_data_collection_pandas.ipynb"
 ```
