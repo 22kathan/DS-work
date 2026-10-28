@@ -23,7 +23,6 @@ This module covers practical end-to-end data workflows in Python: array manipula
 | **Session-13** | **Data Visualization with Seaborn (Part 2)** | [`session_13_seaborn_visualization_part2.ipynb`](./Session-13/session_13_seaborn_visualization_part2.ipynb), [`README.md`](./Session-13/README.md) | ✅ Completed |
 | **Session-14** | **Exploratory Data Analysis (EDA) (Part 1)** | [`session_14_exploratory_data_analysis_part1.ipynb`](./Session-14/session_14_exploratory_data_analysis_part1.ipynb), [`README.md`](./Session-14/README.md) | ✅ Completed |
 | **Session-15** | **Exploratory Data Analysis (EDA) (Part 2: Auto-EDA + Case Study Setup)** | [`session_15_auto_eda_and_case_study.ipynb`](./Session-15/session_15_auto_eda_and_case_study.ipynb), [`README.md`](./Session-15/README.md) | ✅ Completed |
-| **Session-16** | *Upcoming Session* | [Directory](./Session-16/) | ⏳ Pending |
 
 ---
 
@@ -163,25 +162,22 @@ Data collection, Cleaning, Visualization and Analysis/
 │   ├── bookmyshow_genre_barchart.png         # Exported sorted genre box office bar chart (PNG)
 │   └── spotify_audio_features_pairplot.png   # Exported multivariate pairplot figure (PNG)
 │
-├── Session-15/                               # Session 15: Auto-EDA + Case Study Setup
-│   ├── README.md                             # Task documentation & explanations
-│   ├── session_15_auto_eda_and_case_study.ipynb # Interactive notebook (.ipynb)
-│   ├── spotify_top100.csv                    # Spotify Top 100 tracks dataset (CSV)
-│   ├── zomato_mumbai.csv                     # Zomato Mumbai restaurant listings (CSV)
-│   ├── zomato_delhi.csv                      # Zomato Delhi restaurant listings (CSV)
-│   ├── myntra_products.csv                   # Myntra fashion catalog with prices (CSV)
-│   ├── flipkart_reviews_profiling.csv        # Flipkart reviews with diagnostic alerts (CSV)
-│   ├── swiggy_orders.csv                     # Swiggy food orders transactional data (CSV)
-│   ├── superstore_sales.csv                  # Superstore sales case study dataset (CSV)
-│   ├── spotify_top100_report.html            # Exported Pandas-profiling HTML report (HTML)
-│   ├── zomato_mumbai_vs_delhi_report.html    # Exported Sweetviz comparison HTML report (HTML)
-│   ├── flipkart_reviews_report.html          # Exported Flipkart profiling HTML report (HTML)
-│   ├── swiggy_orders_report.html             # Exported Swiggy Auto-EDA HTML report (HTML)
-│   ├── myntra_dtale_filtered_view.png        # Exported D-Tale filtered UI view (PNG)
-│   └── swiggy_eda_summary.png                # Exported Swiggy summary dashboard (PNG)
-│
-└── Session-16/                               # Session 16: Upcoming Session
-    └── README.md                             # Placeholder awaiting session tasks
+└── Session-15/                               # Session 15: Auto-EDA + Case Study Setup
+    ├── README.md                             # Task documentation & explanations
+    ├── session_15_auto_eda_and_case_study.ipynb # Interactive notebook (.ipynb)
+    ├── spotify_top100.csv                    # Spotify Top 100 tracks dataset (CSV)
+    ├── zomato_mumbai.csv                     # Zomato Mumbai restaurant listings (CSV)
+    ├── zomato_delhi.csv                      # Zomato Delhi restaurant listings (CSV)
+    ├── myntra_products.csv                   # Myntra fashion catalog with prices (CSV)
+    ├── flipkart_reviews_profiling.csv        # Flipkart reviews with diagnostic alerts (CSV)
+    ├── swiggy_orders.csv                     # Swiggy food orders transactional data (CSV)
+    ├── superstore_sales.csv                  # Superstore sales case study dataset (CSV)
+    ├── spotify_top100_report.html            # Exported Pandas-profiling HTML report (HTML)
+    ├── zomato_mumbai_vs_delhi_report.html    # Exported Sweetviz comparison HTML report (HTML)
+    ├── flipkart_reviews_report.html          # Exported Flipkart profiling HTML report (HTML)
+    ├── swiggy_orders_report.html             # Exported Swiggy Auto-EDA HTML report (HTML)
+    ├── myntra_dtale_filtered_view.png        # Exported D-Tale filtered UI view (PNG)
+    └── swiggy_eda_summary.png                # Exported Swiggy summary dashboard (PNG)
 ```
 
 ---

@@ -264,24 +264,22 @@ DS-work/
     │   ├── zomato_cost_vs_rating_scatter.png              # Exported cost vs rating scatterplot (PNG)
     │   ├── bookmyshow_genre_barchart.png                  # Exported sorted genre box office bar chart (PNG)
     │   └── spotify_audio_features_pairplot.png            # Exported multivariate pairplot figure (PNG)
-    ├── Session-15/                                        # Session 15 Deliverables
-    │   ├── README.md                                      # Task Documentation & Explanations
-    │   ├── session_15_auto_eda_and_case_study.ipynb       # Interactive Task Notebook (.ipynb)
-    │   ├── spotify_top100.csv                             # Spotify Top 100 tracks dataset (CSV)
-    │   ├── zomato_mumbai.csv                              # Zomato Mumbai restaurant listings (CSV)
-    │   ├── zomato_delhi.csv                               # Zomato Delhi restaurant listings (CSV)
-    │   ├── myntra_products.csv                            # Myntra fashion catalog with prices (CSV)
-    │   ├── flipkart_reviews_profiling.csv                 # Flipkart reviews with diagnostic alerts (CSV)
-    │   ├── swiggy_orders.csv                              # Swiggy food orders transactional data (CSV)
-    │   ├── superstore_sales.csv                           # Superstore sales case study dataset (CSV)
-    │   ├── spotify_top100_report.html                     # Exported Pandas-profiling HTML report (HTML)
-    │   ├── zomato_mumbai_vs_delhi_report.html             # Exported Sweetviz comparison HTML report (HTML)
-    │   ├── flipkart_reviews_report.html                   # Exported Flipkart profiling HTML report (HTML)
-    │   ├── swiggy_orders_report.html                      # Exported Swiggy Auto-EDA HTML report (HTML)
-    │   ├── myntra_dtale_filtered_view.png                 # Exported D-Tale filtered UI view (PNG)
-    │   └── swiggy_eda_summary.png                         # Exported Swiggy summary dashboard (PNG)
-    └── Session-16/                                        # Session 16 (Pending Tasks)
-        └── README.md                                      # Session Placeholder
+    └── Session-15/                                        # Session 15 Deliverables
+        ├── README.md                                      # Task Documentation & Explanations
+        ├── session_15_auto_eda_and_case_study.ipynb       # Interactive Task Notebook (.ipynb)
+        ├── spotify_top100.csv                             # Spotify Top 100 tracks dataset (CSV)
+        ├── zomato_mumbai.csv                              # Zomato Mumbai restaurant listings (CSV)
+        ├── zomato_delhi.csv                               # Zomato Delhi restaurant listings (CSV)
+        ├── myntra_products.csv                            # Myntra fashion catalog with prices (CSV)
+        ├── flipkart_reviews_profiling.csv                 # Flipkart reviews with diagnostic alerts (CSV)
+        ├── swiggy_orders.csv                              # Swiggy food orders transactional data (CSV)
+        ├── superstore_sales.csv                           # Superstore sales case study dataset (CSV)
+        ├── spotify_top100_report.html                     # Exported Pandas-profiling HTML report (HTML)
+        ├── zomato_mumbai_vs_delhi_report.html             # Exported Sweetviz comparison HTML report (HTML)
+        ├── flipkart_reviews_report.html                   # Exported Flipkart profiling HTML report (HTML)
+        ├── swiggy_orders_report.html                      # Exported Swiggy Auto-EDA HTML report (HTML)
+        ├── myntra_dtale_filtered_view.png                 # Exported D-Tale filtered UI view (PNG)
+        └── swiggy_eda_summary.png                         # Exported Swiggy summary dashboard (PNG)
 ```
 
 ---
