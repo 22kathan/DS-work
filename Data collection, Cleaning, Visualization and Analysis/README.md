@@ -13,7 +13,8 @@ This module covers practical end-to-end data workflows in Python: array manipula
 | **Session-03** | **NumPy Advanced (Part 3: Matrix Ops & Manipulation)** | [`session_3_numpy_advanced.ipynb`](./Session-03/session_3_numpy_advanced.ipynb), [`README.md`](./Session-03/README.md) | ✅ Completed |
 | **Session-04** | **Data Collection using Pandas (Part 1)** | [`session_4_data_collection_pandas.ipynb`](./Session-04/session_4_data_collection_pandas.ipynb), [`README.md`](./Session-04/README.md) | ✅ Completed |
 | **Session-05** | **Data Collection using Pandas (Part 2)** | [`session_5_data_collection_pandas.ipynb`](./Session-05/session_5_data_collection_pandas.ipynb), [`README.md`](./Session-05/README.md) | ✅ Completed |
-| **Session-06** | *Upcoming Session* | [Directory](./Session-06/) | ⏳ Pending |
+| **Session-06** | **Data Cleaning (Part 1: Missing Values)** | [`session_6_data_cleaning_missing_values.ipynb`](./Session-06/session_6_data_cleaning_missing_values.ipynb), [`README.md`](./Session-06/README.md) | ✅ Completed |
+| **Session-07** | *Upcoming Session* | [Directory](./Session-07/) | ⏳ Pending |
 
 ---
 
@@ -52,7 +53,13 @@ Data collection, Cleaning, Visualization and Analysis/
 │   ├── restaurants.csv                       # Zomato restaurants database seed (CSV)
 │   └── movies.csv                            # BookMyShow movies database seed (CSV)
 │
-└── Session-06/                               # Session 06: Upcoming Session
+├── Session-06/                               # Session 06: Data Cleaning (Part 1: Missing Values)
+│   ├── README.md                             # Task documentation & outputs
+│   ├── session_6_data_cleaning_missing_values.ipynb # Interactive notebook (.ipynb)
+│   ├── ipl_player_stats.csv                  # IPL player stats dataset with nulls (CSV)
+│   └── zomato_ratings.csv                    # Simulated Zomato ratings with nulls (CSV)
+│
+└── Session-07/                               # Session 07: Upcoming Session
     └── README.md                             # Placeholder awaiting session tasks
 ```
 
@@ -76,4 +83,7 @@ jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-
 
 # Session 5 Notebook
 jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-05/session_5_data_collection_pandas.ipynb"
+
+# Session 6 Notebook
+jupyter notebook "Data collection, Cleaning, Visualization and Analysis/Session-06/session_6_data_cleaning_missing_values.ipynb"
 ```
